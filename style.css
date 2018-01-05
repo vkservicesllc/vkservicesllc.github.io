@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Helvetica;
+  background-image: url("pix/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 4.3%;
+}
+
+div {
+  width: 1750px;
+}
+
+div#header {
+  background-color: black;
+  margin: 0px auto;
+  padding: 0px 16px;
+  left: 14%;
+  margin-left: -10.5%;
+  height: 40px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  position: fixed;
+  z-index: 2;
+  opacity: 0.84;
+}
+
+/* Navigation Menu */
+
+ul#navmenu, ul.sub1, ul.sub2, ul.sub3 {
+  list-style-type: none;
+  font-size: 16px;
+  letter-spacing: 0.7px;
+}
+
+i.itnav {
+  font-size: 11px;
+}
+
+ul#navmenu li {
+  width: 250px;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+
+ul#navmenu a {
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  background-color: black;
+  color: lightgray;
+}
+
+ul#navmenu li:hover > a {
+  background-color: gray;
+  color: black;
+}
+
+ul#navmenu li:hover a.e:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+ul#navmenu li:hover a.h:hover {
+  background-color: green;
+  color: yellow;
+}
+
+ul#navmenu ul.sub1 {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+ul#navmenu ul.sub2 {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 250px;
+}
+
+ul#navmenu ul.sub3 {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 250px;
+}
+
+ul#navmenu li:hover .sub1 {
+  display: block;
+  border-top: 3.2px solid darkgray;
+}
+
+ul#navmenu .sub1 li:hover .sub2,
+ul#navmenu .sub1 li:hover .sub3 {
+  display: block;
+}
+
+/* Content */
+
+div.wrapper {
+  position: relative;
+  z-index: 1;
+  top: 84px;
+  background-color: lightgray;
+  opacity: 0.67;
+  margin-bottom: 24px;
+  padding: 32px 0px 44px 24px;
+  border: 2px solid darkgray;
+  border-radius: 7px;
+  width: 1720px;
+  box-shadow: inset 0 0 12px black;
+}
+
+
+img.left, img.center {
+  margin-right: 580px;
+}
+
+img.left {
+  margin-left: 24px;
+}
+
+img.right {
+  margin-right: 24px;
+}
+
+img {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-family: Arial;
+  font-size: 17px;
+  letter-spacing: 0.9px;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+ul.content {
+  list-style-type: none;
+  height: 32px;
+}
+
+ul.content li {
+  width: 402px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-right: 24px;
+  opacity: 1.12;
+}
+
+ul.content li a {
+  text-decoration: none;
+  display: block;
+  width: 402px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: darkblue;
+  color: lightblue;
+  letter-spacing: 2.4px;
+  border-radius: 9px;
+  box-shadow: 4px 4px 2.4px black;
+}
+
+ul.content li:hover a:hover {
+  background-color: green;
+  color: yellow;
+  text-shadow: 1.8px 1.8px 2.5px black;
+}
+
+ul.content li:hover a:active {
+  height: 30.8px;
+  font-size: 13.5px;
+  box-shadow: inset 3px 3px 1.2px black;
+}
