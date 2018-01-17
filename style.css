@@ -226,3 +226,11 @@ ul.content li:hover a:active {
   font-size: 17.12px;
   box-shadow: inset 3.6px 3.6px 1.4px black;
 }
+
+footer {
+  text-align: right;
+  font-size: 84%;
+  color: brown;
+  letter-spacing: 0.4px;
+  font-style: oblique;
+}
