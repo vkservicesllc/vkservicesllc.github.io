@@ -161,15 +161,15 @@ div#background {
   background-size: auto;
 }
 
-img.one, img.two, img.three, img.four {
-  margin-right: 158px;
+img.one, img.two, img.three, img.four, img.five {
+  margin-right: 84px;
 }
 
 img.one {
   margin-left: 40px;
 }
 
-img.five {
+img.six {
   margin-right: 40px;
 }
 
