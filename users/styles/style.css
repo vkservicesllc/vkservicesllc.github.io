@@ -19,7 +19,7 @@ a {
 }
 
 div {
-  margin-top: 14px;
+  margin-top: 16px;
 }
 
 div#user {
@@ -108,7 +108,7 @@ fieldset {
   border-radius: 12px;
   padding: 24px 32px 32px;
   background-color: azure;
-  margin-top: 36px;
+  margin-top: 27px;
 }
 
 fieldset legend {
@@ -121,7 +121,10 @@ fieldset legend {
   font-family: 'Hammersmith One', sans-serif;
 }
 
-fieldset#urls {
+fieldset#urls,
+fieldset#monitoring,
+fieldset#shortcuts,
+fieldset#tools {
   position: relative;
   top: 60px;
 }
@@ -192,11 +195,6 @@ td a.h:hover {
   text-decoration: underline;
 }
 
-fieldset#monitoring {
-  position: relative;
-  top: 60px;
-}
-
 fieldset#monitoring table tr th {
   text-align: left;
 }
@@ -214,7 +212,6 @@ span {
   font-size: 72%;
 }
 
-fieldset#shortcuts {
-  position: relative;
-  top: 60px;
+table.add {
+  margin-top: 7px;
 }
