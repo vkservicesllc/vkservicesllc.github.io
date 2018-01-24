@@ -178,10 +178,6 @@ td.unq div:hover ul {
   display: block;
 }
 
-td a.e {
-  color: gray;
-}
-
 td a.h {
   color: darkblue;
 }
@@ -203,8 +199,13 @@ fieldset#monitoring table tr td {
   text-align: right;
 }
 
-fieldset#monitoring table tr td a.e {
+td a.e {
   visibility: hidden;
+}
+
+td.unq a.e {
+  visibility: visible;
+  color: darkgray;
 }
 
 span {
