@@ -162,7 +162,7 @@ div#background {
 }
 
 img.one, img.two, img.three, img.four, img.five {
-  margin-right: 84px;
+  margin-right: 72px;
 }
 
 img.one {
@@ -224,7 +224,7 @@ ul.content li:hover a:hover {
 
 ul.content li:hover a:active {
   font-size: 17.12px;
-  box-shadow: inset 3.6px 3.6px 1.4px black;
+  box-shadow: inset 2.7px 2.7px 1.9px black;
 }
 
 footer {
