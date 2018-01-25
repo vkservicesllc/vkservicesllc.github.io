@@ -216,3 +216,7 @@ span {
 table.add {
   margin-top: 7px;
 }
+
+th.done {
+  color: lightcoral;
+}
