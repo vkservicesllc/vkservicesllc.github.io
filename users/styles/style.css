@@ -146,6 +146,10 @@ th {
   font-size: 105%;
 }
 
+td {
+  color: #e60000;
+}
+
 td.unq {
   border: none;
 }
@@ -213,10 +217,10 @@ span {
   font-size: 72%;
 }
 
-table.add {
-  margin-top: 7px;
+td a span, th span {
+  background-color: azure;
 }
 
-th.done {
-  color: lightcoral;
+table.add {
+  margin-top: 7px;
 }
