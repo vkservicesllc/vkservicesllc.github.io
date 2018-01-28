@@ -98,7 +98,7 @@ ul#navmenu .sub1 li:hover .sub3 {
   display: block;
 }
 
-div#wrapper, div#aside1, div#aside2 {
+div#wrapper, div#aside {
   position: relative;
   z-index: 1;
   background-color: lightgray;
@@ -114,17 +114,10 @@ div#wrapper {
   width: 1720px;
 }
 
-div#aside1 {
-  width: 800px;
-  height: 154px;
-  float: right;
-}
-
-div#aside2 {
-  margin-top: 24px;
+div#aside {
   padding: 32px;
   width: 736px;
-  height: 324px;
+  height: 540px;
   float: right;
 }
 
@@ -187,50 +180,43 @@ p {
   color: darkgreen;
 }
 
-ul.content {
-  list-style-type: none;
-  height: 32px;
-}
-
-ul.content li {
-  margin-left: 34px;
-  width: 220px;
-  text-align: center;
-  position: relative;
-  float: left;
-  opacity: 1.12;
-}
-
-ul.content li a {
-  text-decoration: none;
-  display: block;
-  width: 220px;
-  height: 36px;
-  line-height: 36px;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: #2b5496;
-  color: lightblue;
-  letter-spacing: 2.4px;
-  border-radius: 9px;
-  box-shadow: 4px 4px 2.4px black;
-}
-
-ul.content li:hover a:hover {
-  background-color: green;
-  color: yellow;
-  text-shadow: 1.8px 1.8px 2.5px black;
-}
-
-ul.content li:hover a:active {
-  font-size: 17.12px;
-  box-shadow: inset 2.7px 2.7px 1.9px black;
-}
-
 footer {
   text-align: right;
   font-size: 84%;
   color: brown;
   letter-spacing: 0.4px;
   font-style: oblique;
+}
+
+#aside div.button {
+  width: 164px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: darkblue;
+  border-radius: 7px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  border: 1px solid darkblue;
+}
+
+#aside div.button a  {
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+  color: lightgray;
+}
+
+#aside div.button:hover {
+  background-color: green;
+  border: 1px solid lightgreen;
+}
+
+#aside div.button:hover a {
+  color: yellow;
+}
+
+#aside div.button:active {
+  font-size: 94%;
 }
