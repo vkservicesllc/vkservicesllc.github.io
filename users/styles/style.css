@@ -225,3 +225,7 @@ td a span, th span {
 table.add {
   margin-top: 7px;
 }
+
+h3, p, th, tr, legend {
+  cursor: default;
+}
