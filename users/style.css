@@ -174,7 +174,7 @@ td.unq ul li,
 td.unq ul li a {
   margin-top: 6.4px;
   padding: 6.4px 0;
-  background-color: azure;
+  background-color: inherit;
   border-bottom: 1px solid lightblue;
   font-size: 13.75px;
 }
@@ -218,8 +218,8 @@ span {
   font-size: 72%;
 }
 
-td a span, th span {
-  background-color: azure;
+td a span, th span, td span {
+  background-color: inherit;
 }
 
 table.add {
