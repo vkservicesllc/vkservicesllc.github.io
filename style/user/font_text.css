@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.377px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.7px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 77%;
+  font-style: italic;
+}
+
+a { text-decoration: none; }
+td a.h:hover { text-decoration: underline; }
+
+span {
+  font-weight: normal;
+  font-size: 72%;
+}
+
+.sub a { text-align: left; }
+
+legend {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 90%;
+  text-align: center;
+}
+
+th {
+  font-size: 105%;
+  text-align: left;
+}
+
+td.unq div a { font-size: 84%; }
+
+td.unq ul li,
+td.unq ul li a {
+  font-size: 13.75px;
+}
+
+fieldset#monitoring table tr th { text-align: left; }
+
+fieldset#monitoring table tr td { text-align: right; }
+
+fieldset table {
+  font-size: 92%;
+  font-weight: bold;
+  text-align: center;
+}

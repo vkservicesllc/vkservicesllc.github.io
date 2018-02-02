@@ -1,0 +1,47 @@
+body { width: 960px; }
+
+.nav > li {
+  position: relative;
+  float: left;
+}
+
+.sub > li { position: relative; }
+
+.nav a {
+  display: block;
+  line-height: 20px;
+}
+
+.sub { display: none; }
+
+div#navbar {
+  width: 960px;
+  height: 34px;
+  position: absolute;
+  z-index: 2;
+}
+
+fieldset#urls,
+fieldset#monitoring,
+fieldset#shortcuts,
+fieldset#tools {
+  position: relative;
+  top: 60px;
+}
+
+fieldset table { width: 100%; }
+
+td.unq div ul {
+  position: absolute;
+  width: 144px;;
+  z-index: 4;
+  display: none;
+}
+
+td.unq div:hover ul { display: block; }
+
+ul.nav li:hover ul.sub { display: block; }
+
+td a.e { visibility: hidden; }
+
+td.unq a.e { visibility: visible; }

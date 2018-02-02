@@ -149,7 +149,7 @@ div#background {
   height: 574px;
   position: relative;
   float: left;
-  background-image: url("pix/background.png");
+  background-image: url("../../image/background.png");
   background-repeat: no-repeat;
   background-size: auto;
 }
