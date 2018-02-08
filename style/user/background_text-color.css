@@ -16,6 +16,8 @@ td, td span,
 td a, td a span,
 td.unq div,
 td.unq ul li,
+td.unq ul li strong,
+td.unq ul li em,
 td.unq ul li a { background-color: azure; }
 
 legend { background-color: darkblue; }
