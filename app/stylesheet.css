@@ -32,6 +32,12 @@ header h2 {
   letter-spacing: 1.2px;
 }
 
+header h2 span {
+  font-size: 67%;
+  color: darkred;
+  letter-spacing: 0.24px;
+}
+
 /* Navigation: Top */
 
 nav#top {
