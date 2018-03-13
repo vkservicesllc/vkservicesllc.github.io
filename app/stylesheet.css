@@ -160,10 +160,6 @@ fieldset.favs td {
   color: rgba(153, 38, 0, 0.4);
 }
 
-fieldset.favs td.rsp {
-  color: darkgray;
-}
-
 fieldset.favs th,
 fieldset.favs td {
   padding-top: 7.2px;
@@ -174,6 +170,7 @@ fieldset.favs td {
 }
 
 fieldset.favs td.rsp {
+  color: darkgray;
   border-bottom: none;
 }
 
