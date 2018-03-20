@@ -180,12 +180,15 @@ fieldset.favs td.rsp ul {
   z-index: 1;
   display: none;
   margin-top: 12px;
+  border-top: 1px solid lightblue;
 }
 
 fieldset.favs td.rsp ul li {
   padding: 6.7px 32px;
   background: azure;
   border-bottom: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+  border-left: 1px solid lightblue;
 }
 
 fieldset.favs td.rsp:hover ul {
