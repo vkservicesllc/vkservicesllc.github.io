@@ -1,5 +1,5 @@
 /* VK Services, LLC
-   v1.0 | 20180210
+   v1.0 | 20180329
    License: none (public)
 */
 
@@ -133,7 +133,6 @@ nav#top a.h:hover {
 fieldset.favs {
   position: relative;
   top: 64px;
-  margin-top: 24px;
   padding: 24px 24px 36px 24px;
   background: azure;
   border: 1px solid darkblue;
@@ -203,12 +202,23 @@ fieldset.favs th span,
 fieldset.favs td span {
   font-size: 84%;
   font-weight: normal;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
+}
+
+.favs .monit td em {
+  color: darkslategray;
 }
 
 fieldset.favs td a.h:hover {
   color: darkgreen;
   text-decoration: underline;
+}
+
+#hdr th, #hdr td {
+  font-weight: normal;
+  font-size: 72%;
+  font-style: italic;
+  color: gray;
 }
 
 /* Table Cell x-Paddings */
@@ -225,8 +235,8 @@ fieldset.favs th {
 }
 
 .favs .monit td {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 16.7px;
+  padding-right: 16.7px;
 }
 
 .favs .shcuts1 td {
@@ -235,11 +245,15 @@ fieldset.favs th {
 }
 
 .favs .shcuts2 td {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 21.7px;
+  padding-right: 21.7px;
 }
 
 .favs .tools td {
   padding-left: 77px;
   padding-right: 77px;
+}
+
+#hdr th, #hdr td {
+  padding-bottom: 12px;
 }

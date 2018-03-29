@@ -47,6 +47,19 @@
 
   </script>
 
+  <style media="screen">
+
+    fieldset.favs {
+      margin-top: 32px;
+    }
+
+    .monit tr:not(#hdr):not(.exclude):hover th {
+      background: rgb(244, 244, 224);
+      outline: 1px solid rgba(153, 38, 0, 0.2);
+    }
+
+  </style>
+
 </head>
 
 <body>
@@ -261,18 +274,29 @@
     <legend>URL Collector / Payroll Hyperlinks</legend>
     <table class="urls">
       <tr>
-        <th>
-          Apr 1 — Apr 7
+        <th id="wk2">
+          Apr 1 — Apr 7 <!-- WEEK 2 [title] -->
         </th>
+        <script type="text/javascript">
+          function wk2() {
+            return document.getElementById('wk2').innerText;
+          }
+        </script>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" id="wk2_1"
           href="https://docs.google.com/spreadsheets/d/1J_VKF19DombD9JOlHCnV2v1L2pom7QpF3c5drXmHf7s/edit#gid=914973738">
-          </a>URL Collector
+<!-- -->  </a>URL Collector
+          <script type="text/javascript">
+            document.getElementById('wk2_1').setAttribute('title',wk2());
+          </script>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" id="wk2_2"
           href="https://docs.google.com/spreadsheets/d/1J_VKF19DombD9JOlHCnV2v1L2pom7QpF3c5drXmHf7s/edit#gid=978213208">
-          </a>Payroll Hyperlinks
+<!-- -->  </a>Payroll Hyperlinks
+          <script type="text/javascript">
+            document.getElementById('wk2_2').setAttribute('title',wk2());
+          </script>
         </td>
         <td rowspan="2" class="rsp"><br />
           <p style="font-size: 92%;">&#9662; History</p>
@@ -317,6 +341,9 @@
                                 Jan 14 — Jan 20</a>
                               </li>
                               <li style="background: beige;"><a class="h" target="_blank"
+                                title="Open Google Drive folder
+containing all weeks
+starting on Dec 10, 2017"
                                 href="https://drive.google.com/drive/folders/1MfNPealueJQJKTeV_J9iu9vCQr6qGPn1">
                                 <span>... Entire History</span></a>
                               </li>
@@ -324,18 +351,29 @@
         </td>
       </tr>
       <tr>
-        <th>
-          Mar 25 — Mar 31
+        <th id="wk1">
+          Mar 25 — Mar 31 <!-- WEEK 1 [title] -->
         </th>
+        <script type="text/javascript">
+          function wk1() {
+            return document.getElementById('wk1').innerText;
+          }
+        </script>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" id="wk1_1"
           href="https://docs.google.com/spreadsheets/d/1No8tugeKxI3JFgufbxFxdvD2CRvyZtGrj7nId3FBEsI/edit#gid=914973738">
-          URL Collector</a>
+<!-- -->  URL Collector</a>
+          <script type="text/javascript">
+            document.getElementById('wk1_1').setAttribute('title',wk1());
+          </script>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" id="wk1_2"
           href="https://docs.google.com/spreadsheets/d/1No8tugeKxI3JFgufbxFxdvD2CRvyZtGrj7nId3FBEsI/edit#gid=978213208">
-          Payroll Hyperlinks</a>
+<!-- -->  Payroll Hyperlinks</a>
+          <script type="text/javascript">
+            document.getElementById('wk1_2').setAttribute('title',wk1());
+          </script>
         </td>
       </tr>
     </table>
@@ -344,119 +382,140 @@
   <fieldset class="favs">
     <legend>EFS Card & Money Code Monitoring</legend>
     <table class="monit">
+      <tr id="hdr">
+        <th>Companies / Accounts</th>
+        <td colspan="2">Sheets: &nbspEFS Cards / Search Fields</td>
+        <td colspan="2">Sheets: &nbspMoney Codes</td>
+      </tr>
       <tr>
         <th>CAROLINA LOGISTIC, INC &nbsp<span>708305151783320</span></th>
         <td>
-          <a class="h" target="_blank"
+          <em>Mar</em>&nbsp
+          <a class="h" target="_blank" title="Carolina Logistic"
           href="https://docs.google.com/spreadsheets/d/1Uf9rYuEwNIiBHf16h_tJNkV1oJSGm6aFPDx84fCWGoo/edit#gid=1995296890">
-          March <span>User 1</span></a>
-          <br />
-          <a class="h" target="_blank"
+          <span>Helen</span></a>
+          <a class="h" target="_blank" title="Carolina Logistic"
           href="https://docs.google.com/spreadsheets/d/1Uf9rYuEwNIiBHf16h_tJNkV1oJSGm6aFPDx84fCWGoo/edit#gid=2117669368">
-          March <span>User 2</span></a>
+          <span>Joyce</span></a>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <em>Apr</em>&nbsp
+          <a class="h" target="_blank" title="Carolina Logistic"
           href="https://docs.google.com/spreadsheets/d/1KVIBTMCVLng1zdkHhvraVf0ihSj5H4x81WmqOVD84mc/edit#gid=1995296890">
-        </a>April <span>User 1</span>
-          <br />
-          <a class="h" target="_blank"
+          </a><span>Helen</span>
+          <a class="h" target="_blank" title="Carolina Logistic"
           href="https://docs.google.com/spreadsheets/d/1KVIBTMCVLng1zdkHhvraVf0ihSj5H4x81WmqOVD84mc/edit#gid=2117669368">
-        </a>April <span>User 2</span>
+          </a><span>Joyce</span>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" title="Carolina Logistic"
           href="https://docs.google.com/spreadsheets/d/1EmhcXGFYyvx81ZHYvaY5b-RNX31cMXqKo4a8xrJ9eyc/edit#gid=686342087">
-          Quarter I</a>
+          QTR I</a>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" title="Carolina Logistic"
           href="https://docs.google.com/spreadsheets/d/1cZR1sYy1thMRTdb5ScVTk6r4eDHsCDDZodiEqEOgjU8/edit#gid=686342087">
-          </a>Quarter II
+          </a>QTR II
         </td>
       </tr>
       <tr>
         <th>CAROLINA TRANSPORTATION, INC &nbsp<span>70830515178290</span></th>
         <td>
-          <a class="h" target="_blank"
+          <em>Mar</em>&nbsp
+          <a class="h" target="_blank" title="Carolina Transportation"
           href="https://docs.google.com/spreadsheets/d/1hCMZQRelLnF71fR41BULiW_zxg0LSTTENlsgCVhVCCE/edit#gid=1995296890">
-          March <span>User 1</span></a>
-          <br />
-          <a class="h" target="_blank"
+          <span>Helen</span></a>
+          <a class="h" target="_blank" title="Carolina Transportation"
           href="https://docs.google.com/spreadsheets/d/1hCMZQRelLnF71fR41BULiW_zxg0LSTTENlsgCVhVCCE/edit#gid=2117669368">
-          March <span>User 2</span></a>
+          <span>Joyce</span></a>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <em>Apr</em>&nbsp
+          <a class="h" target="_blank" title="Carolina Transportation"
           href="https://docs.google.com/spreadsheets/d/1vRqny9i0NflCXhxMEkOj-PbsQtfynaYg3mEslQJ4rlQ/edit#gid=1995296890">
-        </a>April <span>User 1</span>
-          <br />
-          <a class="h" target="_blank"
+          </a><span>Helen</span>
+          <a class="h" target="_blank" title="Carolina Transportation"
           href="https://docs.google.com/spreadsheets/d/1vRqny9i0NflCXhxMEkOj-PbsQtfynaYg3mEslQJ4rlQ/edit#gid=2117669368">
-        </a>April <span>User 2</span>
+          </a><span>Joyce</span>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" title="Carolina Transportation"
           href="#">
-          </a>Quarter I
+          </a>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" title="Carolina Transportation"
           href="#">
-          </a>Quarter II
+          </a>
         </td>
       </tr>
       <tr>
         <th>DELTA EXPRESS, INC &nbsp<span>70830515177576</span></th>
         <td>
-          <a class="h" target="_blank"
+          <em>Mar</em>&nbsp
+          <a class="h" target="_blank" title="Delta Express"
           href="https://docs.google.com/spreadsheets/d/1irZB0wmH9iS_FUeK4Ed81b-NvI0VALmhfkrF0_Zwmjk/edit#gid=1995296890">
-          March <span>User 1</span></a>
-          <br />
-          <a class="h" target="_blank"
+          <span>Helen</span></a>
+          <a class="h" target="_blank" title="Delta Express"
           href="https://docs.google.com/spreadsheets/d/1irZB0wmH9iS_FUeK4Ed81b-NvI0VALmhfkrF0_Zwmjk/edit#gid=2117669368">
-          March <span>User 2</span></a>
+          <span>Joyce</span></a>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <em>Apr</em>&nbsp
+          <a class="h" target="_blank" title="Delta Express"
           href="https://docs.google.com/spreadsheets/d/1Ml7Zf41N--puekEo4Tun6aZJYve-0go3ebmFHcoocgI/edit#gid=1995296890">
-        </a>April <span>User 1</span>
-          <br />
-          <a class="h" target="_blank"
+          </a><span>Helen</span>
+          <a class="h" target="_blank" title="Delta Express"
           href="https://docs.google.com/spreadsheets/d/1Ml7Zf41N--puekEo4Tun6aZJYve-0go3ebmFHcoocgI/edit#gid=2117669368">
-        </a>April <span>User 2</span>
+          </a><span>Joyce</span>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" title="Delta Express"
           href="https://docs.google.com/spreadsheets/d/1PDxX7edXCVHJrYzr_f24R62GUP6rhyppFkEs0Pcd-Ik/edit#gid=686342087">
-          </a>Quarter I
+          </a>
         </td>
         <td>
-          <a class="h" target="_blank"
+          <a class="h" target="_blank" title="Delta Express"
           href="#">
-          </a>Quarter II
+          </a>
         </td>
       </tr>
+      <!--
+      <tr class="exclude">
+        <th>CAROLINA LOGISTIC<u style="background: yellow;">S</u>, INC</th> <td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="exclude">
+        <th>DELTA LOGISTICS, INC</th> <td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="exclude">
+        <th>ONTRACK TRANSPORTATION, INC</th> <td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="exclude">
+        <th>PRECISE TRANSPORTATION, INC</th> <td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="exclude">
+        <th>RAINIER TRANSPORTATION, INC</th> <td></td><td></td><td></td><td></td>
+      </tr> -->
 <!-- Add Row above
       <tr>
         <th>company &nbsp<span>account</span></th>
         <td>
           <a class="h" target="_blank"
           href="#">
-          month <span>User 1</span></a>
+          month <span>Helen</span></a>
           <br />
           <a class="h" target="_blank"
           href="#">
-          month <span>User 2</span></a>
+          month <span>Joyce</span></a>
         </td>
         <td>
           <a class="h" target="_blank"
           href="#">
-          month <span>User 1</span></a>
+          month <span>Helen</span></a>
           <br />
           <a class="h" target="_blank"
           href="#">
-          month <span>User 2</span></a>
+          month <span>Joyce</span></a>
         </td>
         <td>
         </td>
@@ -508,7 +567,7 @@
         <td>
           <a class="h" target="_blank"
           href="https://docs.google.com/spreadsheets/d/1b2g3BARa4ibqdqtTj5_IQoBSI8hp6A4R5A3bSbrfA58/edit#gid=138914863">
-          Reporting Drivers <span>March</span></a>
+          Reporting Drivers <span>Mar</span></a>
         </td>
         <td>
           <a class="h" target="_blank"
