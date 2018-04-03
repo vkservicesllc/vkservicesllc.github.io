@@ -225,7 +225,7 @@ fieldset.favs td a.h:hover {
 fieldset.favs th {
   text-align: left;
   padding-left: 24px;
-  padding-right: 32px;
+  padding-right: 36px;
 }
 
 .favs .urls td {
@@ -234,8 +234,8 @@ fieldset.favs th {
 }
 
 .favs .monit td {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #hdr th, #hdr td {
