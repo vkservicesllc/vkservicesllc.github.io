@@ -234,8 +234,12 @@ fieldset.favs th {
 }
 
 .favs .monit td {
-  padding-left: 16.7px;
-  padding-right: 16.7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#hdr th, #hdr td {
+  padding-bottom: 12px;
 }
 
 .favs .shcuts1 td {
@@ -251,8 +255,4 @@ fieldset.favs th {
 .favs .tools td {
   padding-left: 77px;
   padding-right: 77px;
-}
-
-#hdr th, #hdr td {
-  padding-bottom: 12px;
 }
