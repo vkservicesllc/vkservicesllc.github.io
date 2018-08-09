@@ -47,6 +47,18 @@
 
       }
 
+      function determineUrl(id, inId, url, txtIdx /*0, 1*/) {
+        var el = document.getElementById(id),
+            txt = (txtIdx) ? 'Payroll Hyperlinks' : 'URL Collector';
+        if (url != '#') {
+          txt += '</a>';
+        } else {
+          txt = '</a>' + txt;
+        }
+        el.innerHTML = '<a class="h" target="_blank" id="' +
+                       inId + '" href="' + url +'">' + txt;
+      }
+
   </script>
 
   <style media="screen">
@@ -283,26 +295,29 @@
     <table class="urls">
       <tr>
         <th id="wk2">
-          Aug 5 — Aug 11 <!-- WEEK 2 [title] -->
+          Aug 12 — Aug 18 <!-- WEEK 2 [title] -->
         </th>
         <script type="text/javascript">
           function wk2() {
             return document.getElementById('wk2').innerText;
           }
         </script>
-        <td>
-          <a class="h" target="_blank" id="wk2_1"
-          href="https://docs.google.com/spreadsheets/d/1-_pg13i_0z9AQ1htln6TQtuVG4tlGsat8EoIjpJQKsM/edit#gid=914973738">
-<!-- -->  URL Collector</a>
+        <td id='uno'>
           <script type="text/javascript">
+            determineUrl('uno', 'wk2_1',
+              '#',
+              0 // top_left (later date)
+            );
             document.getElementById('wk2_1').setAttribute('title', wk2());
           </script>
         </td>
-        <td>
-          <a class="h" target="_blank" id="wk2_2"
-          href="https://docs.google.com/spreadsheets/d/1-_pg13i_0z9AQ1htln6TQtuVG4tlGsat8EoIjpJQKsM/edit#gid=978213208">
-<!-- -->  Payroll Hyperlinks</a>
+        <td id='dos'>
           <script type="text/javascript">
+            determineUrl(
+              'dos', 'wk2_2',
+              '#',
+              1 // top_right (later date)
+            );
             document.getElementById('wk2_2').setAttribute('title', wk2());
           </script>
         </td>
@@ -356,26 +371,30 @@ starting Dec 10, 2017"
       </tr>
       <tr>
         <th id="wk1">
-          Jul 29 — Aug 4 <!-- WEEK 1 [title] -->
+          Aug 5 — Aug 11 <!-- WEEK 1 [title] -->
         </th>
         <script type="text/javascript">
           function wk1() {
             return document.getElementById('wk1').innerText;
           }
         </script>
-        <td>
-          <a class="h" target="_blank" id="wk1_1"
-          href="#">
-<!-- -->  </a>URL Collector
+        <td id='tres'>
           <script type="text/javascript">
+            determineUrl(
+              'tres', 'wk1_1',
+              'https://docs.google.com/spreadsheets/d/1-_pg13i_0z9AQ1htln6TQtuVG4tlGsat8EoIjpJQKsM/edit#gid=914973738',
+              0 // bottom_left (earlier date)
+            );
             document.getElementById('wk1_1').setAttribute('title', wk1());
           </script>
         </td>
-        <td>
-          <a class="h" target="_blank" id="wk1_2"
-          href="#">
-<!-- -->  </a>Payroll Hyperlinks
+        <td id='quatro'>
           <script type="text/javascript">
+            determineUrl(
+              'quatro', 'wk1_2',
+              'https://docs.google.com/spreadsheets/d/1-_pg13i_0z9AQ1htln6TQtuVG4tlGsat8EoIjpJQKsM/edit#gid=978213208',
+              1 // bottom_right (earlier date)
+            );
             document.getElementById('wk1_2').setAttribute('title', wk1());
           </script>
         </td>
