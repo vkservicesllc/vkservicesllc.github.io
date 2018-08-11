@@ -1,5 +1,5 @@
 /* VK Services, LLC
-   v1.0 | 20180329
+   v1.0 | 20180811
    License: none (public)
 */
 
@@ -196,6 +196,7 @@ fieldset.favs td.rsp:hover ul {
 
 fieldset.favs td a.h {
   color: blue;
+  cursor: pointer;
 }
 
 fieldset.favs th span,

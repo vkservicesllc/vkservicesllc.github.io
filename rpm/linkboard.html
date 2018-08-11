@@ -1,27 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-
-  <title>RPM LinkBoard</title>
-
-  <meta name="author" content="VK Services, LLC">
-  <meta charset="UTF-8">
-
-  <meta http-equiv="Cache-Control" content="must-revalidate, no-store, no-cache">
-  <meta http-equiv="refresh" content="720">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/x-icon" href="../img/icons/linkboard.ico">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../app/stylesheet.css">
-
-  <script type="text/javascript">
-
+  <head>
+    <title>RPM LinkBoard</title>
+    <meta name="author" content="VK Services, LLC">
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="must-revalidate, no-store, no-cache">
+    <meta http-equiv="refresh" content="720">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/icons/linkboard.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../app/stylesheet.css">
+    <style media="screen">
+      fieldset.favs { margin-top: 32px; }
+      .monit tr:not(#hdr):not(.exclude):hover th {
+        background: rgb(244, 244, 224);
+        outline: 1px solid rgba(153, 38, 0, 0.2);
+      }
+    </style>
+    <script type="text/javascript">
       function date_time(id) {
-
         var date = new Date();
         var year = date.getFullYear(),
             month = date.getMonth(),
@@ -31,594 +28,342 @@
             ),
             d = date.getDate(),
             day = date.getDay();
-            days = new Array(
-              'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
-            ),
+            days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
             h = date.getHours(), m = date.getMinutes(), s = date.getSeconds();
-
         if (h < 10) h = '0' + h;
         if (m < 10) m = '0' + m;
         if (s < 10) s = '0' + s;
-
-        result = '' + days[day] + ': &nbsp&nbsp' + months[month] + ' ' + d + ', ' + year + ' &nbsp' + h + ':' + m + ':' + s;
+        result = '' + days[day] + ': &nbsp&nbsp' +
+                 months[month] + ' ' + d + ', ' +
+                 year + ' &nbsp' + h + ':' + m + ':' + s +
+                 ' <span style="font-style: oblique;">&nbsp&nbsp(Your Local Time)</span>';
         document.getElementById(id).innerHTML = result;
-        setTimeout('date_time("'+id+'");',1000);
+        setTimeout('date_time("'+id+'");', 1000);
         return true;
-
       }
-
-      function determineUrl(id, inId, url, txtIdx /*0, 1*/) {
-        var el = document.getElementById(id),
-            txt = (txtIdx) ? 'Payroll Hyperlinks' : 'URL Collector';
-        if (url != '#') {
-          txt += '</a>';
-        } else {
-          txt = '</a>' + txt;
-        }
-        el.innerHTML = '<a class="h" target="_blank" id="' +
-                       inId + '" href="' + url +'">' + txt;
-      }
-
-  </script>
-
-  <style media="screen">
-
-    fieldset.favs {
-      margin-top: 32px;
-    }
-
-    .monit tr:not(#hdr):not(.exclude):hover th {
-      background: rgb(244, 244, 224);
-      outline: 1px solid rgba(153, 38, 0, 0.2);
-    }
-
-  </style>
-
-</head>
-
-<body>
-
-  <!-- Header -->
-
-  <header>
-    <h2>RPM LINKBOARD &nbsp&nbsp&nbsp<span id="date_time"></span></h2>
-    <script type="text/javascript">window.onload = date_time('date_time');</script>
-  </header>
-
-  <!-- Navigation: Top -->
-
-  <nav id="top">
-    <ul class="sub1">
-      <li><a target="_blank" class="bl h"
-        href="https://www.tch.com/security/logon.jsp"
-        >EFS</a>
-      </li>
-      <li><a target="_blank" class="h"
-        href="https://onedrive.live.com/?id=root&cid=7CDFEFDDB08A7009">
-        OneDrive</a>
-      </li>
-      <li><a target="_blank" class="h"
-        href="https://drive.google.com/drive/my-drive">
-        G-Drive</a>
-      </li>
-      <li><a target="_blank" class="h"
-        href="https://mail.google.com/mail/u/0/#inbox">
-        Gmail <em>Prim</em></a>
-        <ul class="sub2">
-          <li><a target="_blank" class="bl h"
-            href="https://mail.google.com/mail/u/1/#inbox">
-            Gmail <em>Sec</em></a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://mail.google.com/mail/u/2/#inbox">
-            Gmail <em>Ter</em></a></li>
-        </ul>
-      </li>
-      <li><a target="_blank" class="h"
-        href="https://hangouts.google.com/">
-        Hangouts <em>Prim</em></a>
-        <ul class="sub2">
-          <li><a target="_blank" class="bl h"
-            href="https://hangouts.google.com/?pageId=none&authuser=1">
-            Hangouts <em>Sec</em></a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://hangouts.google.com/?pageId=none&authuser=2">
-            Hangouts <em>Ter</em></a></li>
-        </ul>
-      </li>
-      <li><a target="_blank" class="h"
-        href="https://www.google.com/maps/@35.5710764,-82.5803167,12z">
-        G-Maps</a>
-      </li>
-      <li><a class="dropdown"
-        href="#">
-        Tracking &#9662;</a>
-        <ul class="sub2">
-          <li><a target="_blank" class="bl h"
-            href="https://track.rpmdispatch.com/v2/#!/login">
-            <em>New</em></a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://track.rpmdispatch.com/user/login#!/login">
-            <em>Old</em></a></li>
-        </ul>
-      </li>
-      <li><a class="dropdown"
-        href="#">
-        RPM &#9662;</a>
-        <ul class="sub2">
-          <li><a target="_blank" class="bl h"
-            href="http://rpmcarolina.com/default.aspx">
-            CL</a></li>
-          <li><a target="_blank" class="bl h"
-            href="http://www.rpmowners.com/default.aspx">
-            CT</a></li>
-          <li><a target="_blank" class="bl h"
-            href="http://dispatchdelta.com/default.aspx">
-            DE</a></li>
-        </ul>
-      </li>
-      <li><a class="dropdown"
-        href="#">
-        + New &#9662;</a>
-        <ul class="sub2">
-          <li><a target="_blank" class="bl h"
-            href="https://drive.google.com/drive/folders/1GuP0ad8znZxIZ34fzsqW000x7SMYFovH">
-            Week</a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://drive.google.com/drive/folders/10GJhehRuVkQsMlXS3NEV5ymEV74bgVYo">
-            Month <em>c</em></a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://drive.google.com/drive/folders/1S01wzvFY7Qb2AWeJDa5iB0L5Gdydjqh6">
-            Month <em>m</em></a></li>
-        </ul>
-      </li>
-      <li><a class="dropdown"
-        href="#">
-        Database &#9662;</a>
-        <ul class="sub2 right">
-          <li><a target="_blank" class="bl e"
-            href="#">
-            Fleet &#9656;</a>
-            <ul class="sub3 left">
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1W_uZrNoAIvL3HoWrdfbfGAyNC1gSiqqEvN_JV3gS9Eg/edit#gid=709800642">
-                Companies</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1W_uZrNoAIvL3HoWrdfbfGAyNC1gSiqqEvN_JV3gS9Eg/edit#gid=1647351910">
-                Units</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1nPg7IBUkiZQD8gyEcsn2N0ohKWavZcp4h9ATOpJvvak/edit#gid=1639097179">
-                Units <em>Dist</em></a></li>
+    </script>
+  </head>
+  <body>
+    <header>
+      <h2>RPM LINKBOARD &nbsp&nbsp&nbsp<span id="date_time"></span></h2>
+      <script type="text/javascript">window.onload = date_time('date_time');</script>
+    </header>
+    <nav id="top">
+      <ul class="sub1">
+        <li><a target="_blank" class="bl h"
+          href="https://www.tch.com/security/logon.jsp"
+          >EFS</a>
+        </li>
+        <li><a target="_blank" class="h"
+          href="https://onedrive.live.com/?id=root&cid=7CDFEFDDB08A7009">
+          OneDrive</a>
+        </li>
+        <li><a target="_blank" class="h"
+          href="https://drive.google.com/drive/my-drive">
+          G-Drive</a>
+        </li>
+        <li><a target="_blank" class="h"
+          href="https://mail.google.com/mail/u/0/#inbox">
+          Gmail <em>Prim</em></a>
+          <ul class="sub2">
+            <li><a target="_blank" class="bl h"
+              href="https://mail.google.com/mail/u/1/#inbox">
+              Gmail <em>Sec</em></a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://mail.google.com/mail/u/2/#inbox">
+              Gmail <em>Ter</em></a></li>
+          </ul>
+        </li>
+        <li><a target="_blank" class="h"
+          href="https://hangouts.google.com/">
+          Hangouts <em>Prim</em></a>
+          <ul class="sub2">
+            <li><a target="_blank" class="bl h"
+              href="https://hangouts.google.com/?pageId=none&authuser=1">
+              Hangouts <em>Sec</em></a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://hangouts.google.com/?pageId=none&authuser=2">
+              Hangouts <em>Ter</em></a></li>
+          </ul>
+        </li>
+        <li><a target="_blank" class="h"
+          href="https://www.google.com/maps/@35.5710764,-82.5803167,12z">
+          G-Maps</a>
+        </li>
+        <li><a class="dropdown"
+          href="#">
+          Tracking &#9662;</a>
+          <ul class="sub2">
+            <li><a target="_blank" class="bl h"
+              href="https://track.rpmdispatch.com/v2/#!/login">
+              <em>New</em></a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://track.rpmdispatch.com/user/login#!/login">
+              <em>Old</em></a></li>
+          </ul>
+        </li>
+        <li><a class="dropdown"
+          href="#">
+          RPM &#9662;</a>
+          <ul class="sub2">
+            <li><a target="_blank" class="bl h"
+              href="http://rpmcarolina.com/default.aspx">
+              CL</a></li>
+            <li><a target="_blank" class="bl h"
+              href="http://www.rpmowners.com/default.aspx">
+              CT</a></li>
+            <li><a target="_blank" class="bl h"
+              href="http://dispatchdelta.com/default.aspx">
+              DE</a></li>
+          </ul>
+        </li>
+        <li><a class="dropdown"
+          href="#">
+          + New &#9662;</a>
+          <ul class="sub2">
+            <li><a target="_blank" class="bl h"
+              href="https://drive.google.com/drive/folders/1GuP0ad8znZxIZ34fzsqW000x7SMYFovH">
+              URLs(W)</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://drive.google.com/drive/folders/10GJhehRuVkQsMlXS3NEV5ymEV74bgVYo">
+              EFSC(M)</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://drive.google.com/drive/folders/1S01wzvFY7Qb2AWeJDa5iB0L5Gdydjqh6">
+              MC(M)</a></li>
+          </ul>
+        </li>
+        <li><a class="dropdown"
+          href="#">
+          Database &#9662;</a>
+          <ul class="sub2 right">
+            <li><a target="_blank" class="bl e"
+              href="#">
+              Fleet &#9656;</a>
+              <ul class="sub3 left">
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1W_uZrNoAIvL3HoWrdfbfGAyNC1gSiqqEvN_JV3gS9Eg/edit#gid=709800642">
+                  Companies</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1W_uZrNoAIvL3HoWrdfbfGAyNC1gSiqqEvN_JV3gS9Eg/edit#gid=1647351910">
+                  Units</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1nPg7IBUkiZQD8gyEcsn2N0ohKWavZcp4h9ATOpJvvak/edit#gid=1639097179">
+                  Units <em>Dist</em></a></li>
+              </ul>
+            </li>
+            <li><a target="_blank" class="bl e"
+              href="#">
+              People &#9656;</a>
+              <ul class="sub4 left">
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=2023496076">
+                  Contractors</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1W_uZrNoAIvL3HoWrdfbfGAyNC1gSiqqEvN_JV3gS9Eg/edit#gid=1909787109">
+                  Employees</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1vbXFRl_n_1ylQvThBBCas_VddiLreLIq5oJ3enjAWfE/edit#gid=1376527364">
+                  EFS Users</a></li>
+              </ul>
+            </li>
+            <li><a target="_blank" class="bl e"
+              href="#">
+              Rates &#9656;</a>
+              <ul class="sub5 left">
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=766944046">
+                  Basic</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=643630212">
+                  Canada</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=702297004">
+                  Regular Stops</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=1091142582">
+                  Extra Stops</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=1270985435">
+                  Towing</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=2102185617">
+                  Bonuses</a></li>
+                <li><a target="_blank" class="h"
+                  href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=916575852">
+                  Charges <span>&</span> Company Reimbursement</a></li>
+              </ul>
+            </li>
+            <li><a target="_blank" class="bl h" style="text-align: left"
+              href="https://docs.google.com/spreadsheets/d/1W_uZrNoAIvL3HoWrdfbfGAyNC1gSiqqEvN_JV3gS9Eg/edit#gid=2113127033">
+              Expenses</a></li>
+            <li><a target="_blank" class="bl h" style="text-align: left"
+              href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=578326070">
+              Methods</a></li>
+          </ul>
+        </li>
+        <li><a class="dropdown"
+          href="#">
+          Other <span>&</span> Misc &#9662;</a>
+          <ul class="sub2">
+            <li><a target="_blank" class="bl h"
+              href="https://drivershr.com/hrm/login.php">
+              HRM</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/19koCtNrSbUujxfcZfqA5ZCHCvkPCvgw7-lUaK0gBQNU/edit?ts=5a79d31c#gid=0">
+              Global Board 1</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/1lWaqBNQXaqhoQXOUGn2mjFpzjqm7B1JHjuSzGOcJgSg/edit?ts=5a79d2fd#gid=0">
+              Global Board 2</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/1vWEz3xsbWCoVAF44S9rTAZXMQKRfAi7A49c-QFxJA1g/edit?ts=5a79e18d#gid=0">
+              Global Board 3</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/1vWEz3xsbWCoVAF44S9rTAZXMQKRfAi7A49c-QFxJA1g/edit?ts=5a79e18d#gid=0">
+              Owners <em>CL/CT</em></a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/18cyiVz9Ya-oqtsL-36OS8AWVGU5fNlNE-MFFBt9dEUI/edit?ts=5a56834c#gid=0">
+              Carriers</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/1tshqCJ1P7Bba46DeEkI8R3PeUqC25nuJ2oNtjy_TCec/edit#gid=978596437">
+              Distributor</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/1qc17LJIBoFAMPf0PZf8kn5zYghyV8GzHeIKVU0t3WTo/edit#gid=0">
+              EFS Accounts</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/19tBRKV_SZK3Wg4b5dabtIoTapz5iO4n0GN0K3eovWMc/edit#gid=1990489309">
+              Towing <em>Input</em></a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/1MOB1zwdD4aHmtpSrcNg8F2J9Ngx8k9sJRNpvZ74nbPQ/edit#gid=0">
+              Students <em>Old</em></a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://docs.google.com/spreadsheets/d/1rVjePdvonusjloNDxv45JCMJid3Tu_vo5EcRbdi6rUI/edit#gid=99251301">
+              Owners<br/><em>Money Codes</em></a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://drive.google.com/drive/folders/1je2O4kPEP3ZuJv0cTFY53BPJLbZXZlxp">
+              Database</a></li>
+            <li><a target="_blank" class="bl h"
+              href="https://drive.google.com/drive/folders/0BwZYC9bOkSa5S2taNmNkVUJXX3M">
+              Tools <em>Backup</em></a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <fieldset class="favs">
+      <legend>URL Collector / Payroll Hyperlinks</legend>
+      <table class="urls">
+        <tr>
+          <th id="tH"></th>
+          <td id='tC'></td>
+          <td id='tL'></td>
+          <td rowspan="2" class="rsp">
+            <br /><p style="font-size: 92%;">&#9662; History</p>
+            <ul id="hist">
             </ul>
-          </li>
-          <li><a target="_blank" class="bl e"
-            href="#">
-            People &#9656;</a>
-            <ul class="sub4 left">
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=2023496076">
-                Contractors</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1W_uZrNoAIvL3HoWrdfbfGAyNC1gSiqqEvN_JV3gS9Eg/edit#gid=1909787109">
-                Employees</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1vbXFRl_n_1ylQvThBBCas_VddiLreLIq5oJ3enjAWfE/edit#gid=1376527364">
-                EFS Users</a></li>
-            </ul>
-          </li>
-          <li><a target="_blank" class="bl e"
-            href="#">
-            Rates &#9656;</a>
-            <ul class="sub5 left">
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=766944046">
-                Basic</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=643630212">
-                Canada</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=702297004">
-                Regular Stops</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=1091142582">
-                Extra Stops</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=1270985435">
-                Towing</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=2102185617">
-                Bonuses</a></li>
-              <li><a target="_blank" class="h"
-                href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=916575852">
-                Charges <span>&</span> Company Reimbursement</a></li>
-            </ul>
-          </li>
-          <li><a target="_blank" class="bl h" style="text-align: left"
-            href="https://docs.google.com/spreadsheets/d/1W_uZrNoAIvL3HoWrdfbfGAyNC1gSiqqEvN_JV3gS9Eg/edit#gid=2113127033">
-            Expenses</a></li>
-          <li><a target="_blank" class="bl h" style="text-align: left"
-            href="https://docs.google.com/spreadsheets/d/1h-PLcbXzbKPtgrGN6cMFit6ML6hVzXrxec48ekCpsVE/edit#gid=578326070">
-            Methods</a></li>
-        </ul>
-      </li>
-      <li><a class="dropdown"
-        href="#">
-        Other <span>&</span> Misc &#9662;</a>
-        <ul class="sub2">
-          <li><a target="_blank" class="bl h"
-            href="https://drivershr.com/hrm/login.php">
-            HRM</a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/19koCtNrSbUujxfcZfqA5ZCHCvkPCvgw7-lUaK0gBQNU/edit?ts=5a79d31c#gid=0">
-            Global Board 1</a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/1lWaqBNQXaqhoQXOUGn2mjFpzjqm7B1JHjuSzGOcJgSg/edit?ts=5a79d2fd#gid=0">
-            Global Board 2</a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/1vWEz3xsbWCoVAF44S9rTAZXMQKRfAi7A49c-QFxJA1g/edit?ts=5a79e18d#gid=0">
-            Global Board 3</a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/1vWEz3xsbWCoVAF44S9rTAZXMQKRfAi7A49c-QFxJA1g/edit?ts=5a79e18d#gid=0">
-            Owners <em>CL/CT</em></a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/18cyiVz9Ya-oqtsL-36OS8AWVGU5fNlNE-MFFBt9dEUI/edit?ts=5a56834c#gid=0">
-            Carriers</a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/1tshqCJ1P7Bba46DeEkI8R3PeUqC25nuJ2oNtjy_TCec/edit#gid=978596437">
-            Distributor</a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/1qc17LJIBoFAMPf0PZf8kn5zYghyV8GzHeIKVU0t3WTo/edit#gid=0">
-            EFS Accounts</a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/19tBRKV_SZK3Wg4b5dabtIoTapz5iO4n0GN0K3eovWMc/edit#gid=1990489309">
-            Towing <em>Input</em></a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/1MOB1zwdD4aHmtpSrcNg8F2J9Ngx8k9sJRNpvZ74nbPQ/edit#gid=0">
-            Students <em>Old</em></a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://docs.google.com/spreadsheets/d/1rVjePdvonusjloNDxv45JCMJid3Tu_vo5EcRbdi6rUI/edit#gid=99251301">
-            Owners<br/><em>Money Codes</em></a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://drive.google.com/drive/folders/1je2O4kPEP3ZuJv0cTFY53BPJLbZXZlxp">
-            Database</a></li>
-          <li><a target="_blank" class="bl h"
-            href="https://drive.google.com/drive/folders/0BwZYC9bOkSa5S2taNmNkVUJXX3M">
-            Tools <em>Backup</em></a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Navigation: Favs -->
-
-  <fieldset class="favs">
-    <legend>URL Collector / Payroll Hyperlinks</legend>
-    <table class="urls">
-      <tr>
-        <th id="wk2">
-          Aug 12 — Aug 18 <!-- WEEK 2 [title] -->
-        </th>
-        <script type="text/javascript">
-          function wk2() {
-            return document.getElementById('wk2').innerText;
-          }
-        </script>
-        <td id='uno'>
-          <script type="text/javascript">
-            determineUrl('uno', 'wk2_1',
-              'https://docs.google.com/spreadsheets/d/1SOxJyR4Lu9g9uZnxkNDFogeplQOiLBTcfknKhQJJGLU/edit#gid=914973738',
-              0 // top_left (later date)
-            );
-            document.getElementById('wk2_1').setAttribute('title', wk2());
-          </script>
-        </td>
-        <td id='dos'>
-          <script type="text/javascript">
-            determineUrl(
-              'dos', 'wk2_2',
-              'https://docs.google.com/spreadsheets/d/1SOxJyR4Lu9g9uZnxkNDFogeplQOiLBTcfknKhQJJGLU/edit#gid=978213208',
-              1 // top_right (later date)
-            );
-            document.getElementById('wk2_2').setAttribute('title', wk2());
-          </script>
-        </td>
-        <td rowspan="2" class="rsp"><br />
-          <p style="font-size: 92%;">&#9662; History</p>
-          <ul>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/16VR3LxYIjSRBOCUcsN9pd6GlD6sGNUwHfPUx1mma9Y0/edit#gid=1250765514">
-                                Jul 29 — Aug 4</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1Me0A2QT1rjs4yjkzk9VmF2IesMFnbcNvRt_t8aMLTrQ/edit#gid=1250765514">
-                                Jul 22 — Jul 28</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1om2yc9ZZzw-sSEpwTe5zsXSPDv-LJLOb1l3qxcew09w/edit#gid=1250765514">
-                                Jul 15 — Jul 21</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1FFdgUldfpiBPMzoi9DRqOFPWDC3wio0cUipYj78C1F4/edit#gid=1250765514">
-                                Jul 8 — Jul 14</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1vWTfjW7OPc5ref78iwDh_5QuU5e1ZHNCS9TCuzT4LL0/edit#gid=1250765514">
-                                Jul 1 — Jul 7</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1_gwST1RzMGhwLuidUq7X-t8H2R8IwS_QtVl-SuCcgsU/edit#gid=1250765514">
-                                Jun 24 — Jun 30</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1PMy5j5UpwonOSoMpnSswelh4iq9gw7ry9F51IQzStpk/edit#gid=1250765514">
-                                Jun 17 — Jun 23</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1xAdGWQPos7Wa-DqPSKpIcvuMwtbWYHVTLm3Yd6aR-RE/edit#gid=1250765514">
-                                Jun 10 — Jun 16</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1n8SzmWPte2hfX9-1oiyCSuS5nJQS-ElETJ8hE_Xia-M/edit#gid=1250765514">
-                                Jun 3 — Jun 9</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1yNe7nfNRMUxj9T-0CqFSn3qssPY2C5LdFpepyaBWTGc/edit#gid=1250765514">
-                                May 27 — Jun 2</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1AvdM6VwlSyMqg1yoU8lrltpNIPHMtknCe5e-LeaLiuU/edit#gid=1250765514">
-                                May 20 — May 26</a></li>
-                              <li><a class="h" target="_blank"
-                                href="https://docs.google.com/spreadsheets/d/1i6O2U1IXQeTm4ePmfyIIIlyFXFXy87lKXFv0-0YbAu4/edit#gid=1250765514">
-                                May 13 — May 19</a></li>
-                              <li style="background: beige;"><a class="h" target="_blank"
-                                title="Open Google Drive folder
-containing all weeks
-starting Dec 10, 2017"
-                                href="https://drive.google.com/drive/folders/1MfNPealueJQJKTeV_J9iu9vCQr6qGPn1">
-                                <span>... Entire History</span></a></li>
-         </ul>
-        </td>
-      </tr>
-      <tr>
-        <th id="wk1">
-          Aug 5 — Aug 11 <!-- WEEK 1 [title] -->
-        </th>
-        <script type="text/javascript">
-          function wk1() {
-            return document.getElementById('wk1').innerText;
-          }
-        </script>
-        <td id='tres'>
-          <script type="text/javascript">
-            determineUrl(
-              'tres', 'wk1_1',
-              'https://docs.google.com/spreadsheets/d/1-_pg13i_0z9AQ1htln6TQtuVG4tlGsat8EoIjpJQKsM/edit#gid=914973738',
-              0 // bottom_left (earlier date)
-            );
-            document.getElementById('wk1_1').setAttribute('title', wk1());
-          </script>
-        </td>
-        <td id='quatro'>
-          <script type="text/javascript">
-            determineUrl(
-              'quatro', 'wk1_2',
-              'https://docs.google.com/spreadsheets/d/1-_pg13i_0z9AQ1htln6TQtuVG4tlGsat8EoIjpJQKsM/edit#gid=978213208',
-              1 // bottom_right (earlier date)
-            );
-            document.getElementById('wk1_2').setAttribute('title', wk1());
-          </script>
-        </td>
-      </tr>
-    </table>
-  </fieldset>
-
-  <fieldset class="favs">
-    <legend>EFS Card & Money Code Monitoring</legend>
-    <table class="monit">
-      <tr id="hdr">
-        <th>Companies / Accounts</th>
-        <td colspan="2">Sheets: &nbspEFS Cards / Search Fields</td>
-        <td colspan="2">Sheets: &nbspMoney Codes</td>
-      </tr>
-      <tr>
-        <th>CAROLINA LOGISTIC &nbsp<span>708305151783320</span></th>
-        <td>
-          <em>
-            <a class="h" target="_blank" title="Carolina Logistic (paste)"
-            href="#">
-          </a>Jul
-          </em>&nbsp
-          <a class="h" target="_blank" title="Carolina Logistic"
-          href="https://docs.google.com/spreadsheets/d/1lrJ8BxtFLX0ZE25_QHzMO2_z2eNcxJuj5Lhf1oOiX84/edit#gid=1995296890">
-          <span>Helen</span></a>
-          <a class="h" target="_blank" title="Carolina Logistic"
-          href="https://docs.google.com/spreadsheets/d/1lrJ8BxtFLX0ZE25_QHzMO2_z2eNcxJuj5Lhf1oOiX84/edit#gid=2117669368">
-          <span>Joyce</span></a>
-        </td>
-        <td>
-          <em>
-            <a class="h" target="_blank" title="Carolina Logistic (paste)"
-            href="https://docs.google.com/spreadsheets/d/1Z5WeJ_Lu827Ia9jlgpsVKn7ZOzlc7EkfuiVSM8mg6RE/edit#gid=686342087">
-          Aug</a>
-          </em>&nbsp
-          <a class="h" target="_blank" title="Carolina Logistic"
-          href="https://docs.google.com/spreadsheets/d/1Z5WeJ_Lu827Ia9jlgpsVKn7ZOzlc7EkfuiVSM8mg6RE/edit#gid=1995296890">
-          <span>Helen</span></a>
-          <a class="h" target="_blank" title="Carolina Logistic"
-          href="https://docs.google.com/spreadsheets/d/1Z5WeJ_Lu827Ia9jlgpsVKn7ZOzlc7EkfuiVSM8mg6RE/edit#gid=2117669368">
-          <span>Joyce</span></a>
-        </td>
-        <td>
-          <a class="h" target="_blank" title="Carolina Logistic (paste)"
-          href="https://docs.google.com/spreadsheets/d/1KqLgcvq73_x7o-o6FkzFHDCq2pYjp2CADcLTxM8wW6s/edit#gid=1165085359">
-        Jul</a>
-        </td>
-        <td>
-          <a class="h" target="_blank" title="Carolina Logistic (paste)"
-          href="https://docs.google.com/spreadsheets/d/1evgxg0C-BkM9juH0n5P0odICToga4SK4oeSj1dGIrnY/edit#gid=1165085359">
-        Aug</a>
-        </td>
-      </tr>
-      <tr>
-        <th>CAROLINA TRANSPORTATION &nbsp<span>70830515178290</span></th>
-        <td>
-          <em>
-            <a class="h" target="_blank" title="Carolina Transportation (paste)"
-            href="#">
-          </a>Jul
-          </em>&nbsp
-          <a class="h" target="_blank" title="Carolina Transportation"
-          href="#">
-          </a><span>Helen</span>
-          <a class="h" target="_blank" title="Carolina Transportation"
-          href="#">
-          </a><span>Joyce</span>
-        </td>
-        <td>
-          <em>
-            <a class="h" target="_blank" title="Carolina Transportation (paste)"
-            href="https://docs.google.com/spreadsheets/d/17BtRnZpTYmp7GsisgY3Tiq6ws2ZgOYG1DCwcG1eVNH4/edit#gid=686342087">
-          Aug</a>
-          </em>&nbsp
-          <a class="h" target="_blank" title="Carolina Transportation"
-          href="https://docs.google.com/spreadsheets/d/17BtRnZpTYmp7GsisgY3Tiq6ws2ZgOYG1DCwcG1eVNH4/edit#gid=1995296890">
-          <span>Helen</span></a>
-          <a class="h" target="_blank" title="Carolina Transportation"
-          href="https://docs.google.com/spreadsheets/d/17BtRnZpTYmp7GsisgY3Tiq6ws2ZgOYG1DCwcG1eVNH4/edit#gid=2117669368">
-          <span>Joyce</span></a>
-        </td>
-        <td>
-          <a class="h" target="_blank" title="Carolina Transportation (paste)"
-          href="https://docs.google.com/spreadsheets/d/1qIwoRG06fUrszjj2sXdxVuG5R-jIz-V--mc5Ni5O5-E/edit#gid=1165085359">
-        Jul</a>
-        </td>
-        <td>
-          <a class="h" target="_blank" title="Carolina Transportation (paste)"
-          href="https://docs.google.com/spreadsheets/d/1GAbzqNz-0aDjYQRUSt9i45c07jhQPTiHi0YcSRkVHOU/edit#gid=1165085359">
-        Aug</a>
-        </td>
-      </tr>
-      <tr>
-        <th>DELTA EXPRESS &nbsp<span>70830515177576</span></th>
-        <td>
-          <em>
-            <a class="h" target="_blank" title="Delta Express (paste)"
-            href="#">
-          </a>Jul
-          </em>&nbsp
-          <a class="h" target="_blank" title="Delta Express"
-          href="#">
-          </a><span>Helen</span>
-          <a class="h" target="_blank" title="Delta Express"
-          href="#">
-          </a><span>Joyce</span>
-        </td>
-        <td>
-          <em>
-            <a class="h" target="_blank" title="Delta Express (paste)"
-            href="https://docs.google.com/spreadsheets/d/1nDhIHbKRnjcn__1TIyoDzsAgJ53WZYGVoRyt3X2Pi8Q/edit#gid=686342087">
-          Aug</a>
-          </em>&nbsp
-          <a class="h" target="_blank" title="Delta Express"
-          href="https://docs.google.com/spreadsheets/d/1nDhIHbKRnjcn__1TIyoDzsAgJ53WZYGVoRyt3X2Pi8Q/edit#gid=1995296890">
-          <span>Helen</span></a>
-          <a class="h" target="_blank" title="Delta Express"
-          href="https://docs.google.com/spreadsheets/d/1nDhIHbKRnjcn__1TIyoDzsAgJ53WZYGVoRyt3X2Pi8Q/edit#gid=2117669368">
-          <span>Joyce</span></a>
-        </td>
-        <td>
-          <a class="h" target="_blank" title="Delta Express (paste)"
-          href="#">
-          </a>
-        </td>
-        <td>
-          <a class="h" target="_blank" title="Delta Express (paste)"
-          href="#">
-          </a>
-        </td>
-      </tr>
-    </table>
-  </fieldset>
-
-  <fieldset class="favs">
-    <legend>Shortcuts</legend>
-    <table class="shcuts1">
-      <tr>
-        <td>
-          <a class="h" target="_blank"
-          href="https://drive.google.com/drive/folders/1HLWwjjp85TrvblKI65Z0PkI8ze4cSWMW">
-          + Add WORKSHEET</a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://drive.google.com/drive/u/0/folders/0BxIwWlTHHQp7fjF4VVpZZzNhUzJsMk9XZlQxN09DRkhVZVcwcnFUUGJkN0VKRWJhNUh1V0U">
-          Scans</a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://drive.google.com/drive/u/0/folders/0BxIwWlTHHQp7fmJYa21WcTMxUDBxakZtXzl3N0o5SGpvUlRxWFVrZmZXblVhdFl6NW42R2c">
-          Expense</a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1vInI27Gj3mI0dz--03pbZt4TtuGdF_DZPNPVR5Vc3jM/edit#gid=0">
-          Document Submission</a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1wODl9QHnhej3ySdV110MpQvL0tNIr9IQbLqlDXOvTkM/edit#gid=0">
-          Payroll List</a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1OxJYhP2azeOHKGmkaNLxv2IuBjLoAZbTncOJsliwdzc/edit#gid=1592335978">
-          Students</a>
-        </td>
-      </tr>
-    </table>
-    <table class="shcuts2">
-      <tr>
-        <td>
-          <a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1b2g3BARa4ibqdqtTj5_IQoBSI8hp6A4R5A3bSbrfA58/edit#gid=697755337">
-          Reporting Drivers <span>Aug</span></a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1QOqM8xouEbOFxn_Ktenx_LGB2AzBEnfFrxOisSKzSkg/edit?ts=567805bc#gid=0">
-          Truck/Trailer Breakdown</a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1SgC9L_M-5FNgvXV5hQJJQ4AggehmPo9ipB5Z1aHK_V0/edit?ts=5a4beef8#gid=0">
-          DEF Tracker</a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1FsrNZ2zATp2nF8ctbkhOf8fUllA4-C8370-UkNnRrm0/edit?pli=1#gid=0">
-          Rate List</a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1XIJ5TR1zuEODW8CRWTSd2QNNlyYexa5OwGLoVvnMmnk/edit#gid=1229815017">
-          Towing</a>
-        </td>
-        <td>
-          <a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/u/1/d/1jegJ8tzV45X7U0jAdHurdhE8rWrO8891h23fB-x1NLw/htmlview?sle=true#">
-          Phone List</a>
-        </td>
-      </tr>
-    </table>
-  </fieldset>
-
-  <fieldset class="favs">
-    <legend>Additional Tools (West Coast Only)</legend>
-    <table class="tools">
-      <tr>
-        <td><a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1AoyXGtUIOiGq9siawF-WnBP4XgVgur-wWRgyilM0j2A/edit?ts=5a673d3b#gid=1558692306">
-          Detention Board</a></td>
-        <td><a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/173n-J5qtZKtqg4MHOZ3oUFgJo9ZmVzjFs2Zxn8Nbdug/edit?ts=5a673d8d#gid=90">
-          West Coast Board</a></td>
-        <td><a class="h" target="_blank"
-          href="https://docs.google.com/spreadsheets/d/1y82rNeg66Hh9DIduNXj0fTeIErlJn7B0Xe4-s59RHq4/edit?ts=5a673d99#gid=1275085378">
-          West Coast AVG Rates</a></td>
-      </tr>
-    </table>
-  </fieldset>
-
-</body>
-
+          </td>
+        </tr>
+        <tr>
+          <th id="bH"></th>
+          <td id='bC'></td>
+          <td id='bL'></td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset class="favs">
+      <legend>EFS Card & Money Code Monitoring</legend>
+      <table class="monit">
+        <tr id="hdr">
+          <th>Companies / Accounts</th>
+          <td colspan="2">Sheets: &nbspEFS Cards / Search Fields</td>
+          <td colspan="2">Sheets: &nbspMoney Codes</td>
+        </tr>
+        <tr id="uno"></tr>
+        <tr id="dos"></tr>
+        <tr id="tres"></tr>
+      </table>
+    </fieldset>
+    <fieldset class="favs">
+      <legend>Shortcuts</legend>
+      <table class="shcuts1">
+        <tr>
+          <td>
+            <a class="h" target="_blank"
+            href="https://drive.google.com/drive/folders/1HLWwjjp85TrvblKI65Z0PkI8ze4cSWMW">
+            + Add WORKSHEET</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://drive.google.com/drive/u/0/folders/0BxIwWlTHHQp7fjF4VVpZZzNhUzJsMk9XZlQxN09DRkhVZVcwcnFUUGJkN0VKRWJhNUh1V0U">
+            Scans</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://drive.google.com/drive/u/0/folders/0BxIwWlTHHQp7fmJYa21WcTMxUDBxakZtXzl3N0o5SGpvUlRxWFVrZmZXblVhdFl6NW42R2c">
+            Expense</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1vInI27Gj3mI0dz--03pbZt4TtuGdF_DZPNPVR5Vc3jM/edit#gid=0">
+            Document Submission</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1wODl9QHnhej3ySdV110MpQvL0tNIr9IQbLqlDXOvTkM/edit#gid=0">
+            Payroll List</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1OxJYhP2azeOHKGmkaNLxv2IuBjLoAZbTncOJsliwdzc/edit#gid=1592335978">
+            Students</a>
+          </td>
+        </tr>
+      </table>
+      <table class="shcuts2">
+        <tr>
+          <td id='repD'></td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1QOqM8xouEbOFxn_Ktenx_LGB2AzBEnfFrxOisSKzSkg/edit?ts=567805bc#gid=0">
+            Truck/Trailer Breakdown</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1SgC9L_M-5FNgvXV5hQJJQ4AggehmPo9ipB5Z1aHK_V0/edit?ts=5a4beef8#gid=0">
+            DEF Tracker</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1FsrNZ2zATp2nF8ctbkhOf8fUllA4-C8370-UkNnRrm0/edit?pli=1#gid=0">
+            Rate List</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1XIJ5TR1zuEODW8CRWTSd2QNNlyYexa5OwGLoVvnMmnk/edit#gid=1229815017">
+            Towing</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/u/1/d/1jegJ8tzV45X7U0jAdHurdhE8rWrO8891h23fB-x1NLw/htmlview?sle=true#">
+            Phone List</a>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset class="favs">
+      <legend>Additional Tools (West Coast Only)</legend>
+      <table class="tools">
+        <tr>
+          <td><a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1AoyXGtUIOiGq9siawF-WnBP4XgVgur-wWRgyilM0j2A/edit?ts=5a673d3b#gid=1558692306">
+            Detention Board</a></td>
+          <td><a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/173n-J5qtZKtqg4MHOZ3oUFgJo9ZmVzjFs2Zxn8Nbdug/edit?ts=5a673d8d#gid=90">
+            West Coast Board</a></td>
+          <td><a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1y82rNeg66Hh9DIduNXj0fTeIErlJn7B0Xe4-s59RHq4/edit?ts=5a673d99#gid=1275085378">
+            West Coast AVG Rates</a></td>
+        </tr>
+      </table>
+    </fieldset>
+    <script src="../app/functions.js"></script>
+  </body>
 </html>
