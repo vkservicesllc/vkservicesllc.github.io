@@ -1,5 +1,5 @@
 /* VK Services, LLC
-   v1.0 | 20180811
+   v2.0 | 20180813
    License: none (public)
 */
 
@@ -15,6 +15,21 @@ body {
   font-family: 'Open Sans', sans-serif;
   cursor: default;
 }
+
+/* exclude Mozilla Firefox */
+@-moz-document url-prefix() {
+  body {
+    display: none;
+  }
+}
+/* exclude Internet Explorer */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body {
+    display: none;
+  }
+}
+/* exclude Microsoft Edge */
+_:-ms-lang(x), _:-webkit-full-screen, body { display: none; }
 
 /* Header */
 
