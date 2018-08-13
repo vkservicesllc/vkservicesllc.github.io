@@ -145,8 +145,8 @@ var monthlyUrls = {
       name: '<th>CAROLINA LOGISTIC &nbsp<span>708305151783320</span></th>',
       month1_cards: {
         user0:     [0, '686342087'],
-        user1:     [1, '1995296890'],
-        user2:     [1, '2117669368'],
+        user1:     [0, '1995296890'],
+        user2:     [0, '2117669368'],
         month_key: ['Jul', '1lrJ8BxtFLX0ZE25_QHzMO2_z2eNcxJuj5Lhf1oOiX84']
       },
       month2_cards: {
@@ -156,7 +156,7 @@ var monthlyUrls = {
         month_key: ['Aug', '1Z5WeJ_Lu827Ia9jlgpsVKn7ZOzlc7EkfuiVSM8mg6RE']
       },
       month1_codes: {
-        user0:     [1, '1165085359', '1782605551'],
+        user0:     [0, '1165085359', '1782605551'],
         month_key: ['Jul', '1KqLgcvq73_x7o-o6FkzFHDCq2pYjp2CADcLTxM8wW6s']
       },
       month2_codes: {
@@ -181,7 +181,7 @@ var monthlyUrls = {
         month_key: ['Aug', '17BtRnZpTYmp7GsisgY3Tiq6ws2ZgOYG1DCwcG1eVNH4']
       },
       month1_codes: {
-        user0:     [1, '1165085359', '1782605551'],
+        user0:     [0, '1165085359', '1782605551'],
         month_key: ['Jul', '1qIwoRG06fUrszjj2sXdxVuG5R-jIz-V--mc5Ni5O5-E']
       },
       month2_codes: {
@@ -206,11 +206,11 @@ var monthlyUrls = {
         month_key: ['Aug', '1nDhIHbKRnjcn__1TIyoDzsAgJ53WZYGVoRyt3X2Pi8Q']
       },
       month1_codes: {
-        user0:     [1, '1165085359', '1782605551'],
+        user0:     [0, '1165085359', '1782605551'],
         month_key: ['Jul', '#']
       },
       month2_codes: {
-        user0:     [1, '1165085359', '1782605551'],
+        user0:     [0, '1165085359', '1782605551'],
         month_key: ['Aug', '#']
       }
     }
