@@ -21,7 +21,7 @@ var weeklyUrls = {
   top:
     {
       header:      'Aug 19 — Aug 25',
-      key:         '#',
+      key:         '1Dku5Hw_HUVGVhFYQjNOSHxLhjazYjxKPJ-97OyE1fjQ',
       collectorId: '914973738',
       linkId:      '978213208'
     },
