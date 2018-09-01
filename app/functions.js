@@ -21,7 +21,7 @@ var weeklyUrls = {
   top:
     {
       header:      'Sep 2 — Sep 8',
-      key:         '#',
+      key:         '1G9G1599r3C9FaMtC83OyErB1byAdKr9DxBIfzp7-vaY',
       collectorId: '914973738',
       linkId:      '978213208'
     },
@@ -165,18 +165,18 @@ var monthlyUrls = {
         month_key: ['Aug', '1Z5WeJ_Lu827Ia9jlgpsVKn7ZOzlc7EkfuiVSM8mg6RE']
       },
       month2_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Sep', '-']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Sep', '1QCWWVbPVr6UbN6rGbJ85zVP-k3o_vFcrmmnD4InF1jA']
       },
       month1_codes: {
         user0:     [1, '1165085359', '1782605551'],
         month_key: ['Aug', '1evgxg0C-BkM9juH0n5P0odICToga4SK4oeSj1dGIrnY']
       },
       month2_codes: {
-        user0:     [0, '1165085359', '1782605551'],
-        month_key: ['Sep', '-']
+        user0:     [1, '1165085359', '1782605551'],
+        month_key: ['Sep', '1VRiexm8ouME8GutSM9Xck0AYiedbwGVWsF4CkXaJIT4']
       }
     },
   CT:
@@ -190,18 +190,18 @@ var monthlyUrls = {
         month_key: ['Aug', '17BtRnZpTYmp7GsisgY3Tiq6ws2ZgOYG1DCwcG1eVNH4']
       },
       month2_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Sep', '-']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Sep', '1JrOiQbsnkiXY97YCCrJ0i_EGPGtQmE31-Jqf5xUnAS0']
       },
       month1_codes: {
         user0:     [1, '1165085359', '1782605551'],
         month_key: ['Aug', '1GAbzqNz-0aDjYQRUSt9i45c07jhQPTiHi0YcSRkVHOU']
       },
       month2_codes: {
-        user0:     [0, '1165085359', '1782605551'],
-        month_key: ['Sep', '-']
+        user0:     [1, '1165085359', '1782605551'],
+        month_key: ['Sep', '1wJiBqNlMp64yuUbZtGGLfN4VrV6eSPoCf-LoBXeu8_k']
       }
     },
   DE:
@@ -215,10 +215,10 @@ var monthlyUrls = {
         month_key: ['Aug', '1nDhIHbKRnjcn__1TIyoDzsAgJ53WZYGVoRyt3X2Pi8Q']
       },
       month2_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Sep', '-']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Sep', '1AFbcZiIZRpdK8VdxnMe9K-mdFyRyoerE-CTT6vdjty0']
       },
       month1_codes: {
         user0:     [0, '1165085359', '1782605551'],
