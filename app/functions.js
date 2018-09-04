@@ -159,7 +159,7 @@ var monthlyUrls = {
       title: 'Carolina Logistic, Inc',
       name: '<th>CAROLINA LOGISTIC &nbsp<span>708305151783320</span></th>',
       month1_cards: {
-        user0:     [1, '686342087'],
+        user0:     [0, '686342087'],
         user1:     [1, '1995296890'],
         user2:     [1, '2117669368'],
         month_key: ['Aug', '1Z5WeJ_Lu827Ia9jlgpsVKn7ZOzlc7EkfuiVSM8mg6RE']
@@ -232,8 +232,8 @@ var monthlyUrls = {
 }
 
 // reporting drivers
-var repId = '697755337',
-    month = 'Aug';
+var repId = '1432498814',
+    month = 'Sep';
 var el_rd = '<a class="h" target="_blank" ' +
             'href="https://docs.google.com/spreadsheets/d/1b2g3BARa4ibqdqtTj5_IQoBSI8hp6A4R5A3bSbrfA58/edit#gid=' + repId + '">' +
             'Reporting Drivers <span>' + month + '</span></a>';
