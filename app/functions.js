@@ -21,7 +21,7 @@ var weeklyUrls = {
   top:
     {
       header:      'Sep 9 — Sep 15',
-      key:         '#',
+      key:         '1onTJWxXam4hqJwoEY6HWj7OXBbvr24iIaIDkMnF3RxE',
       collectorId: '914973738',
       linkId:      '978213208'
     },
