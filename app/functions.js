@@ -170,8 +170,8 @@ var monthlyUrls = {
       name: '<th>CAROLINA LOGISTIC &nbsp<span>708305151783320</span></th>',
       month1_cards: {
         user0:     [0, '686342087'],
-        user1:     [1, '1995296890'],
-        user2:     [1, '2117669368'],
+        user1:     [0, '1995296890'],
+        user2:     [0, '2117669368'],
         month_key: ['Aug', '1Z5WeJ_Lu827Ia9jlgpsVKn7ZOzlc7EkfuiVSM8mg6RE']
       },
       month2_cards: {
@@ -181,7 +181,7 @@ var monthlyUrls = {
         month_key: ['Sep', '1QCWWVbPVr6UbN6rGbJ85zVP-k3o_vFcrmmnD4InF1jA']
       },
       month1_codes: {
-        user0:     [1, '1165085359', '1782605551'],
+        user0:     [0, '1165085359', '1782605551'],
         month_key: ['Aug', '1evgxg0C-BkM9juH0n5P0odICToga4SK4oeSj1dGIrnY']
       },
       month2_codes: {
@@ -206,7 +206,7 @@ var monthlyUrls = {
         month_key: ['Sep', '1JrOiQbsnkiXY97YCCrJ0i_EGPGtQmE31-Jqf5xUnAS0']
       },
       month1_codes: {
-        user0:     [1, '1165085359', '1782605551'],
+        user0:     [0, '1165085359', '1782605551'],
         month_key: ['Aug', '1GAbzqNz-0aDjYQRUSt9i45c07jhQPTiHi0YcSRkVHOU']
       },
       month2_codes: {
@@ -345,7 +345,7 @@ function showMonthlyUrls(idx) {
         break;
       case dir.month1_codes.user0[0] > 0:
         var n = dir.month1_codes.user0[0];
-        pt7 += gHttp + dir.month1_codes.month_key[1] + idPointer + dir.month1_cards.user0[n] + '">';
+        pt7 += gHttp + dir.month1_codes.month_key[1] + idPointer + dir.month1_codes.user0[n] + '">';
         pt7 += dir.month1_codes.month_key[0] + '</a>';
     }
   }
@@ -357,7 +357,7 @@ function showMonthlyUrls(idx) {
         break;
       case dir.month2_codes.user0[0] > 0:
         var n = dir.month2_codes.user0[0];
-        pt8 += gHttp + dir.month2_codes.month_key[1] + idPointer + dir.month2_cards.user0[n] + '">';
+        pt8 += gHttp + dir.month2_codes.month_key[1] + idPointer + dir.month2_codes.user0[n] + '">';
         pt8 += dir.month2_codes.month_key[0] + '</a>';
     }
   }
