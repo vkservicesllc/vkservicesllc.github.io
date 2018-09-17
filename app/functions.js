@@ -20,15 +20,15 @@ var el = [], list = '',
 var weeklyUrls = {
   top:
     {
-      header:      'Sep 16 — Sep 22',
-      key:         '1w8CbjzLOVtQ-BJhdo5RzIxFqhsrZeSCcPKorX7opZq0',
+      header:      'Sep 23 — Sep 29',
+      key:         '#',
       collectorId: '914973738',
       linkId:      '978213208'
     },
   bottom:
     {
-      header:      'Sep 9 — Sep 15',
-      key:         '1onTJWxXam4hqJwoEY6HWj7OXBbvr24iIaIDkMnF3RxE',
+      header:      'Sep 16 — Sep 22',
+      key:         '1w8CbjzLOVtQ-BJhdo5RzIxFqhsrZeSCcPKorX7opZq0',
       collectorId: '914973738',
       linkId:      '978213208'
     },
@@ -73,6 +73,11 @@ var historyList = [
   {
     header:      ' — ',
     key:         '#',
+    id:          '1250765514'
+  },
+  {
+    header:      'Sep 9 — Sep 15',
+    key:         '1onTJWxXam4hqJwoEY6HWj7OXBbvr24iIaIDkMnF3RxE',
     id:          '1250765514'
   },
   {
