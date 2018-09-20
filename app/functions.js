@@ -21,7 +21,7 @@ var weeklyUrls = {
   top:
     {
       header:      'Sep 23 — Sep 29',
-      key:         '#',
+      key:         '1n2EEk44WA_KRJqLNzVaZDqTF7K0HNiOHWsXHtk-ifVw',
       collectorId: '914973738',
       linkId:      '978213208'
     },
@@ -148,21 +148,6 @@ var historyList = [
   {
     header:      'Jun 3 — Jun 9',
     key:         '1n8SzmWPte2hfX9-1oiyCSuS5nJQS-ElETJ8hE_Xia-M',
-    id:          '1250765514'
-  },
-  {
-    header:      'May 27 — Jun 2',
-    key:         '1yNe7nfNRMUxj9T-0CqFSn3qssPY2C5LdFpepyaBWTGc',
-    id:          '1250765514'
-  },
-  {
-    header:      'May 20 — May 26',
-    key:         '1AvdM6VwlSyMqg1yoU8lrltpNIPHMtknCe5e-LeaLiuU',
-    id:          '1250765514'
-  },
-  {
-    header:      'May 13 — May 19',
-    key:         '1i6O2U1IXQeTm4ePmfyIIIlyFXFXy87lKXFv0-0YbAu4',
     id:          '1250765514'
   },
 ];
