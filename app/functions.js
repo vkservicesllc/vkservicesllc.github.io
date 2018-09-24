@@ -20,15 +20,15 @@ var el = [], list = '',
 var weeklyUrls = {
   top:
     {
-      header:      'Sep 23 — Sep 29',
-      key:         '1n2EEk44WA_KRJqLNzVaZDqTF7K0HNiOHWsXHtk-ifVw',
+      header:      'Sep 30 — Oct 6',
+      key:         '#', // 1Pufb8yCXh0CNG5Kizm-jfyD2BV1dQyXlgQUXYP8ZrZM
       collectorId: '914973738',
       linkId:      '978213208'
     },
   bottom:
     {
-      header:      'Sep 16 — Sep 22',
-      key:         '1w8CbjzLOVtQ-BJhdo5RzIxFqhsrZeSCcPKorX7opZq0',
+      header:      'Sep 23 — Sep 29',
+      key:         '1n2EEk44WA_KRJqLNzVaZDqTF7K0HNiOHWsXHtk-ifVw',
       collectorId: '914973738',
       linkId:      '978213208'
     },
@@ -54,14 +54,14 @@ var weeklyUrls = {
           if (dir.key != '#') {
             val = linkBuilder + dir.collectorId + '">' + 'URL Collector</a>';
           } else {
-            val = linkBuilder + '#"></a>URL Collector'
+            val = linkBuilder + '#"></a>URL Collector';
           }
           break;
         case 2:
           if (dir.key != '#') {
             val = linkBuilder + dir.linkId + '">' + 'Payroll Hyperlinks</a>';
           } else {
-            val = linkBuilder + '#"></a>Payroll Hyperlinks'
+            val = linkBuilder + '#"></a>Payroll Hyperlinks';
           }
       }
       return val;
@@ -73,6 +73,11 @@ var historyList = [
   {
     header:      ' — ',
     key:         '#',
+    id:          '1250765514'
+  },
+  {
+    header:      'Sep 16 — Sep 22',
+    key:         '1w8CbjzLOVtQ-BJhdo5RzIxFqhsrZeSCcPKorX7opZq0',
     id:          '1250765514'
   },
   {
@@ -130,26 +135,6 @@ var historyList = [
     key:         '1vWTfjW7OPc5ref78iwDh_5QuU5e1ZHNCS9TCuzT4LL0',
     id:          '1250765514'
   },
-  {
-    header:      'Jun 24 — Jun 30',
-    key:         '1_gwST1RzMGhwLuidUq7X-t8H2R8IwS_QtVl-SuCcgsU',
-    id:          '1250765514'
-  },
-  {
-    header:      'Jun 17 — Jun 23',
-    key:         '1PMy5j5UpwonOSoMpnSswelh4iq9gw7ry9F51IQzStpk',
-    id:          '1250765514'
-  },
-  {
-    header:      'Jun 10 — Jun 16',
-    key:         '1xAdGWQPos7Wa-DqPSKpIcvuMwtbWYHVTLm3Yd6aR-RE',
-    id:          '1250765514'
-  },
-  {
-    header:      'Jun 3 — Jun 9',
-    key:         '1n8SzmWPte2hfX9-1oiyCSuS5nJQS-ElETJ8hE_Xia-M',
-    id:          '1250765514'
-  },
 ];
 
 // monthly URLs
@@ -168,7 +153,7 @@ var monthlyUrls = {
         user0:     [0, '686342087'],
         user1:     [0, '1995296890'],
         user2:     [0, '2117669368'],
-        month_key: ['Oct', '-']
+        month_key: ['Oct', '1iGfQHOCjvbpy-oY6LDaKmbzh8yLIw6ECGF-KTKHDbbM']
       },
       month1_codes: {
         user0:     [1, '1165085359', '1782605551'],
@@ -176,7 +161,7 @@ var monthlyUrls = {
       },
       month2_codes: {
         user0:     [0, '1165085359', '1782605551'],
-        month_key: ['Oct', '-']
+        month_key: ['Oct', '1DgqMnLzN6I85wUdkM8YKSbTk5Mp9kJdGb-rLZWHsfXY']
       }
     },
   CT:
@@ -193,7 +178,7 @@ var monthlyUrls = {
         user0:     [0, '686342087'],
         user1:     [0, '1995296890'],
         user2:     [0, '2117669368'],
-        month_key: ['Oct', '-']
+        month_key: ['Oct', '1n9RDORRFa7HgjHqKE_ELi-vKA75IVzMNpOYYsuWkxJQ']
       },
       month1_codes: {
         user0:     [1, '1165085359', '1782605551'],
@@ -201,7 +186,7 @@ var monthlyUrls = {
       },
       month2_codes: {
         user0:     [0, '1165085359', '1782605551'],
-        month_key: ['Oct', '-']
+        month_key: ['Oct', '1axHhWC77PrYxQgBYwLO5BtfyTfI_LiPdYNMoku-JJ70']
       }
     },
   DE:
@@ -218,7 +203,7 @@ var monthlyUrls = {
         user0:     [0, '686342087'],
         user1:     [0, '1995296890'],
         user2:     [0, '2117669368'],
-        month_key: ['Oct', '-']
+        month_key: ['Oct', '1mxNC1B3zz1MwwKthZUJyw_7ANA8j9Exoddv-wSqFt_o']
       },
       month1_codes: {
         user0:     [0, '1165085359', '1782605551'],
