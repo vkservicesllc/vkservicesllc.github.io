@@ -16,12 +16,19 @@ var el = [], list = '',
     user1 = '<span>Helen</span>',
     user2 = '<span>Joyce</span>';
 
+// timer
+var wkEffDt = new Date('2018-09-28'),
+    mnEffDt = new Date('2018-09-28'),
+    today = new Date(),
+    weeklyTopKey = (today >= wkEffDt) ? '1Pufb8yCXh0CNG5Kizm-jfyD2BV1dQyXlgQUXYP8ZrZM' : '#',
+    mI = (today >= mnEffDt) ? 1 : 0;
+
 // weekly URLS
 var weeklyUrls = {
   top:
     {
       header:      'Sep 30 — Oct 6',
-      key:         '#', // 1Pufb8yCXh0CNG5Kizm-jfyD2BV1dQyXlgQUXYP8ZrZM
+      key:         weeklyTopKey,
       collectorId: '914973738',
       linkId:      '978213208'
     },
@@ -150,9 +157,9 @@ var monthlyUrls = {
         month_key: ['Sep', '1QCWWVbPVr6UbN6rGbJ85zVP-k3o_vFcrmmnD4InF1jA']
       },
       month2_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
+        user0:     [mI, '686342087'],
+        user1:     [mI, '1995296890'],
+        user2:     [mI, '2117669368'],
         month_key: ['Oct', '1iGfQHOCjvbpy-oY6LDaKmbzh8yLIw6ECGF-KTKHDbbM']
       },
       month1_codes: {
@@ -160,7 +167,7 @@ var monthlyUrls = {
         month_key: ['Sep', '1VRiexm8ouME8GutSM9Xck0AYiedbwGVWsF4CkXaJIT4']
       },
       month2_codes: {
-        user0:     [0, '1165085359', '1782605551'],
+        user0:     [mI, '1165085359', '1782605551'],
         month_key: ['Oct', '1DgqMnLzN6I85wUdkM8YKSbTk5Mp9kJdGb-rLZWHsfXY']
       }
     },
@@ -175,9 +182,9 @@ var monthlyUrls = {
         month_key: ['Sep', '1JrOiQbsnkiXY97YCCrJ0i_EGPGtQmE31-Jqf5xUnAS0']
       },
       month2_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
+        user0:     [mI, '686342087'],
+        user1:     [mI, '1995296890'],
+        user2:     [mI, '2117669368'],
         month_key: ['Oct', '1n9RDORRFa7HgjHqKE_ELi-vKA75IVzMNpOYYsuWkxJQ']
       },
       month1_codes: {
@@ -185,7 +192,7 @@ var monthlyUrls = {
         month_key: ['Sep', '1wJiBqNlMp64yuUbZtGGLfN4VrV6eSPoCf-LoBXeu8_k']
       },
       month2_codes: {
-        user0:     [0, '1165085359', '1782605551'],
+        user0:     [mI, '1165085359', '1782605551'],
         month_key: ['Oct', '1axHhWC77PrYxQgBYwLO5BtfyTfI_LiPdYNMoku-JJ70']
       }
     },
@@ -200,9 +207,9 @@ var monthlyUrls = {
         month_key: ['Sep', '1AFbcZiIZRpdK8VdxnMe9K-mdFyRyoerE-CTT6vdjty0']
       },
       month2_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
+        user0:     [mI, '686342087'],
+        user1:     [mI, '1995296890'],
+        user2:     [mI, '2117669368'],
         month_key: ['Oct', '1mxNC1B3zz1MwwKthZUJyw_7ANA8j9Exoddv-wSqFt_o']
       },
       month1_codes: {
@@ -210,7 +217,7 @@ var monthlyUrls = {
         month_key: ['Aug', '#']
       },
       month2_codes: {
-        user0:     [0, '1165085359', '1782605551'],
+        user0:     [mI, '1165085359', '1782605551'],
         month_key: ['Sep', '#']
       }
     }
