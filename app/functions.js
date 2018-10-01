@@ -229,8 +229,8 @@ var monthlyUrls = {
 }
 
 // reporting drivers
-var repId = '1432498814',
-    month = 'Sep';
+var repId = '1627254794',
+    month = 'Oct';
 var el_rd = '<a class="h" target="_blank" ' +
             'href="https://docs.google.com/spreadsheets/d/1b2g3BARa4ibqdqtTj5_IQoBSI8hp6A4R5A3bSbrfA58/edit#gid=' + repId + '">' +
             'Reporting Drivers <span>' + month + '</span></a>';
@@ -246,7 +246,7 @@ for (var j = 1; j <= 12; j++) {
   list += '<li><a class="h" target="_blank" href="' +
           gHttp + historyList[j].key +
           idPointer + historyList[j].id + '">' +
-          historyList[j].header + '</a></li>'
+          historyList[j].header + '</a></li>';
 }
 list = list.concat(
   '<li style="background: beige;"><a class="h" target="_blank" ' +
