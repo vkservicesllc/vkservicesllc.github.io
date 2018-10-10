@@ -80,7 +80,7 @@ ul.right {
 nav#top a {
   display: block;
   padding: 7.4px 10.64px;
-  background: black;
+  background-image: linear-gradient(navy, black);
   color: lightblue;
   border-right: 1px solid gray;
   border-bottom: 1px solid gray;
@@ -149,7 +149,7 @@ nav#top .sub1 li:hover .sub2 li:hover .sub6 {
 }
 
 nav#top a.h:hover {
-  background: green;
+  background-image: linear-gradient(green, black);
   color: yellow;
   text-shadow: 0.4px 0.4px 0.2px lightgray;
 }
