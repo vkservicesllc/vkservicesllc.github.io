@@ -161,12 +161,15 @@ fieldset.favs {
   top: 64px;
   padding: 24px 24px 36px 24px;
   background: azure;
-  /* border: 1px solid lightblue; */
   box-shadow: 1.2px 1.2px 8px #888888,
-              -0.2px -0.2px 7px #888888;
+              -0.8px -0.8px 7px #888888;
   border-radius: 12px;
   font-weight: bold;
   letter-spacing: 0.4px;
+}
+
+fieldset.favs:hover {
+  box-shadow: 0px 0px 16px darkgreen;
 }
 
 fieldset.favs legend {
@@ -178,7 +181,7 @@ fieldset.favs legend {
   letter-spacing: 0.62px;
   border-radius: 17px 9px 17px 9px;
   box-shadow: 1.8px 2.4px 7px #888888,
-              -0.4px -0.4px 8px #888888;
+              -0.5px -0.5px 8px #888888;
 }
 
 fieldset.favs table {
