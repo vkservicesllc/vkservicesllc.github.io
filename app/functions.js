@@ -207,7 +207,7 @@ var monthlyUrls = {
       name: '<th>CAROLINA TRANSPORTATION &nbsp<span>70830515178290</span></th>',
       month1_cards: {
         user0:     [0, '686342087'],
-        user1:     [1, '1995296890'],
+        user1:     [0, '1995296890'],
         user2:     [0, '2117669368'],
         month_key: ['Oct', '1n9RDORRFa7HgjHqKE_ELi-vKA75IVzMNpOYYsuWkxJQ']
       },
