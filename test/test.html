@@ -7,11 +7,36 @@
       margin: 64px auto;
       font-family: Arial;
     }
+    table { border-collapse: collapse; }
+    th, tr { border: 1px solid black; }
   </style>
 </head>
 <body>
-  <h2>This is test page</h2>
-  <button>Test Button</button>
+  <h5>This is test page</h5>
+  <button onclick="displayInfo()">Test Button</button>
   <div id="output"></div>
+  <script>
+    function displayInfo() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = funtion() {
+        if (this.readyState == 4 && this.status == 200) {
+          var data = JSON.parse(this.responseText),
+              keys = Object.keys(data), len = keys.length,
+              content = '<table><tr>';
+          for (var i = 0; i < len; i++) {
+            content += '<th>' + keys[i] + '</th>';
+            if (i == len) content += '</tr><tr>';
+          }
+          for (var j = 0; j < len; j++) {
+            content += '<td>' + data[keys[j]] + '</td>';
+            if (j == len) content += '</tr></table>';
+          }
+          document.getElementById('output').innerHTML = content;
+        }
+      };
+      xhttp.open('GET', 'test.json', true);
+      xhttp.send();
+    }
+  </script>
 </body>
 </html>
