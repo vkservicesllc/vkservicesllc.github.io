@@ -1,4 +1,4 @@
-// (funtion() { console.log('jsonCap.js is running...'); }());
+console.log('jsonCap.js is running...');
 
 function captureJSON() {
   var xhr = new XMLHttpRequest();
