@@ -1,44 +1,48 @@
 <!DOCTYPE html>
-<head>
-  <title>Test Document</title>
-  <style>
-    body {
-      width: 640px;
-      margin: 64px auto;
-      font-family: Arial;
-    }
-    table { border-collapse: collapse; }
-    th, tr { border: 1px solid black; }
-  </style>
-</head>
+<html>
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
 <body>
-  <h5>This is test page</h5>
-  <button type="button" onclick="displayInfo()">Test Button</button>
-  <div id="output"></div>
-  <script>
-    function displayInfo() {
-      alert('function is running...');
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = funtion() {
-        if (this.readyState == 4 && this.status == 200) {
-          console.log('response received');
-          var data = JSON.parse(this.responseText),
-              keys = Object.keys(data), len = keys.length,
-              content = '<table><tr>';
-          for (var i = 0; i < len; i++) {
-            content += '<th>' + keys[i] + '</th>';
-            if (i == len) content += '</tr><tr>';
-          }
-          for (var j = 0; j < len; j++) {
-            content += '<td>' + data[keys[j]] + '</td>';
-            if (j == len) content += '</tr></table>';
-          }
-          document.getElementById('output').innerHTML = content;
-        }
-      };
-      xhttp.open('GET', 'test.json', true);
-      xhttp.send();
+
+<h2>The XMLHttpRequest Object</h2>
+
+<button type="button" onclick="loadDoc()">Get my CD collection</button>
+<br><br>
+<table id="demo"></table>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
     }
-  </script>
+  };
+  xhttp.open("GET", "cd_catalog.xml", true);
+  xhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Artist</th><th>Title</th></tr>";
+  var x = xmlDoc.getElementsByTagName("CD");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+
 </body>
 </html>
