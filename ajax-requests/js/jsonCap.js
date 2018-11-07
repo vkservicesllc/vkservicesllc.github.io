@@ -25,6 +25,6 @@ function captureJSON() {
       console.log('Connection to Server succeeded. Content was not received due to error.');
     }
   };
-  xhr.open('GET', '../files/jsonData.json', true);
+  xhr.open('GET', 'files/jsonData.json', true);
   xhr.send();
 }
