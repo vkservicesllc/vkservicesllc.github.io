@@ -1,18 +1,16 @@
-console.log('jsonCap.js is running...');
+console.log('jsonCap.js has loaded...');
 
 function captureJSON() {
   var xhr = new XMLHttpRequest();
   xhr.onload = function() {
     var div = document.getElementById('capturedJSON'),
         content = '',
-        check = div.innerHTML === content;
-    console.log(check);
+        check = div.innerHTML == content;
     if (check) {
       if (xhr.status >= 200 && xhr.status < 400) {
         var respObj = JSON.parse(xhr.responseText),
             len = respObj.length,
             i;
-        console.log(xhr.responseText);
         content += '<table><tr><th>Company</th>';
         content += '<th>First Name</th><th>Last Name</th><th>Title</th></tr>';
         for (i = 0; i < len; i++) {
