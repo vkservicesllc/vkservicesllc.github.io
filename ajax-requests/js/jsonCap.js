@@ -1,6 +1,6 @@
 function captureJSON() {
   var xhr = new XMLHttpRequest();
-  xhr.onload = funtion() {
+  xhr.onload = function() {
     if (xhr.status >= 200 && xhr.status < 400) {
       var div = document.getElementById('capturedJSON'),
           content = '',
