@@ -3,7 +3,9 @@ console.log('jsonCap.js has loaded...');
 function captureJSON() {
   var xhr = new XMLHttpRequest();
   xhr.onload = function() {
-    var div = document.getElementById('capturedJSON'),
+    var btn = document.getElementsByTag('button')[0],
+        btnTxt = btn.textContent,
+        div = document.getElementById('capturedJSON'),
         content = '',
         check = div.innerHTML == content;
     if (check) {
@@ -20,11 +22,13 @@ function captureJSON() {
           content += '<td>' + respObj[i].Title + '</td></tr>';
           if (i == len) content += '</table>';
         }
+        btnTxt = btnTxt.replace('capture', 'hide');
       } else {
         console.log('Connection to Server succeeded. Content was not received due to error.');
       }
     }
     div.innerHTML = content;
+    btn.textContent = btnTxt;
   };
   xhr.open('GET', 'files/jsonData.json', true);
   xhr.send();
