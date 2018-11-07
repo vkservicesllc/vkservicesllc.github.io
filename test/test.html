@@ -17,6 +17,7 @@
   <br />
   <button type="button" onclick="loadHTML()">Load LinkBoard</button>
 <div id="demo"></div>
+<script id="fetchScript"></script>
 
 <script>
   function loadHTML() {
@@ -28,15 +29,11 @@
     };
     http.open("GET", "../rpm/linkboard.html", true);
     http.send();
+    document.getElementById('fetchScript').setAttribute('src', '../app/functions.js'>;
   }
   function myFunction(data) {
     document.getElementById("demo").innerHTML = data.responseText;
   }
-</script>
-  
-<script id="fetchScript"></script>
-<script>
-  document.getElementById('fetchScript').setAttribute('src', '../app/functions.js'>;
 </script>
 
 </body>
