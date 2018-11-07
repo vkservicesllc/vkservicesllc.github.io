@@ -1,0 +1,16 @@
+* {
+  font-family: Arial;
+}
+body {
+  margin: 24px auto;
+  width: 870px;
+}
+table {
+  margin-top: 12px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 4px 9px;
+  border: 1px solid black;
+}
