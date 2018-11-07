@@ -22,11 +22,11 @@ function captureJSON() {
           content += '<td>' + respObj[i].Title + '</td></tr>';
           if (i == len) content += '</table>';
         }
-        div.innerHTML = content;
       } else {
         console.log('Connection to Server succeeded. Content was not received due to error.');
       }
     }
+    div.innerHTML = content;
   };
   xhr.open('GET', 'files/jsonData.json', true);
   xhr.send();
