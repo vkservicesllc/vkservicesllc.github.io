@@ -8,6 +8,7 @@
     <style>
       #demo {
         width: 1200px;
+        height: 100%;
         margin: 9px auto;
         border: 2px solid blue;
       }
@@ -20,8 +21,6 @@
 <button type="button" onclick="loadHTML()">Get LinkBoard</button>
 <br><br>
 <div id="demo"></div>
-  
-  <script src="../app/functions.js"></script>
 
 <script>
 function loadHTML() {
@@ -38,6 +37,8 @@ function myFunction(data) {
   document.getElementById("demo").innerHTML = data.responseText;
 }
 </script>
+  
+<script src="../app/functions.js"></script>
 
 </body>
 </html>
