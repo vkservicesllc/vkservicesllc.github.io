@@ -19,23 +19,25 @@
 <div id="demo"></div>
 
 <script>
-function loadHTML() {
-  var http = new XMLHttpRequest();
-  http.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      myFunction(this);
-    }
-  };
-  http.open("GET", "../rpm/linkboard.html", true);
-  http.send();
-}
-function myFunction(data) {
-  document.getElementById("demo").innerHTML = data.responseText;
-  document.getElementById('fetchScript').addAttribute('src', '../app/functions.js'>;
-}
+  function loadHTML() {
+    var http = new XMLHttpRequest();
+    http.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
+      }
+    };
+    http.open("GET", "../rpm/linkboard.html", true);
+    http.send();
+  }
+  function myFunction(data) {
+    document.getElementById("demo").innerHTML = data.responseText;
+  }
 </script>
   
 <script id="fetchScript"></script>
+<script>
+  document.getElementById('fetchScript').addAttribute('src', '../app/functions.js'>;
+</script>
 
 </body>
 </html>
