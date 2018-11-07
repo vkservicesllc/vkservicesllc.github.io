@@ -17,9 +17,11 @@
   <div id="output"></div>
   <script>
     function displayInfo() {
+      console.log('function is running...');
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = funtion() {
         if (this.readyState == 4 && this.status == 200) {
+          console.log('response received');
           var data = JSON.parse(this.responseText),
               keys = Object.keys(data), len = keys.length,
               content = '<table><tr>';
