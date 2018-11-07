@@ -3,7 +3,7 @@ console.log('jsonCap.js has loaded...');
 function captureJSON() {
   var xhr = new XMLHttpRequest();
   xhr.onload = function() {
-    var btn = document.getElementsByTag('button')[0],
+    var btn = document.getElementsByTagName('button')[0],
         btnTxt = btn.textContent,
         div = document.getElementById('capturedJSON'),
         content = '',
