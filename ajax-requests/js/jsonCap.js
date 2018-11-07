@@ -6,6 +6,7 @@ function captureJSON() {
     var div = document.getElementById('capturedJSON'),
         content = '',
         check = div.innerHTML === content;
+    console.log(check);
     if (check) {
       if (xhr.status >= 200 && xhr.status < 400) {
         var respObj = JSON.parse(xhr.responseText),
