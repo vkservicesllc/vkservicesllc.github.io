@@ -6,7 +6,7 @@ function captureJSON() {
           content = '',
           respObj = JSON.parse(xhr.responseText),
           len = respObj.length,
-          var i;
+          i;
       console.log(xhr.responseText);
       content += '<table><tr><th>Company</th>';
       content += '<th>First Name</th><th>Last Name</th><th>Title</th></tr>';
