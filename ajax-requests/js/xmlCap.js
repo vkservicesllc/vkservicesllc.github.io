@@ -15,9 +15,9 @@ function captureXML() {
         content += '<table><tr><th colspan="3">COMPANY EXPENSE</th></tr>';
         content += '<tr><th>Category</th><th>Group</th><th>File<br>for<br>Tax</th></tr>';
         for (var d = 0; d < data.length; d++) {
-          var checked = (data[d].childNodes[3].textContent == 'true') ? ' checked' : '';
-          content += '<tr><td>' + data[d].childNodes[1].textContent + '</td>';
-          content += '<td>' + data[d].childNodes[2].textContent + '</td>';
+          var checked = (data[d].getElementsByTagName('company')[0].textContent == 'true') ? ' checked' : '';
+          content += '<tr><td>' + data[d].getElementsByTagName('category')[0].textContent + '</td>';
+          content += '<td>' + data[d].getElementsByTagName('group')[0].textContent + '</td>';
           content += '<td><input type="checkbox"' + checked + '></td></tr>';
         }
         content += '</table>';
