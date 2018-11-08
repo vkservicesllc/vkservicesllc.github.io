@@ -11,8 +11,8 @@ function captureXML() {
         check = div.innerHTML == content;
     if (check) {
       if (xhr.status >= 200 && xhr.status < 400) {
-        var data = xhr.responseXML,
-            c;
+        var data = xhr.responseXML;
+        
       }
         btnTxt = btnTxt.replace('capture', 'hide');
       } else {
