@@ -1,26 +1,32 @@
 [
   {
-    "Company": "CAROLINA LOGISTIC, INC.",
+    "Company": "CAROLINA LOGISTIC, INC",
     "First Name": "Valentin",
     "Last Name": "Khoroshkov",
     "Title": "Driver Payroll"
   },
   {
-    "Company": "CAROLINA LOGISTIC, INC.",
+    "Company": "CAROLINA LOGISTIC, INC",
     "First Name": "Daniel",
     "Last Name": "Pilyev",
     "Title": "IT Manager"
   },
   {
-    "Company": "CAROLINA LOGISTIC, INC.",
+    "Company": "CAROLINA LOGISTIC, INC",
     "First Name": "Bob",
     "Last Name": "Tumash",
     "Title": "Dispatcher"
   },
   {
-    "Company": "CAROLINA LOGISTIC, INC.",
+    "Company": "CAROLINA LOGISTIC, INC",
     "First Name": "Kevin",
     "Last Name": "Bondarenko",
     "Title": "Insurance"
+  },
+  {
+    "Company": "DELTA EXPRESS, INC",
+    "First Name": "Paul",
+    "Last Name": "Radchishin",
+    "Title": "Accounting"
   }
 ]
