@@ -14,12 +14,12 @@ function captureJSON() {
             len = respObj.length,
             i;
         content += '<table><tr><th>Company</th>';
-        content += '<th>First Name</th><th>Last Name</th><th>Title</th></tr>';
+        content += '<th>First Name</th><th>Last Name</th><th>Title</th><th></th></tr>';
         for (i = 0; i < len; i++) {
           content += '<tr><td>' + respObj[i].Company + '</td>';
           content += '<td>' + respObj[i]['First Name'] + '</td>';
           content += '<td>' + respObj[i]['Last Name'] + '</td>';
-          content += '<td>' + respObj[i].Title + '</td></tr>';
+          content += '<td>' + respObj[i].Title + '</td><td><input type="checkbox" checked></td></tr>';
           if (i == len) content += '</table>';
         }
         btnTxt = btnTxt.replace('capture', 'hide');
