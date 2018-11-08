@@ -11,7 +11,7 @@ function captureXML() {
         check = div.innerHTML == content;
     if (check) {
       if (xhr.status >= 200 && xhr.status < 400) {
-        var data = xhr.responseXML.getElementsByTagNames('expense');
+        var data = xhr.responseXML.getElementsByTagName('expense');
         content += '<table><tr><th colspan="3">COMPANY EXPENSE</th></tr>';
         content += '<tr><th>Category</th><th>Group</th>File<br>for<br>Tax</th></tr>';
         for (var d = 0; d < data.length; d++) {
