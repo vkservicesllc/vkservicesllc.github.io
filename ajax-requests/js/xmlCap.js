@@ -22,6 +22,8 @@ function captureXML() {
         }
         content += '</table>';
         btnTxt = btnTxt.replace('capture', 'hide');
+        var rh = xhr.getAllResponseHeaders();
+        console.log(rh);
       } else {
         console.log('Connection to Server succeeded. Content was not received due to error.');
       }
