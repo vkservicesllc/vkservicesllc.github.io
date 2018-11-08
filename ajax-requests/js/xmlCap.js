@@ -21,7 +21,6 @@ function captureXML() {
           content += '<td><input type="checkbox"' + checked + '></td></tr>';
         }
         content += '</table>';
-      }
         btnTxt = btnTxt.replace('capture', 'hide');
       } else {
         console.log('Connection to Server succeeded. Content was not received due to error.');
