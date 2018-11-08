@@ -26,6 +26,8 @@ function captureJSON() {
       } else {
         console.log('Connection to Server succeeded. Content was not received due to error.');
       }
+    } else {
+      btnTxt = btnTxt.replace('hide', 'capture');
     }
     div.innerHTML = content;
     btn.textContent = btnTxt;
