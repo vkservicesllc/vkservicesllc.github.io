@@ -1,0 +1,32 @@
+<content>
+  <expense>
+    <category>Truck Diesel</category>
+    <group>FUEL</group>
+    <company>true</company>
+  </expense>
+  <expense>
+    <category>Reefer Diesel</category>
+    <group>FUEL</group>
+    <company>true</company>
+  </expense>
+  <expense>
+    <category>Scale</category>
+    <group>MISC</group>
+    <company>true</company>
+  </expense>
+  <expense>
+    <category>Lumper</category>
+    <group>MISC</group>
+    <company>false</company>
+  </expense>
+  <expense>
+    <category>Parts</category>
+    <group>MAINTENANCE</group>
+    <company>true</company>
+  </expense>
+  <expense>
+    <category>Cash Fee</category>
+    <group>FEES</group>
+    <company>true</company>
+  </expense>
+</content>
