@@ -17,25 +17,25 @@ var el = [], list = '',
     user2 = '<span>Joyce</span>';
 
 // timers / decisions
-var wkEffDt = new Date('2018-11-17'),
+var wkEffDt = new Date('2018-11-24'),
     mnEffDt = new Date('2018-10-31'),
     today = new Date(),
-    weeklyTopKey = (today >= wkEffDt) ? '1A_2qNLSE8qO8JzrXUj6FVQ2BhqjTthrmF7YfM4fPMtk' : '#',
+    weeklyTopKey = (today >= wkEffDt) ? '1ng5y3VpoZHbA301r5Yj3jDXlsgUCjLazt0iFDfumY0Q' : '#',
     mI = (today >= mnEffDt) ? 1 : 0;
 
 // weekly URLS
 var weeklyUrls = {
   top:
     {
-      header:      'Nov 18 — Nov 24',
+      header:      'Nov 25 — Dec 1',
       key:         weeklyTopKey,
       collectorId: '914973738',
       linkId:      '978213208'
     },
   bottom:
     {
-      header:      'Nov 11 — Nov 17',
-      key:         '1XXzAh2Z-7ET9sVugRZ8wBJukZ8KbDuytDXj-WxD9mo4',
+      header:      'Nov 18 — Nov 24',
+      key:         '1A_2qNLSE8qO8JzrXUj6FVQ2BhqjTthrmF7YfM4fPMtk',
       collectorId: '914973738',
       linkId:      '978213208'
     },
@@ -80,6 +80,11 @@ var historyList = [
   {
     header:      ' — ',
     key:         '#',
+    id:          '1250765514'
+  },
+  {
+    header:      'Nov 11 — Nov 17',
+    key:         '1XXzAh2Z-7ET9sVugRZ8wBJukZ8KbDuytDXj-WxD9mo4',
     id:          '1250765514'
   },
   {
