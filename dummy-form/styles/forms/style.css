@@ -1,0 +1,132 @@
+@import url('../reset_EM-2.0.css');
+@import url('https://fonts.googleapis.com/css?family=Abel|Prompt|Roboto+Condensed|Ubuntu');
+
+
+
+/* Basic */
+
+* {
+  cursor: default;
+}
+body {
+  width: 740px;
+  margin: 0 auto;
+  background: rgb(240,240,240);
+  font-family: 'Abel', sans-serif;
+}
+
+
+
+/* Fieldset */
+
+fieldset, legend {
+  box-shadow: 0 0 9px gray;
+  border: 1px solid gray;
+  background: rgb(232,232,232);
+}
+fieldset {
+  margin-top: 67px;
+  border-radius: 9px;
+  padding: 45px 57px;
+}
+legend {
+  border-radius: 15px 5px;
+  padding: 12px 28px;
+  text-shadow: 0 0 2px gray;
+  font-family: 'Prompt', sans-serif;
+  font-size: 112%;
+  letter-spacing: 0.5px;
+}
+
+
+
+
+/* Labels */
+
+label {
+  display: inline-block;
+  width: 150px;
+  padding-right: 12px;
+  text-shadow: 0 0 1px gray;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 0.4px;
+  text-align: right;
+}
+.subLab {
+  font-size: 69%;
+}
+
+
+
+
+/* Inputs & Select*/
+
+input[type=text],
+input[type=email],
+input[type=password],
+select {
+  width: 320px;
+  margin-bottom: 9px;
+  border: 1px solid gray;
+  box-shadow: inset 0 0 2px gray;
+  border-radius: 6px;
+  padding: 7px 12px;
+  background: rgb(248,248,248);
+  color: blue;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 112%;
+  font-weight: bold;
+}
+input[type=checkbox] {
+  cursor: auto;
+  position: relative;
+  top: 3px;
+  left: -3px;
+  margin-bottom: 16px;
+}
+input {
+  cursor: text;
+}
+select {
+  height: 42px;
+  margin-top: 9px;
+}
+option {
+  color: blue;
+  font-weight: bold;
+}
+::placeholder, .placeholder {
+  color: #00e6e6;
+  font-weight: normal;
+}
+::placeholder {
+  font-size: 87%;
+  font-style: italic;
+}
+input:focus, select:focus {
+  outline: none;
+  background: #e6f0ff;
+}
+input:focus:not([type=checkbox]) {
+  border: 1px solid blue;
+  box-shadow: inset 0 0 4px blue;
+}
+
+
+
+/* Misc */
+
+#acm {
+  padding: 0 4px 24px 132px;
+  color: gray;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+#acm span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+/**/

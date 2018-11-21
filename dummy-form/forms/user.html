@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>New User Registration</title>
+    <meta name="author" content="VK Services, LLC">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/icons/main.ico">
+    <link rel="stylesheet" type="text/css" href="../styles/forms/style.css">
+  </head>
+  <body>
+    <fieldset>
+      <legend align="center">New User Registration</legend>
+      <form action="" method="post">
+        <label class="subLab" for="acs">Autocorrector</label><input type="checkbox" id="acs" checked><br />
+        <label for="fn">First (Real) Name</label><input type="text" id="fn" name="firstName"><br />
+        <label for="sn">Pseudo Name</label><input type="text" id="sn" name="pseudoName"><br />
+        <label for="ln">Last Name</label><input type="text" id="ln" name="lastName"><br />
+        <p id="acm"></p>
+        <label for="un">User Name</label><input type="text" id="un" name="userName"><br />
+        <label for="em">Email</label><input type="text" id="em" name="email"><br />
+        <label for="pw">Password</label><input type="password" id="pw" name="password"><br />
+        <label for="pc">Confirmation</label><input type="password" id="pc"><br />
+        <label>Department / Position</label>
+        <select id="slct" name="position">
+          <option selected disabled hidden>select title</option>
+        </select>
+        <!-- <button type="button">Sign up</button> -->
+      </form>
+    </fieldset>
+    <script src="../functionality/form-user.js"></script>
+  </body>
+</html>
