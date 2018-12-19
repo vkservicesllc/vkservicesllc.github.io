@@ -209,7 +209,7 @@ var monthlyUrls = {
   CL:
     {
       title: 'Carolina Logistic, Inc',
-      name: '<th>CAROLINA LOGISTIC &nbsp<span>708305151783320</span></th>',
+      name: '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
       month1_cards: {
         user0:     [0, '686342087'],
         user1:     [0, '1995296890'],
