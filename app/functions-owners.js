@@ -22,7 +22,7 @@ const urls = {
   },
   'PRECISE TRANSPORTATION, Inc': {
     id: '70830517302433',
-    period1: '#',
+    period1: 'https://docs.google.com/spreadsheets/d/1i57ZntMon-Yb6eZ7PqdnUthknyS0IFS-Oqp_sZiAE_I/edit#gid=1165085359',
     period2: '#',
   },
   'RAINIER TRANSPORTATION, Inc': {
