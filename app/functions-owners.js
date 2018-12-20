@@ -12,7 +12,7 @@ const urls = {
   },
   'DELTA LOGISTICS, Inc': {
     id: '70830517302592',
-    period1: '#',
+    period1: 'https://docs.google.com/spreadsheets/d/1Wa55QZVf228iss4qS-wmKJYZkS9tOWL_YzAQlJowGuY/edit#gid=1165085359',
     period2: '#',
   },
   'ONTRACK TRANSPORTATION, Inc': {
