@@ -17,25 +17,25 @@ var el = [], list = '',
     user2 = '<span>Joyce</span>';
 
 // timers / decisions
-var wkEffDt = new Date('2018-12-22'),
-    mnEffDt = new Date('2018-12-01'),
+var wkEffDt = new Date('2018-12-29'),
+    mnEffDt = new Date('2018-12-29'),
     today = new Date(),
-    weeklyTopKey = (today >= wkEffDt) ? '1NKyun7xNhFPTKtt7PDqLQAr5AwZqxt1B6BYLOYsnKtI' : '#',
+    weeklyTopKey = (today >= wkEffDt) ? '1TMc9yBcQ0e3xXAfCOf1JSjKPJAnYLmhyb93lStgHBF4' : '#',
     mI = (today >= mnEffDt) ? 1 : 0;
 
 // weekly URLS
 var weeklyUrls = {
   top:
     {
-      header:      'Dec 23 — Dec 29',
+      header:      'Dec 30 — Jan 5',
       key:         weeklyTopKey,
       collectorId: '914973738',
       linkId:      '978213208'
     },
   bottom:
     {
-      header:      'Dec 16 — Dec 22',
-      key:         '1AOztmo9umzL-32Yk7T-12L-9EKYPgYnWeKR69UD4Lu0',
+      header:      'Dec 23 — Dec 29',
+      key:         '1NKyun7xNhFPTKtt7PDqLQAr5AwZqxt1B6BYLOYsnKtI',
       collectorId: '914973738',
       linkId:      '978213208'
     },
@@ -80,6 +80,11 @@ var historyList = [
   {
     header:      ' — ',
     key:         '#',
+    id:          '1250765514'
+  },
+  {
+    header:      'Dec 16 — Dec 22',
+    key:         '1AOztmo9umzL-32Yk7T-12L-9EKYPgYnWeKR69UD4Lu0',
     id:          '1250765514'
   },
   {
@@ -211,24 +216,24 @@ var monthlyUrls = {
       title: 'Carolina Logistic, Inc',
       name: '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
       month1_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Nov', '1_2O8iuEPL09N5B5sLeWjbVL1KU23gzlbSGIR6ZmwOLw']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Dec', '1xDiOwqnJ_YrDiN0SfFcwCOmWkDx99ZYwWFjuaLUtn2k']
       },
       month2_cards: {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Dec', '1xDiOwqnJ_YrDiN0SfFcwCOmWkDx99ZYwWFjuaLUtn2k']
+        month_key: ['Jan', '1vljEzUZObrOxJJtcgL-LIh8KhtRAKyUHNp06qvkureo']
       },
       month1_codes: {
-        user0:     [0, '1165085359', '1782605551'],
-        month_key: ['Nov', '17i83HKnlJ5tH-M-nD7mCD8s5Wd3kdqfQSN9VibPVWHQ']
+        user0:     [1, '1165085359', '1782605551'],
+        month_key: ['Dec', '1pvy0B4dBZwM5nITOCGBcJBlbRB1c5iwoSegiWrxOsjs']
       },
       month2_codes: {
         user0:     [mI, '1165085359', '1782605551'],
-        month_key: ['Dec', '1pvy0B4dBZwM5nITOCGBcJBlbRB1c5iwoSegiWrxOsjs']
+        month_key: ['Jan', '114ITlh_ZBP4Blx-BE171-MnNLkwZ6-K-88jRcKYD7Zc']
       }
     },
   CT:
@@ -236,24 +241,24 @@ var monthlyUrls = {
       title: 'Carolina Transportation, Inc',
       name: '<th>CAROLINA TRANSPORTATION &nbsp<span>70830515178290</span></th>',
       month1_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Nov', '1LtSWqxJ2KGlpLqa1FGj7OTaPbmvqPxNVL8QjCk5kkRo']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Dec', '1qeKOUPmS7fubEY2IHRzX2ICt6UHVc-MAIbFzDjfPass']
       },
       month2_cards: {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Dec', '1qeKOUPmS7fubEY2IHRzX2ICt6UHVc-MAIbFzDjfPass']
+        month_key: ['Jan', '1RP8q8IFgdXkwy-gR5G0A5Jtw4MW-_R-GU9yUFYFM5OE']
       },
       month1_codes: {
-        user0:     [0, '1165085359', '1782605551'],
-        month_key: ['Nov', '1kYpzrEfG5Ga7apDG313Rb3OH9l4l1C0gVB2hE2ue2h4']
+        user0:     [1, '1165085359', '1782605551'],
+        month_key: ['Dec', '1UC4MPz3oRnTAHPC0iVYuAC7vDjPYNTDVfdlBYikFq8I']
       },
       month2_codes: {
         user0:     [mI, '1165085359', '1782605551'],
-        month_key: ['Dec', '1UC4MPz3oRnTAHPC0iVYuAC7vDjPYNTDVfdlBYikFq8I']
+        month_key: ['Jan', '1le59wWGjOfOIvUuT8Fv7d0xJpy0ocIoIb5EVGnJC6co']
       }
     },
   DE:
@@ -261,16 +266,16 @@ var monthlyUrls = {
       title: 'Delta Express, Inc',
       name: '<th>DELTA EXPRESS &nbsp<span>70830515177576</span></th>',
       month1_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Nov', '1wKfkvH-Con2Y9J8zE14rlHhZ4d0MHYjvbMeSCoKxadM']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Dec', '1q_7F5JHRuwXd2rsKVpEDGCWKWebqbr25SaAk5m63CT8']
       },
       month2_cards: {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Dec', '1q_7F5JHRuwXd2rsKVpEDGCWKWebqbr25SaAk5m63CT8']
+        month_key: ['Jan', '1dXfes0O9sxYdp7f6aNtprg50MzjRLZXTqxI00x2QDKc']
       },
       month1_codes: {
         user0:     [0, '1165085359', '1782605551'],
