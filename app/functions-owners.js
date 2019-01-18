@@ -18,12 +18,12 @@ const urls = {
   },
   'ONTRACK TRANSPORTATION, Inc': {
     id: '70830517305886',
-    period1: 'https://docs.google.com/spreadsheets/d/19QlNjRTd2IoXwiuQrw_Rm_GiuozJG0Z5ie_rLfTJVtA/edit#gid=1165085359',
+    period1: '#',
     period2: 'https://docs.google.com/spreadsheets/d/1tqb5F5jq-95UV_yCHW4jJbxv83tM6BqaTwyb2EyjNcM/edit#gid=1165085359',
   },
   'PRECISE TRANSPORTATION, Inc': {
     id: '70830517302433',
-    period1: 'https://docs.google.com/spreadsheets/d/1i57ZntMon-Yb6eZ7PqdnUthknyS0IFS-Oqp_sZiAE_I/edit#gid=1165085359',
+    period1: '#',
     period2: 'https://docs.google.com/spreadsheets/d/1ROBjlyWa0eVmYcX-0_FEYJ0sYTMv7pBd-1Bl1O0PjD8/edit#gid=1165085359',
   },
   'RAINIER TRANSPORTATION, Inc': {
