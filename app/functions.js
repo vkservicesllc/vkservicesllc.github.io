@@ -18,7 +18,7 @@ var el = [], list = '',
 
 // timers / decisions
 var wkEffDt = new Date('2019-01-26'),
-    mnEffDt = new Date('2018-12-29'),
+    mnEffDt = new Date('2019-01-31'),
     today = new Date(),
     weeklyTopKey = (today >= wkEffDt) ? '1zXEgZDMoW3ecdYdjxRY60o2A2krDHWeUCBrXj7LmHlM' : '#',
     mI = (today >= mnEffDt) ? 1 : 0;
@@ -236,24 +236,24 @@ var monthlyUrls = {
       title: 'Carolina Logistic, Inc',
       name: '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
       month1_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Dec', '1xDiOwqnJ_YrDiN0SfFcwCOmWkDx99ZYwWFjuaLUtn2k']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Jan', '1vljEzUZObrOxJJtcgL-LIh8KhtRAKyUHNp06qvkureo']
       },
       month2_cards: {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Jan', '1vljEzUZObrOxJJtcgL-LIh8KhtRAKyUHNp06qvkureo']
+        month_key: ['Feb', '137DS8sWgQvqudiwrWyPrJ3lxsYdYX4f88e2IMl60yLY']
       },
       month1_codes: {
-        user0:     [0, '1165085359', '1782605551'],
-        month_key: ['Dec', '1pvy0B4dBZwM5nITOCGBcJBlbRB1c5iwoSegiWrxOsjs']
+        user0:     [1, '1165085359', '1782605551'],
+        month_key: ['Jan', '114ITlh_ZBP4Blx-BE171-MnNLkwZ6-K-88jRcKYD7Zc']
       },
       month2_codes: {
         user0:     [mI, '1165085359', '1782605551'],
-        month_key: ['Jan', '114ITlh_ZBP4Blx-BE171-MnNLkwZ6-K-88jRcKYD7Zc']
+        month_key: ['Feb', '1K45hcyhkaBgaaoqnPiunF6nAFEJn8Ab2nG5LT4Lw1iw']
       }
     },
   CT:
@@ -261,24 +261,24 @@ var monthlyUrls = {
       title: 'Carolina Transportation, Inc',
       name: '<th>CAROLINA TRANSPORTATION &nbsp<span>70830515178290</span></th>',
       month1_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Dec', '1qeKOUPmS7fubEY2IHRzX2ICt6UHVc-MAIbFzDjfPass']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Jan', '1RP8q8IFgdXkwy-gR5G0A5Jtw4MW-_R-GU9yUFYFM5OE']
       },
       month2_cards: {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Jan', '1RP8q8IFgdXkwy-gR5G0A5Jtw4MW-_R-GU9yUFYFM5OE']
+        month_key: ['Feb', '1lUlUSyZF4XG_TRfnD4rb8QedYdM-N8x8YTe8mERxsjM']
       },
       month1_codes: {
-        user0:     [0, '1165085359', '1782605551'],
-        month_key: ['Dec', '1UC4MPz3oRnTAHPC0iVYuAC7vDjPYNTDVfdlBYikFq8I']
+        user0:     [1, '1165085359', '1782605551'],
+        month_key: ['Jan', '1le59wWGjOfOIvUuT8Fv7d0xJpy0ocIoIb5EVGnJC6co']
       },
       month2_codes: {
         user0:     [mI, '1165085359', '1782605551'],
-        month_key: ['Jan', '1le59wWGjOfOIvUuT8Fv7d0xJpy0ocIoIb5EVGnJC6co']
+        month_key: ['Feb', '1KX1-7VrH6kLdWKZ0H8N-yQGXKrJHypjPH5fFbVZOXB8']
       }
     },
   DE:
@@ -286,16 +286,16 @@ var monthlyUrls = {
       title: 'Delta Express, Inc',
       name: '<th>DELTA EXPRESS &nbsp<span>70830515177576</span></th>',
       month1_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Dec', '1q_7F5JHRuwXd2rsKVpEDGCWKWebqbr25SaAk5m63CT8']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Jan', '1dXfes0O9sxYdp7f6aNtprg50MzjRLZXTqxI00x2QDKc']
       },
       month2_cards: {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Jan', '1dXfes0O9sxYdp7f6aNtprg50MzjRLZXTqxI00x2QDKc']
+        month_key: ['Feb', '1BYrhgNQDa13yY_XeTWatYI-WS8nB98WSgkwqWsoOQ9o']
       },
       month1_codes: {
         user0:     [0, '1165085359', '1782605551'],
