@@ -3,17 +3,17 @@ const periods = ['December 2018', 'January 2019'],
 const urls = {
   'CAROLINA LOGISTICS, Inc': {
     id: '70830516181943',
-    period1: 'https://docs.google.com/spreadsheets/d/1LHkvGzcVTqjcnjTsZhBPhW2Y_OVdsjE0Gmob6ni8GWU/edit#gid=1165085359',
+    period1: '#',
     period2: 'https://docs.google.com/spreadsheets/d/1Yz7-XCIduFjAkC0viz6Vyb4YivWlkLe92VGR45hgdPU/edit#gid=1165085359',
   },
   'DELTA EXPRESS, Inc': {
     id: '70830515177576',
-    period1: 'https://docs.google.com/spreadsheets/d/1xRLKG4LWLJ9GbFIvkF1UIY9kkXiq4ScAwl7sO1RFCHk/edit#gid=1165085359',
+    period1: '#',
     period2: 'https://docs.google.com/spreadsheets/d/1m20SlaOddjd449cbF6SpdC7k5x-ZCB4WZ6U_loi6pMo/edit#gid=1165085359',
   },
   'DELTA LOGISTICS, Inc': {
     id: '70830517302592',
-    period1: 'https://docs.google.com/spreadsheets/d/1Wa55QZVf228iss4qS-wmKJYZkS9tOWL_YzAQlJowGuY/edit#gid=1165085359',
+    period1: '#',
     period2: 'https://docs.google.com/spreadsheets/d/1vTfiX18K4Rb0sffwyDo2Y62Tms6XnLRB6TV1Fnzh4cE/edit#gid=1165085359',
   },
   'ONTRACK TRANSPORTATION, Inc': {
