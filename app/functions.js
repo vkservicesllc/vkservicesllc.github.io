@@ -314,11 +314,13 @@ var monthlyUrls = {
 };
 
 // reporting drivers
-var repId = '466754331',
-    month = 'Jan';
+var repIds = ['20281730721', '1997412175'],
+    months = ['Jan', 'Feb'],
+    i = 0;
+if (today > mnEffDt) i = 1;
 var el_rd = '<a class="h" target="_blank" ' +
-            'href="https://docs.google.com/spreadsheets/d/1b2g3BARa4ibqdqtTj5_IQoBSI8hp6A4R5A3bSbrfA58/edit#gid=' + repId + '">' +
-            'Reporting Drivers <span>' + month + '</span></a>';
+            'href="https://docs.google.com/spreadsheets/d/1b2g3BARa4ibqdqtTj5_IQoBSI8hp6A4R5A3bSbrfA58/edit#gid=' + repIds[i] + '">' +
+            'Reporting Drivers <span>' + months[i] + '</span></a>';
 document.getElementById('repD').innerHTML = el_rd;
 
 // element list by IDs
