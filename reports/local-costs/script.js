@@ -1,4 +1,4 @@
-function getReportFromServer() {
+(function() {
 
   var xhr = new XMLHttpRequest();
 
@@ -21,4 +21,4 @@ function getReportFromServer() {
   xhr.open('GET', 'Report.json', true);
   xhr.send();
 
-}
+})();
