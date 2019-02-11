@@ -1,5 +1,7 @@
 function getReportFromServer() {
+
   var xhr = new XMLHttpRequest();
+
   xhr.onload = function() {
     if (xhr.status >= 200 && xhr.status < 400) {
       var repObj = JSON.parse(xhr.responseText),
@@ -11,9 +13,12 @@ function getReportFromServer() {
         content += '<td>' + repObj[repKeys[i]].payroll.total + '</td>';
         content += '<td>' + repObj[repKeys[i]].expense.total + '</td></tr>'
       }
-      table.innerHTML = content;
+      var rh = xhr.getAllResponseHeaders();
     }
+    table.innerHTML = content;
   }
+
   xhr.open('GET', 'Report.json', true);
   xhr.send();
+
 }
