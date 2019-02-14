@@ -263,7 +263,7 @@ var monthlyUrls = {
         month_key: ['Feb', '137DS8sWgQvqudiwrWyPrJ3lxsYdYX4f88e2IMl60yLY']
       },
       month1_codes: {
-        user0:     [1, '1165085359', '1782605551'],
+        user0:     [0, '1165085359', '1782605551'],
         month_key: ['Jan', '114ITlh_ZBP4Blx-BE171-MnNLkwZ6-K-88jRcKYD7Zc']
       },
       month2_codes: {
