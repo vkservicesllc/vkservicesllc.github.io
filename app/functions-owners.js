@@ -1,3 +1,5 @@
+// ... comment
+
 const periods = ['January 2019', 'February 2019', 'March 2019'],
       effDt = new Date('2019-02-28');
 const urls = {
