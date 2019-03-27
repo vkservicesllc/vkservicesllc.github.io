@@ -290,7 +290,7 @@ var monthlyUrls = {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Apr', '-']
+        month_key: ['Apr', '1Mq_umJDjKDe2XENNA3p-GthocJ84iqhYf7tAROWHbSM']
       },
       month1_codes: {
         user0:     [1, '1165085359', '1782605551'],
@@ -298,7 +298,7 @@ var monthlyUrls = {
       },
       month2_codes: {
         user0:     [mI, '1165085359', '1782605551'],
-        month_key: ['Apr', '-']
+        month_key: ['Apr', '1bNYXyCX7KaJQWWs4gT87tqMNnbwxs-fsKNjBWG32ZsI']
       }
     },
   CT:
@@ -315,7 +315,7 @@ var monthlyUrls = {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Apr', '-']
+        month_key: ['Apr', '1dPHIapaXV6mk4_SaSSeVD8ChAXqloHRxW1gHlLfIXuo']
       },
       month1_codes: {
         user0:     [1, '1165085359', '1782605551'],
@@ -323,7 +323,7 @@ var monthlyUrls = {
       },
       month2_codes: {
         user0:     [mI, '1165085359', '1782605551'],
-        month_key: ['Apr', '-']
+        month_key: ['Apr', '1_m3J9drOJfOBO82jyRpTNnwTISosTF-KuEBPULZ9ruQ']
       }
     },
   DE:
@@ -340,7 +340,7 @@ var monthlyUrls = {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Apr', '-']
+        month_key: ['Apr', '1gsAFom0r-az8OsXTWg68aJqWyw71Ljm5Ao3jCm0ngFw']
       },
       month1_codes: {
         user0:     [0, '1165085359', '1782605551'],
@@ -354,8 +354,8 @@ var monthlyUrls = {
 };
 
 // reporting drivers
-var repIds = ['1997412175', '106260013'],
-    months = ['Feb', 'Mar'],
+var repIds = ['106260013', '505523817'],
+    months = ['Mar', 'Apr'],
     i = 0;
 if (today > mnEffDt) i = 1;
 var el_rd = '<a class="h" target="_blank" ' +
