@@ -227,6 +227,11 @@ fieldset.favs td.rsp:hover ul {
   display: block;
 }
 
+fieldset.favs th.redundant {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 fieldset.favs td a.h {
   color: blue;
   cursor: pointer;
