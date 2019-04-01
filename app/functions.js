@@ -281,7 +281,7 @@ var monthlyUrls = {
       title: 'Carolina Logistic, Inc',
       name: '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
       month1_cards: {
-        user0:     [1, '686342087'],
+        user0:     [0, '686342087'],
         user1:     [1, '1995296890'],
         user2:     [1, '2117669368'],
         month_key: ['Mar', '1eIvtgzyGlKMODEJ5ZflevTYBCEJ-e56XCsGw5IyX7Io']
@@ -306,9 +306,9 @@ var monthlyUrls = {
       title: 'Carolina Transportation, Inc',
       name: '<th>CAROLINA TRANSPORTATION &nbsp<span>70830515178290</span></th>',
       month1_cards: {
-        user0:     [1, '686342087'],
-        user1:     [1, '1995296890'],
-        user2:     [1, '2117669368'],
+        user0:     [0, '686342087'],
+        user1:     [0, '1995296890'],
+        user2:     [0, '2117669368'],
         month_key: ['Mar', '1-MGKiUd05GvqHb0XzBECMa98UAKLPx6sK0qZmFMt5Ic']
       },
       month2_cards: {
@@ -331,9 +331,9 @@ var monthlyUrls = {
       title: 'Delta Express, Inc',
       name: '<th>DELTA EXPRESS &nbsp<span>70830515177576</span></th>',
       month1_cards: {
-        user0:     [1, '686342087'],
-        user1:     [1, '1995296890'],
-        user2:     [1, '2117669368'],
+        user0:     [0, '686342087'],
+        user1:     [0, '1995296890'],
+        user2:     [0, '2117669368'],
         month_key: ['Mar', '1RmFRA0d7IF-i0jdP2S3awXX78VgFdv6qFPREzVnp5os']
       },
       month2_cards: {
