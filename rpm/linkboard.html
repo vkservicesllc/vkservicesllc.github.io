@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
   <head>
+
     <title>RPM LinkBoard</title>
     <meta name="author" content="VK Services, LLC">
     <meta charset="UTF-8">
@@ -10,6 +12,7 @@
     <link rel="icon" type="image/x-icon" href="../img/icons/linkboard.ico">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../app/stylesheet.css">
+
     <style media="screen">
       fieldset.favs { margin-top: 32px; }
       .monit tr:not(#hdr):not(.exclude):hover th {
@@ -17,10 +20,16 @@
         outline: 1px solid rgba(153, 38, 0, 0.2);
       }
     </style>
+
     <script type="text/javascript">
-      function date_time(id) {
-        var date = new Date(),
-            year = date.getFullYear(),
+
+      const date_time = id => {
+
+        let date = new Date;
+
+        date = new Date(date.toLocaleString('en-US', { timeZone: 'America/New_York', }));
+
+        let year = date.getFullYear(),
             month = date.getMonth(),
             months = new Array(
                                 'January', 'February', 'March', 'April', 'May', 'June',
@@ -30,19 +39,28 @@
             day = date.getDay(),
             days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'),
             h = date.getHours(), m = date.getMinutes(), s = date.getSeconds();
+
         if (h < 10) h = '0' + h;
         if (m < 10) m = '0' + m;
         if (s < 10) s = '0' + s;
+
         result = '' + days[day] + ': &nbsp&nbsp' +
                  months[month] + ' ' + d + ', ' +
                  year + ' &nbsp' + h + ':' + m + ':' + s +
-                 ' <span style="font-style: oblique;">&nbsp&nbsp(Your Local Time)</span>';
+                 ' <span style="font-style: oblique;">&nbsp&nbsp(EDT)</span>';
+
         document.getElementById(id).innerHTML = result;
+
         setTimeout('date_time("'+id+'");', 1000);
+
         return true;
-      }
+
+      };
+
     </script>
+
   </head>
+
   <body>
     <header>
       <h2>RPM LINKBOARD &nbsp&nbsp&nbsp<span id="date_time"></span></h2>
@@ -385,6 +403,9 @@
         </tr>
       </table>
     </fieldset>
+
     <script src="../app/functions.js"></script>
+
   </body>
+
 </html>
