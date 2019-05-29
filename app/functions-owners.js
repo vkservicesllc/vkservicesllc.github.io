@@ -1,42 +1,55 @@
-const periods = [/* 'Feb 2019',  'March 2019', */'April 2019', 'May 2019'],
-      effDt = new Date('2019-04-30');
+const periods = ['May 2019', 'June 2019'],
+      effDt = new Date('2019-05-31');
 
 const urls = {
+
   'CAROLINA LOGISTICS, Inc': {
     id: '70830516181943',
-    period1: '#',
-    period2: 'https://docs.google.com/spreadsheets/d/1eOC7f-ALEn-eCHeQOzljTIWCyo14wYs8Yi2jck54g8c/edit#gid=1165085359',
+    period1: 'https://docs.google.com/spreadsheets/d/1eOC7f-ALEn-eCHeQOzljTIWCyo14wYs8Yi2jck54g8c/edit#gid=1165085359',
+    period2: 'https://docs.google.com/spreadsheets/d/1gqNfRc4hBw56rBdUB4r5h4qlGI9IsMaMUNgH7etshtg/edit#gid=1165085359',
   },
   'DELTA EXPRESS, Inc': {
     id: '70830515177576',
-    period1: 'https://docs.google.com/spreadsheets/d/1rJ0Jh62ypF-YuAJFjXPcaD-yZg90CsN2yHtCXSl9SPU/edit#gid=1165085359',
-    period2: 'https://docs.google.com/spreadsheets/d/11iGHHoD4O0iIuj7A81QSC11QeLdT9bpvzo9HYlwcULk/edit#gid=1165085359',
+    period1: 'https://docs.google.com/spreadsheets/d/11iGHHoD4O0iIuj7A81QSC11QeLdT9bpvzo9HYlwcULk/edit#gid=1165085359',
+    period2: 'https://docs.google.com/spreadsheets/d/1bQY3-NRQvNb2W9kafbWUvPQT3gf8r9vxX3pQnUhXhtE/edit#gid=1165085359',
+  },
+  'DELTA LOGISTICS, Inc': {
+    id: '70830517302592',
+    period1: 'https://docs.google.com/spreadsheets/d/1ofOIvCJIHIGO6plEsJZRrS4j2i1RX_odKNM82wqk15E/edit#gid=1165085359',
+    period2: 'https://docs.google.com/spreadsheets/d/11rmcFKPupWLdAWyp37EfX1h4hrLsAYfvccc1Td37-50/edit#gid=1165085359',
+  },
+  'ONTRACK TRANSPORTATION, Inc': {
+    id: '70830517305886',
+    period1: 'https://docs.google.com/spreadsheets/d/1eAKLPA9e9wNgrOBob4ZQ-BO98a4sWsNkDDYPV2aneVA/edit#gid=1165085359',
+    period2: 'https://docs.google.com/spreadsheets/d/1Ee2hI9I9Tf_5HI9mlCspFePXols8ZPTGOHq5ZgSP5sw/edit#gid=1165085359',
+  },
+  'PRECISE TRANSPORTATION, Inc': {
+    id: '70830517302433',
+    period1: 'https://docs.google.com/spreadsheets/d/1bN-anabHpj8wU6h6FvErexG6BCiW-Mg_Cw5euaMuOag/edit#gid=1165085359',
+    period2: 'https://docs.google.com/spreadsheets/d/1RffsT0hXXmVUvBfWL1F6QH9FbZJ7r8LaJFN4idjHKG4/edit#gid=1165085359',
+  },
+
+  'ALPHA EXPRESS, LLC': {
+    id: '',
+    period1: '-',
+    period2: '-',
   },
   'DELTA EXPRESS SERVICES, Inc': {
     id: '',
     period1: '-',
     period2: '-',
   },
-  'DELTA LOGISTICS, Inc': {
-    id: '70830517302592',
-    period1: '#',
-    period2: 'https://docs.google.com/spreadsheets/d/1ofOIvCJIHIGO6plEsJZRrS4j2i1RX_odKNM82wqk15E/edit#gid=1165085359',
-  },
-  'ONTRACK TRANSPORTATION, Inc': {
-    id: '70830517305886',
-    period1: 'https://docs.google.com/spreadsheets/d/1hplR0OBU_2ebxg4qjs5e8YOJLrpd2q3FUIilOWBu6Vw/edit#gid=1165085359',
-    period2: 'https://docs.google.com/spreadsheets/d/1eAKLPA9e9wNgrOBob4ZQ-BO98a4sWsNkDDYPV2aneVA/edit#gid=1165085359',
-  },
-  'PRECISE TRANSPORTATION, Inc': {
-    id: '70830517302433',
-    period1: '#',
-    period2: 'https://docs.google.com/spreadsheets/d/1bN-anabHpj8wU6h6FvErexG6BCiW-Mg_Cw5euaMuOag/edit#gid=1165085359',
+  'HUGO HUNTER, INC': {
+    id: '',
+    period1: '-',
+    period2: '-',
   },
   'RAINIER TRANSPORTATION, Inc': {
     id: '', // '70830517307425',
     period1: '-',
     period2: '-',
   },
+
 };
 
 const pad = 'style="padding: 12px 54px;"';
