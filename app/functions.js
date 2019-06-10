@@ -333,8 +333,8 @@ var monthlyUrls = {
       name: '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
       month1_cards: {
         user0:     [0, '686342087'],
-        user1:     [1, '1995296890'],
-        user2:     [1, '2117669368'],
+        user1:     [0, '1995296890'],
+        user2:     [0, '2117669368'],
         month_key: ['May', '1hCS_IgVFcmMTCXsyhtcYRzGFmktXLMz53mJfJR-TE5Y']
       },
       month2_cards: {
