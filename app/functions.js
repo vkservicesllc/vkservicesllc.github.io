@@ -17,26 +17,26 @@ var el = [], list = '',
     user2 = '<span>Joyce</span>';
 
 // timers / decisions
-var wkEffDt = new Date('2019-07-06'),
+var wkEffDt = new Date('2019-07-13'),
     mnEffDt = new Date('2019-07-01'),
     today = new Date(),
     weeklyTopKey = (today >= wkEffDt) ?
-                   '1tLQhHkQ7ZsID96BKf2AGma_FVVLW9bJoEFdeIe7KaBE' : '#',
+                   '1OSvqOCv-f0JeIQZsagAaHgQZtuO1DRp3lgkGowc7tWU' : '#',
     mI = (today >= mnEffDt) ? 1 : 0;
 
 // weekly URLs
 var weeklyUrls = {
   top:
     {
-      header:      'Jul 7 — Jul 13',
+      header:      'Jul 14 — Jul 20',
       key:         weeklyTopKey,
       collectorId: '914973738',
       linkId:      '978213208'
     },
   bottom:
     {
-      header:      'Jun 30 — Jul 6',
-      key:         '1E87lbH7CaQn9V_S0YLBB1MJrHJTcB2o_taDd_gWhkBs',
+      header:      'Jul 7 — Jul 13',
+      key:         '1tLQhHkQ7ZsID96BKf2AGma_FVVLW9bJoEFdeIe7KaBE',
       collectorId: '914973738',
       linkId:      '978213208'
     },
@@ -81,6 +81,11 @@ var historyList = [
   {
     header:      ' — ',
     key:         '#',
+    id:          '1250765514'
+  },
+  {
+    header:      'Jun 30 — Jul 6',
+    key:         '1E87lbH7CaQn9V_S0YLBB1MJrHJTcB2o_taDd_gWhkBs',
     id:          '1250765514'
   },
   {
@@ -353,8 +358,8 @@ var monthlyUrls = {
       name: '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
       month1_cards: {
         user0:     [0, '686342087'],
-        user1:     [1, '1995296890'],
-        user2:     [1, '2117669368'],
+        user1:     [0, '1995296890'],
+        user2:     [0, '2117669368'],
         month_key: ['Jun', '164DCAXGSIdkdtXxGqyAX8B_72Xx78kDXLthn1civHGM']
       },
       month2_cards: {
