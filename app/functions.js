@@ -17,26 +17,26 @@ var el = [], list = '',
     user2 = '<span>Joyce</span>';
 
 // timers / decisions
-var wkEffDt = new Date('2019-07-20'),
-    mnEffDt = new Date('2019-07-01'),
+var wkEffDt = new Date('2019-08-02'),
+    mnEffDt = new Date('2019-08-01'),
     today = new Date,
     weeklyTopKey = (today >= wkEffDt) ?
-                   '1GF3bHikV1W21xKVSCi9yrfNDlZOSw90ibmN5UuD-r_c' : '#',
+                   '1XpaNJI3VsTRWB6NLFcfTUHAXa6M0yDihjWKElVmCick' : '#',
     mI = (today >= mnEffDt) ? 1 : 0;
 
 // weekly URLs
 var weeklyUrls = {
   top:
     {
-      header:      'Jul 21 — Jul 27',
+      header:      'Jul 28 — Aug 3',
       key:         weeklyTopKey,
       collectorId: '914973738',
       linkId:      '978213208'
     },
   bottom:
     {
-      header:      'Jul 14 — Jul 20',
-      key:         '1OSvqOCv-f0JeIQZsagAaHgQZtuO1DRp3lgkGowc7tWU',
+      header:      'Jul 21 — Jul 27',
+      key:         '1GF3bHikV1W21xKVSCi9yrfNDlZOSw90ibmN5UuD-r_c',
       collectorId: '914973738',
       linkId:      '978213208'
     },
@@ -81,6 +81,11 @@ var historyList = [
   {
     header:      ' — ',
     key:         '#',
+    id:          '1250765514'
+  },
+  {
+    header:      'Jul 14 — Jul 20',
+    key:         '1OSvqOCv-f0JeIQZsagAaHgQZtuO1DRp3lgkGowc7tWU',
     id:          '1250765514'
   },
   {
@@ -362,24 +367,24 @@ var monthlyUrls = {
       title: 'Carolina Logistic, Inc',
       name: '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
       month1_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Jun', '164DCAXGSIdkdtXxGqyAX8B_72Xx78kDXLthn1civHGM']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Jul', '11vp8gorwJRpoXOv3fwxuYYpiHc0Lg0LnzRET24blxRc']
       },
       month2_cards: {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Jul', '11vp8gorwJRpoXOv3fwxuYYpiHc0Lg0LnzRET24blxRc']
+        month_key: ['Aug', '1HUbp1T4Mxjev85qpLUIHzmTbtiTsIsgj8dsODyEH5S8']
       },
       month1_codes: {
         user0:     [1, '1165085359', '1782605551'],
-        month_key: ['Jun', '1SVl2fyv7z_a_ZTkUsv9T7mmbWh4QmsWxFU7_ZzdIFUs']
+        month_key: ['Jul', '1hnxrK1FrL_XcF4kExhVkqn1Btlfvc1s7B2p7E2WjA-A']
       },
       month2_codes: {
         user0:     [mI, '1165085359', '1782605551'],
-        month_key: ['Jul', '1hnxrK1FrL_XcF4kExhVkqn1Btlfvc1s7B2p7E2WjA-A']
+        month_key: ['Aug', '1TJIVqKqPaw-nNVyfIZUDPuOXSEffZhIu85Ao6eV6Y28']
       }
     },
   CT:
@@ -387,24 +392,24 @@ var monthlyUrls = {
       title: 'Carolina Transportation, Inc',
       name: '<th>CAROLINA TRANSPORTATION &nbsp<span>70830515178290</span></th>',
       month1_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Jun', '1_Frqv2mwBgIbrzG0yOZGQfgYkGQAK_0ZtSz4K0_tngw']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Jul', '1pCh07jpwDT-qxBeMtrrPWar2YumSc7TgLBz_gbfKzmY']
       },
       month2_cards: {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Jul', '1pCh07jpwDT-qxBeMtrrPWar2YumSc7TgLBz_gbfKzmY']
+        month_key: ['Aug', '1hNf1mtmgUua6pZRv7YRsBzYuHzKSX8vJN2oBpV2VXG0']
       },
       month1_codes: {
         user0:     [1, '1165085359', '1782605551'],
-        month_key: ['Jun', '1pJyZ0CaxsvsrgjWDoWG4PzbYlh5XzL8jq82C8fw0RB4']
+        month_key: ['Au', '1XQenYPKvzp1CcjgJQDkk8PCXcS5pktfF5NpONmcGN6Q']
       },
       month2_codes: {
         user0:     [mI, '1165085359', '1782605551'],
-        month_key: ['Jul', '1XQenYPKvzp1CcjgJQDkk8PCXcS5pktfF5NpONmcGN6Q']
+        month_key: ['Aug', '14CcOWxZkn7oVhVXA_LIQjGgUD4vECQdQ70I0JZLL0qs']
       }
     },
   DE:
@@ -412,16 +417,16 @@ var monthlyUrls = {
       title: 'Delta Express, Inc',
       name: '<th>DELTA EXPRESS &nbsp<span>70830515177576</span></th>',
       month1_cards: {
-        user0:     [0, '686342087'],
-        user1:     [0, '1995296890'],
-        user2:     [0, '2117669368'],
-        month_key: ['Jun', '1hxd0t6deruYmCrkgmglIoeF1FTaTcqoJaaLYUS5MMXo']
+        user0:     [1, '686342087'],
+        user1:     [1, '1995296890'],
+        user2:     [1, '2117669368'],
+        month_key: ['Jul', '1KLX_q0iuBj9vCIp9Ix7moAlPYpR5_NYMRZXO-mmWmDE']
       },
       month2_cards: {
         user0:     [mI, '686342087'],
         user1:     [mI, '1995296890'],
         user2:     [mI, '2117669368'],
-        month_key: ['Jul', '1KLX_q0iuBj9vCIp9Ix7moAlPYpR5_NYMRZXO-mmWmDE']
+        month_key: ['Aug', '1azSH_gx4LAdRU3-gfZeqZC4gUpEXuTd1VI3MkLZ4YFc']
       },
       month1_codes: {
         user0:     [0, '1165085359', '1782605551'],
@@ -435,8 +440,8 @@ var monthlyUrls = {
 };
 
 // reporting drivers
-var repIds = ['643288390', '474259561'],
-    months = ['Jun', 'Jul'],
+var repIds = ['474259561', '250126383'],
+    months = ['Jul', 'Aug'],
     i = 0;
 if (today > mnEffDt) i = 1;
 var el_rd = '<a class="h" target="_blank" ' +
