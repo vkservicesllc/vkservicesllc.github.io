@@ -46,7 +46,7 @@ const monthlySpreadsheets = {
 
     money_codes: {
       CL: ['1hnxrK1FrL_XcF4kExhVkqn1Btlfvc1s7B2p7E2WjA-A', 1],
-      CT: ['1XQenYPKvzp1CcjgJQDkk8PCXcS5pktfF5NpONmcGN6Q', 1],
+      CT: ['1XQenYPKvzp1CcjgJQDkk8PCXcS5pktfF5NpONmcGN6Q', 0],
       DE: ['', 1],
     },
 
