@@ -1,109 +1,5 @@
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-  <head>
-
-    <meta http-equiv="Refresh" content="7; board-cd.html">
-
-    <title>RPM LinkBoard</title>
-    <link rel="icon" type="image/x-icon" href="../img/icons/linkboard.ico">
-
-    <style media="screen">
-      * {
-        width: 500px;
-        margin: 54px auto;
-        color: #771414;
-        font-family: Arial;
-        font-size: 116%;
-        font-weight: bold;
-        letter-spacing: 1.2px;
-        word-spacing: 1.4px;
-      }
-      p {
-        margin: 0;
-        padding-bottom: 9px;
-        text-align: center;
-      }
-    </style>
-
-  </head>
-
-  <body>
-
-    <p>Document has moved. Redirecting...</p>
-    <p id="countdown">... in 5 sec</p>
-
-
-    <script type="text/javascript">
-
-      let s = 4;
-
-      setInterval(function() {
-
-        document.getElementById('countdown').innerHTML = '... in ' + ((s > 0) ? s-- : s) + ' sec';
-
-      }, 1000);
-
-    </script>
-
-  </body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
 <html lang="en-US">
 
   <head>
@@ -172,12 +68,11 @@
       <h2>RPM LINKBOARD &nbsp&nbsp&nbsp<span id="date_time"></span></h2>
       <script type="text/javascript">window.onload = date_time('date_time');</script>
     </header>
-
     <nav id="top">
       <ul class="sub1">
         <li><a target="_blank" class="bl h"
-          href="https://www.tch.com/security/logon.jsp">
-          EFS</a>
+          href="https://www.tch.com/security/logon.jsp"
+          >EFS</a>
         </li>
         <li><a target="_blank" class="h"
           href="https://www.dropbox.com/home">
@@ -394,7 +289,6 @@
         </li>
       </ul>
     </nav>
-
     <fieldset class="favs">
       <legend>URL Collector / Payroll Hyperlinks</legend>
       <table class="urls">
@@ -415,7 +309,6 @@
         </tr>
       </table>
     </fieldset>
-
     <fieldset class="favs">
       <legend>EFS Card & Money Code Monitoring</legend>
       <table class="monit">
@@ -429,7 +322,6 @@
         <tr id="tres"></tr>
       </table>
     </fieldset>
-
     <fieldset class="favs">
       <legend>Shortcuts</legend>
       <table class="shcuts1">
@@ -497,7 +389,6 @@
         </tr>
       </table>
     </fieldset>
-
     <fieldset class="favs">
       <legend>Additional Tools (West Coast Only)</legend>
       <table class="tools">
@@ -515,13 +406,8 @@
       </table>
     </fieldset>
 
-    <script src="../app-new/objects.js"></script>
-
-    <script src="../app-new/weeks.js"></script>
-    <script src="../app-new/months.js"></script>
-
-    <script src="../app-new/functions.js"></script>
+    <script src="../app/functions.js"></script>
 
   </body>
 
-</html> -->
+</html>

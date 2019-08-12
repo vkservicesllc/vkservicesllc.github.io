@@ -20,6 +20,22 @@ const monthlySpreadsheets = {
 
   */
 
+  // '2019-Sep': { repTabId: '',
+  //
+  //   cards: {
+  //     CL: ['', 1, 1, 1],
+  //     CT: ['', 1, 1, 1],
+  //     DE: ['', 1, 1, 1],
+  //   },
+  //
+  //   money_codes: {
+  //     CL: ['', 1],
+  //     CT: ['', 1],
+  //     DE: ['', 1],
+  //   },
+  //
+  // },
+
   '2019-Aug': { repTabId: '250126383',
 
     cards: {
@@ -45,7 +61,7 @@ const monthlySpreadsheets = {
     },
 
     money_codes: {
-      CL: ['1hnxrK1FrL_XcF4kExhVkqn1Btlfvc1s7B2p7E2WjA-A', 1],
+      CL: ['1hnxrK1FrL_XcF4kExhVkqn1Btlfvc1s7B2p7E2WjA-A', 0],
       CT: ['1XQenYPKvzp1CcjgJQDkk8PCXcS5pktfF5NpONmcGN6Q', 0],
       DE: ['', 1],
     },

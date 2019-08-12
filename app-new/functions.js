@@ -17,7 +17,7 @@ for (var i = 2; i < 14; i++) {
 }
 
 list = list.concat(
-  '<li style="background: beige;"><a class="h" target="_blank" ' +
+  '<li><a class="h" target="_blank" ' +
   'title="Open Google Drive folder' + String.fromCharCode(10) +
   'containing all weeks' + String.fromCharCode(10) +
   'starting Dec 10, 2017" ' +

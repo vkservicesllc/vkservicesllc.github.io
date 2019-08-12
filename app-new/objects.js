@@ -31,22 +31,6 @@ function WeeklySpreadsheet(start, key) {
 
 // Assistance
 
-function Months() {
-
-  this.short = [
-    'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
-  ];
-
-  // this.long = [
-  //   'January', 'February', 'March',
-  //   'April', 'May', 'June',
-  //   'July', 'August', 'September',
-  //   'October', 'November', 'December'
-  // ];
-
-}
-
 function addDays(date, days) {
   return new Date(date.getTime() + days * 24 * 60 * 60 * 1000);
 }

@@ -1,114 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-  <head>
-
-    <meta http-equiv="Refresh" content="7; board-cd.html">
-
-    <title>RPM LinkBoard</title>
-    <link rel="icon" type="image/x-icon" href="../img/icons/linkboard.ico">
-
-    <style media="screen">
-      * {
-        width: 500px;
-        margin: 54px auto;
-        color: #771414;
-        font-family: Arial;
-        font-size: 116%;
-        font-weight: bold;
-        letter-spacing: 1.2px;
-        word-spacing: 1.4px;
-      }
-      p {
-        margin: 0;
-        padding-bottom: 9px;
-        text-align: center;
-      }
-    </style>
-
-  </head>
-
-  <body>
-
-    <p>Document has moved. Redirecting...</p>
-    <p id="countdown">... in 5 sec</p>
-
-
-    <script type="text/javascript">
-
-      let s = 4;
-
-      setInterval(function() {
-
-        document.getElementById('countdown').innerHTML = '... in ' + ((s > 0) ? s-- : s) + ' sec';
-
-      }, 1000);
-
-    </script>
-
-  </body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
 <html lang="en-US">
 
   <head>
 
-    <title>RPM LinkBoard</title>
+    <title>RPM LinkBoard - Owners</title>
     <meta name="author" content="VK Services, LLC">
     <meta charset="UTF-8">
     <meta http-equiv="Cache-Control" content="must-revalidate, no-store, no-cache">
@@ -169,15 +64,14 @@
   <body>
 
     <header>
-      <h2>RPM LINKBOARD &nbsp&nbsp&nbsp<span id="date_time"></span></h2>
+      <h2>RPM LINKBOARD (Owners) &nbsp&nbsp&nbsp<span id="date_time"></span></h2>
       <script type="text/javascript">window.onload = date_time('date_time');</script>
     </header>
-
     <nav id="top">
       <ul class="sub1">
         <li><a target="_blank" class="bl h"
-          href="https://www.tch.com/security/logon.jsp">
-          EFS</a>
+          href="https://www.tch.com/security/logon.jsp"
+          >EFS</a>
         </li>
         <li><a target="_blank" class="h"
           href="https://www.dropbox.com/home">
@@ -204,10 +98,10 @@
           Hangouts <em>Prim</em></a>
           <ul class="sub2">
             <li><a target="_blank" class="bl h"
-              href="https://hangouts.google.com/?authuser=1">
+              href="https://hangouts.google.com/?pageId=none&authuser=1">
               Hangouts <em>Sec</em></a></li>
             <li><a target="_blank" class="bl h"
-              href="https://hangouts.google.com/?authuser=2">
+              href="https://hangouts.google.com/?pageId=none&authuser=2">
               Hangouts <em>Ter</em></a></li>
           </ul>
         </li>
@@ -367,14 +261,8 @@
               href="https://docs.google.com/spreadsheets/d/1tshqCJ1P7Bba46DeEkI8R3PeUqC25nuJ2oNtjy_TCec/edit#gid=978596437">
               Distributor</a></li>
             <li><a target="_blank" class="bl h"
-              href="https://docs.google.com/spreadsheets/d/1txvIsV3jk5qx1Dp233_PQeSyoy64Fwv-cIWVW2-A5AI/edit#gid=51909676">
-              Zoho Invoices</a></li>
-            <li><a target="_blank" class="bl h"
               href="https://docs.google.com/spreadsheets/d/1qc17LJIBoFAMPf0PZf8kn5zYghyV8GzHeIKVU0t3WTo/edit#gid=0">
               EFS Accounts</a></li>
-            <li><a target="_blank" class="bl h"
-              href="https://docs.google.com/spreadsheets/d/1lS8mGmZprsR8LNgb1BzcznEl2rkv-0uBDYbJkguXGis/edit#gid=176549183">
-              EFS Users</a></li>
             <li><a target="_blank" class="bl h"
               href="https://docs.google.com/spreadsheets/d/19tBRKV_SZK3Wg4b5dabtIoTapz5iO4n0GN0K3eovWMc/edit#gid=1990489309">
               Towing <em>Input</em></a></li>
@@ -394,134 +282,45 @@
         </li>
       </ul>
     </nav>
-
-    <fieldset class="favs">
-      <legend>URL Collector / Payroll Hyperlinks</legend>
-      <table class="urls">
-        <tr>
-          <th id="tH"></th>
-          <td id='tC'></td>
-          <td id='tL'></td>
-          <td rowspan="2" class="rsp">
-            <br /><p style="font-size: 92%;">&#9662; History</p>
-            <ul id="hist">
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <th id="bH"></th>
-          <td id='bC'></td>
-          <td id='bL'></td>
-        </tr>
-      </table>
-    </fieldset>
-
-    <fieldset class="favs">
-      <legend>EFS Card & Money Code Monitoring</legend>
-      <table class="monit">
-        <tr id="hdr">
-          <th>Companies / Accounts</th>
-          <td colspan="2">Sheets: &nbspEFS Cards / Search Fields</td>
-          <td colspan="2">Sheets: &nbspMoney Codes</td>
-        </tr>
-        <tr id="uno"></tr>
-        <tr id="dos"></tr>
-        <tr id="tres"></tr>
-      </table>
-    </fieldset>
-
+    <!-- <script src="../app/functions.js"></script> -->
     <fieldset class="favs">
       <legend>Shortcuts</legend>
       <table class="shcuts1">
         <tr>
           <td>
             <a class="h" target="_blank"
-            href="https://drive.google.com/drive/folders/1HLWwjjp85TrvblKI65Z0PkI8ze4cSWMW">
-            + Add WORKSHEET</a>
-          </td>
-          <td>
-            <a class="h" target="_blank"
-            href="https://drive.google.com/drive/u/0/folders/0BxIwWlTHHQp7fjF4VVpZZzNhUzJsMk9XZlQxN09DRkhVZVcwcnFUUGJkN0VKRWJhNUh1V0U">
-            Scans</a>
-          </td>
-          <td>
-            <a class="h" target="_blank"
-            href="https://drive.google.com/drive/u/0/folders/0BxIwWlTHHQp7fmJYa21WcTMxUDBxakZtXzl3N0o5SGpvUlRxWFVrZmZXblVhdFl6NW42R2c">
-            Expense</a>
-          </td>
-          <td>
-            <a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/1vInI27Gj3mI0dz--03pbZt4TtuGdF_DZPNPVR5Vc3jM/edit#gid=0">
-            Document Submission</a>
-          </td>
-          <td>
-            <a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/1wODl9QHnhej3ySdV110MpQvL0tNIr9IQbLqlDXOvTkM/edit#gid=0">
-            Payroll List</a>
-          </td>
-          <td>
-            <a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/1OxJYhP2azeOHKGmkaNLxv2IuBjLoAZbTncOJsliwdzc/edit#gid=1592335978">
-            Students</a>
-          </td>
-        </tr>
-      </table>
-      <table class="shcuts2">
-        <tr>
-          <td id='repD'></td>
-          <td>
-            <a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/1QOqM8xouEbOFxn_Ktenx_LGB2AzBEnfFrxOisSKzSkg/edit?ts=567805bc#gid=0">
-            Truck/Trailer Breakdown</a>
-          </td>
-          <td>
-            <a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/1SgC9L_M-5FNgvXV5hQJJQ4AggehmPo9ipB5Z1aHK_V0/edit?ts=5a4beef8#gid=0">
-            DEF Tracker</a>
-          </td>
-          <td>
-            <a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/1FsrNZ2zATp2nF8ctbkhOf8fUllA4-C8370-UkNnRrm0/edit?pli=1#gid=0">
-            Rate List</a>
-          </td>
-          <td>
-            <a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/1XIJ5TR1zuEODW8CRWTSd2QNNlyYexa5OwGLoVvnMmnk/edit#gid=1229815017">
-            Towing</a>
-          </td>
-          <td>
-            <a class="h" target="_blank"
             href="https://docs.google.com/spreadsheets/u/1/d/1jegJ8tzV45X7U0jAdHurdhE8rWrO8891h23fB-x1NLw/htmlview?sle=true#">
             Phone List</a>
           </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/19koCtNrSbUujxfcZfqA5ZCHCvkPCvgw7-lUaK0gBQNU/edit?ts=5a79d31c#gid=0">
+            Global Board 1</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1lWaqBNQXaqhoQXOUGn2mjFpzjqm7B1JHjuSzGOcJgSg/edit?ts=5a79d2fd#gid=0">
+            Global Board 2</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1vWEz3xsbWCoVAF44S9rTAZXMQKRfAi7A49c-QFxJA1g/edit?ts=5a79e18d#gid=0">
+            Global Board 3</a>
+          </td>
+          <td>
+            <a class="h" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1C1cEGyX7NKElc7IM1lhGZlw2W6dKH92uy5yElLKj6Vs/edit#gid=814976157">
+            Money Codes <span>CL/CT</span></a>
+          </td>
         </tr>
       </table>
     </fieldset>
-
     <fieldset class="favs">
-      <legend>Additional Tools (West Coast Only)</legend>
-      <table class="tools">
-        <tr>
-          <td><a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/1AoyXGtUIOiGq9siawF-WnBP4XgVgur-wWRgyilM0j2A/edit?ts=5a673d3b#gid=1558692306">
-            Detention Board</a></td>
-          <td><a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/173n-J5qtZKtqg4MHOZ3oUFgJo9ZmVzjFs2Zxn8Nbdug/edit?ts=5a673d8d#gid=90">
-            West Coast Board</a></td>
-          <td><a class="h" target="_blank"
-            href="https://docs.google.com/spreadsheets/d/1y82rNeg66Hh9DIduNXj0fTeIErlJn7B0Xe4-s59RHq4/edit?ts=5a673d99#gid=1275085378">
-            West Coast AVG Rates</a></td>
-        </tr>
-      </table>
+      <legend>Money Code Monitoring</legend>
+      <table id="omcMon" class="monit"></table>
     </fieldset>
 
-    <script src="../app-new/objects.js"></script>
-
-    <script src="../app-new/weeks.js"></script>
-    <script src="../app-new/months.js"></script>
-
-    <script src="../app-new/functions.js"></script>
+    <script src="../app/functions-owners.js"></script>
 
   </body>
-
-</html> -->
+</html>
