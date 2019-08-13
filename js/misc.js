@@ -1,4 +1,4 @@
-document.getElementById('shortcuts').innerHTML =
+const shortcuts =
 `<legend>Shortcuts</legend>
 <table class="shcuts1">
   <tr>
@@ -65,7 +65,7 @@ document.getElementById('shortcuts').innerHTML =
   </tr>
 </table>`;
 
-document.getElementById('additional').innerHTML =
+const additional =
 `<legend>Additional Tools (West Coast Only)</legend>
 <table class="tools">
   <tr>
@@ -80,3 +80,44 @@ document.getElementById('additional').innerHTML =
       West Coast AVG Rates</a></td>
   </tr>
 </table>`;
+
+const shortcuts2 =
+`<legend>Shortcuts</legend>
+<table class="shcuts1">
+  <tr>
+    <td>
+      <a class="h" target="_blank"
+      href="https://docs.google.com/spreadsheets/u/1/d/1jegJ8tzV45X7U0jAdHurdhE8rWrO8891h23fB-x1NLw/htmlview?sle=true#">
+      Phone List</a>
+    </td>
+    <td>
+      <a class="h" target="_blank"
+      href="https://docs.google.com/spreadsheets/d/19koCtNrSbUujxfcZfqA5ZCHCvkPCvgw7-lUaK0gBQNU/edit?ts=5a79d31c#gid=0">
+      Global Board 1</a>
+    </td>
+    <td>
+      <a class="h" target="_blank"
+      href="https://docs.google.com/spreadsheets/d/1lWaqBNQXaqhoQXOUGn2mjFpzjqm7B1JHjuSzGOcJgSg/edit?ts=5a79d2fd#gid=0">
+      Global Board 2</a>
+    </td>
+    <td>
+      <a class="h" target="_blank"
+      href="https://docs.google.com/spreadsheets/d/1vWEz3xsbWCoVAF44S9rTAZXMQKRfAi7A49c-QFxJA1g/edit?ts=5a79e18d#gid=0">
+      Global Board 3</a>
+    </td>
+    <td>
+      <a class="h" target="_blank"
+      href="https://docs.google.com/spreadsheets/d/1C1cEGyX7NKElc7IM1lhGZlw2W6dKH92uy5yElLKj6Vs/edit#gid=814976157">
+      Money Codes <span>CL/CT</span></a>
+    </td>
+  </tr>
+</table>`;
+
+setInnerHtml('shortcuts', shortcuts);
+setInnerHtml('additional', additional);
+setInnerHtml('shortcuts2', shortcuts2);
+
+function setInnerHtml(id, content) {
+  var el = document.getElementById(id);
+  if (el) el.innerHTML = content;
+}
