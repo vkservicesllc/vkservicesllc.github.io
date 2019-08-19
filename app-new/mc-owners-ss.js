@@ -14,6 +14,16 @@ const monthlySpreadsheets = {
 
   */
 
+  '2019-September': {
+
+    'CLs': ['1nHRrll7JwNyy5DocKO7PfO5ygbXWTDB8hZe-M9dYuz4', 1],
+    'DE': ['12d4_F7M6w_Gbi_lgq0AZV5BGLOzWzGsT3DuMpJGjYh4', 1],
+    'DL': ['1l-uDB8lEJuwutDoYeVVjs8dBfDgCLc5LozHrw1bFB08', 1],
+    'OT': ['1_GCL40TdGZPGgxpsQFAOrXS6BLB-YVvrMMyTVX2hkPc', 1],
+    'PT': ['1ZrD5Z58zicS2K4X7r9-dDGRnJFKVkg8mapZgv7EsA7c', 1],
+
+  },
+
   '2019-August': {
 
     'CLs': ['1QNYGrVphn1D7Bajr9m2vuZSoC_G2Pu0yf_CBfahhplE', 1],
