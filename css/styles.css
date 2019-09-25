@@ -39,7 +39,7 @@ _:-ms-lang(x), _:-webkit-full-screen, body { display: none; }
 /* Body */
 
 body {
-  width: 960px;
+  width: 1000px;
   margin: 0 auto;
   background: #132a4f;
   color: #a37d31;
@@ -90,7 +90,7 @@ nav#top {
   margin-top: 24px;
   position: absolute;
   z-index: 2;
-  width: 960px;
+  width: 1000px;
 }
 
 nav#top ul.sub1 > li {
