@@ -2,7 +2,7 @@ const monthlySpreadsheets = {
 
   /*
 
-  'yyyy-mmm': { repTabId: '',
+  '20yy-mmm': { repTabId: '',
 
     cards: {
       CL: ['', 1, 1, 1],
@@ -19,6 +19,22 @@ const monthlySpreadsheets = {
   },
 
   */
+
+  '2019-Oct': { repTabId: '1628515985',
+
+    cards: {
+      CL: ['17EZKpd6Vo2EmfqY0jQ9_rmSgIdcQxZ71uOb4K700mVo', 1, 1, 1],
+      CT: ['1foXLtXB7PvP9LSLmSn6DmdkqvRRDjEplCNMJATfSXRk', 1, 1, 1],
+      DE: ['1LVKGnEwBkecGtaFvb8SLB4zvrjsAYMOWuvO_RiVgKzs', 1, 1, 1],
+    },
+
+    money_codes: {
+      CL: ['1b3YWBVgeQI9zl5iuRswvh-3Lr9dmZ5CpBH5G5EdtDSE', 1],
+      CT: ['1UAKFdVi581HbK-Zab5DZ3dPpKkGCWOFJsBWZyDsg_Cw', 1],
+      DE: ['', 1],
+    },
+
+  },
 
   '2019-Sep': { repTabId: '1038056008',
 
