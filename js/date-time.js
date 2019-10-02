@@ -21,7 +21,7 @@ const date_time = id => {
            year + '&nbsp&nbsp&nbsp' + h + ':' + m + ':' + s +
            '<span style="font-style: oblique;">US Eastern Standard Time</span>';
 
-  document.getElementById(id).innerHTML = result;
+  $(`#${id}`).html(result);
 
   setTimeout('date_time("' + id + '");', 1000);
 

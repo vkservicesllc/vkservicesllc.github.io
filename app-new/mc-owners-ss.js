@@ -55,3 +55,25 @@ const monthlySpreadsheets = {
   },
 
 };
+
+
+const getCompanies = () => {
+
+  return {
+
+    'CLs': 'CAROLINA LOGISTICS, Inc &nbsp;<span>70830516181943</span>',
+    'DE': 'DELTA EXPRESS, Inc &nbsp;<span>70830515177576</span>',
+    'DL': 'DELTA LOGISTICS, Inc &nbsp;<span>70830517302592</span>',
+    'OT': 'ONTRACK TRANSPORTATION, Inc &nbsp;<span>70830517305886</span>',
+    'PT': 'PRECISE TRANSPORTATION, Inc &nbsp;<span>70830517302433</span>',
+
+    'DES': 'DELTA EXPRESS SERVICES, Inc &nbsp;<span></span>',
+    'RT': 'RAINIER TRANSPORTATION, Inc &nbsp;<span>70830517307425</span>',
+
+    // 'AE': 'ALPHA EXPRESS, Inc &nbsp;<span></span>',
+    // 'HH': 'HUGO HUNTER, Inc &nbsp;<span></span>',
+    // 'CDT': 'CAROLINA DUMP TRUCKING, Inc &nbsp;<span></span>',
+
+  };
+
+};
