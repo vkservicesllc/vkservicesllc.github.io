@@ -127,4 +127,8 @@ $(document).ready( () => {
 
   }
 
+  $('legend').click(function() {
+    $(this).siblings('table').fadeToggle(900);
+  });
+
 });
