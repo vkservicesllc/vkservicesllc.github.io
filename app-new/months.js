@@ -20,6 +20,22 @@ const monthlySpreadsheets = {
 
   */
 
+  '2019-Nov': { repTabId: '980557197',
+
+    cards: {
+      CL: ['1WmGAEVqz7Z53sxSPDSxon1pwWjr9HhtP7vg5lNA51po', 1, 1, 1],
+      CT: ['1ROVhCscIMb-KheRx9xmQI4FTOnVME1ivKgXDPUCDNJQ', 1, 1, 1],
+      DE: ['16ieMDufB5Z8YkRyrzv2xOk7JxKyKZOXFk9xscBbXEHg', 1, 1, 1],
+    },
+
+    money_codes: {
+      CL: ['1qnX2ybGNcaDF7eK7qFifzeyRE0GQgHfq82eN3uupi-o', 1],
+      CT: ['1IdaoNnH7x6cuVO9GvgKd2F4Yo3wXLr58L4rs0Ex5GDI', 1],
+      DE: ['-', 1],
+    },
+
+  },
+
   '2019-Oct': { repTabId: '1628515985',
 
     cards: {
