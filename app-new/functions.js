@@ -59,7 +59,7 @@ $(document).ready( () => {
         date = new Date(mon2 + ' 1, ' + keys[1].split('-')[0]),
         active = now >= date,
         user1 = '<span>Helen</span>',
-        user2 = '<span>Joyce</span>';
+        user2 = '<span>Madison</span>';
 
     const dropCardAnchor = (cardArr, mon, shouldUseActive) => {
 
