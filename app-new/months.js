@@ -25,13 +25,13 @@ const monthlySpreadsheets = {
     cards: {
       CL: ['1tzUPmHelLuLj_4DVma_la8DAiPxz7X3HQb8hFv-TjOE', 1, 1, 1],
       CT: ['1fwEdmmDS8byBX8mBEI5tu_0FhVMzQusYS26N4tg7OUw', 1, 1, 1],
-      DE: ['', 1, 1, 1],
+      DE: ['1dbe-S5_GsJeb-i2F65k4VPg4mYM61n7q3gESyGBATTM', 1, 1, 1],
     },
 
     money_codes: {
       CL: ['1ygTEhO5mWX5u0Fn8IVP4X6AMiX-ZLeQm9IQuDW3F9y8', 1],
       CT: ['1ggdewPYL6hNmLn2nodH_n_0KJ3s7Vzc3wXKiBJXnCrA', 1],
-      DE: ['1dbe-S5_GsJeb-i2F65k4VPg4mYM61n7q3gESyGBATTM', 1],
+      DE: ['', 1],
     },
 
   },
