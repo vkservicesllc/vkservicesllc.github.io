@@ -5,15 +5,27 @@ const monthlySpreadsheets = {
   '20yy-mmm': { repTabId: '',
 
     cards: {
+
       CL: ['', 1, 1, 1],
       CT: ['', 1, 1, 1],
       DE: ['', 1, 1, 1],
+
+      AC: ['', 1, 1, 1],
+      AF: ['', 1, 1, 1],
+      EE: ['', 1, 1, 1],
+
     },
 
     money_codes: {
+
       CL: ['', 1],
       CT: ['', 1],
       DE: ['', 1],
+
+      AC: ['', 1],
+      AF: ['', 1],
+      EE: ['', 1],
+
     },
 
   },
@@ -23,15 +35,27 @@ const monthlySpreadsheets = {
   '2019-Dec': { repTabId: '984425853',
 
     cards: {
+
       CL: ['1tzUPmHelLuLj_4DVma_la8DAiPxz7X3HQb8hFv-TjOE', 1, 1, 1],
       CT: ['1fwEdmmDS8byBX8mBEI5tu_0FhVMzQusYS26N4tg7OUw', 1, 1, 1],
       DE: ['1dbe-S5_GsJeb-i2F65k4VPg4mYM61n7q3gESyGBATTM', 1, 1, 1],
+
+      AC: ['', 1, 1, 1],
+      AF: ['-', 0, 0, 0],
+      EE: ['', 1, 1, 1],
+
     },
 
     money_codes: {
+
       CL: ['1ygTEhO5mWX5u0Fn8IVP4X6AMiX-ZLeQm9IQuDW3F9y8', 1],
       CT: ['1ggdewPYL6hNmLn2nodH_n_0KJ3s7Vzc3wXKiBJXnCrA', 1],
       DE: ['', 1],
+
+      AC: ['', 1],
+      AF: ['-', 0],
+      EE: ['', 1],
+
     },
 
   },
@@ -39,15 +63,27 @@ const monthlySpreadsheets = {
   '2019-Nov': { repTabId: '980557197',
 
     cards: {
-      CL: ['1WmGAEVqz7Z53sxSPDSxon1pwWjr9HhtP7vg5lNA51po', 1, 1, 1],
-      CT: ['1ROVhCscIMb-KheRx9xmQI4FTOnVME1ivKgXDPUCDNJQ', 1, 1, 1],
-      DE: ['16ieMDufB5Z8YkRyrzv2xOk7JxKyKZOXFk9xscBbXEHg', 1, 1, 1],
+
+      CL: ['1WmGAEVqz7Z53sxSPDSxon1pwWjr9HhtP7vg5lNA51po', 0, 1, 1],
+      CT: ['1ROVhCscIMb-KheRx9xmQI4FTOnVME1ivKgXDPUCDNJQ', 0, 0, 0],
+      DE: ['16ieMDufB5Z8YkRyrzv2xOk7JxKyKZOXFk9xscBbXEHg', 0, 0, 0],
+
+      AC: ['', 1, 1, 1],
+      AF: ['', 1, 1, 1],
+      EE: ['', 1, 1, 1],
+
     },
 
     money_codes: {
+
       CL: ['1qnX2ybGNcaDF7eK7qFifzeyRE0GQgHfq82eN3uupi-o', 1],
       CT: ['1IdaoNnH7x6cuVO9GvgKd2F4Yo3wXLr58L4rs0Ex5GDI', 1],
       DE: ['', 1],
+
+      AC: ['', 1],
+      AF: ['', 1],
+      EE: ['', 1],
+
     },
 
   },

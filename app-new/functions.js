@@ -5,6 +5,9 @@ $(document).ready( () => {
       uno = '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
       dos = '<th>CAROLINA TRANSPORTATION &nbsp<span>70830515178290</span></th>',
       tres = '<th>DELTA EXPRESS &nbsp<span>70830515177576</span></th>',
+      cuatro = '<th>ALIANCE CARGO &nbsp<span>???</span></th>',
+      cinco = '<th>AMBU FREIGHT &nbsp<span>???</span></th>',
+      seis = '<th>ECHO EXPRESS &nbsp<span>???</span></th>',
       keys = Object.keys(monthlySpreadsheets);
 
 
@@ -30,6 +33,9 @@ $(document).ready( () => {
   uno = extend(uno, 'CL', 'Carolina Logistic, Inc');
   dos = extend(dos, 'CT', 'Carolina Transportation, Inc');
   tres = extend(tres, 'DE', 'Delta Express, Inc');
+  cuatro = extend(cuatro, 'AC', 'Aliance Cargo, Inc');
+  cinco = extend(cinco, 'AF', 'Ambu Freight, Inc');
+  seis = extend(seis, 'EE', 'Echo Express, Inc');
 
 
   $('#tH').html(ss[0].setTitle());
@@ -45,6 +51,10 @@ $(document).ready( () => {
   $('#uno').html(uno);
   $('#dos').html(dos);
   $('#tres').html(tres);
+
+  $('#cuatro').html(cuatro);
+  $('#cinco').html(cinco);
+  $('#seis').html(seis);
 
   $('#repD').html(createRepD());
 
