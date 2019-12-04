@@ -40,7 +40,7 @@ const monthlySpreadsheets = {
       CT: ['1fwEdmmDS8byBX8mBEI5tu_0FhVMzQusYS26N4tg7OUw', 1, 1, 1],
       DE: ['1dbe-S5_GsJeb-i2F65k4VPg4mYM61n7q3gESyGBATTM', 1, 1, 1],
 
-      AC: ['', 1, 1, 1],
+      AC: ['-', 1, 1, 1],
       AF: ['-', 0, 0, 0],
       EE: ['', 1, 1, 1],
 
@@ -52,7 +52,7 @@ const monthlySpreadsheets = {
       CT: ['1ggdewPYL6hNmLn2nodH_n_0KJ3s7Vzc3wXKiBJXnCrA', 1],
       DE: ['', 1],
 
-      AC: ['', 1],
+      AC: ['-', 1],
       AF: ['-', 0],
       EE: ['', 1],
 
