@@ -42,7 +42,7 @@ const monthlySpreadsheets = {
 
       AC: ['-', 0, 0, 0],
       AF: ['-', 0, 0, 0],
-      EE: ['', 1, 1, 1],
+      EE: ['-', 0, 0, 0],
 
     },
 
@@ -54,7 +54,7 @@ const monthlySpreadsheets = {
 
       AC: ['-', 0],
       AF: ['-', 0],
-      EE: ['', 1],
+      EE: ['-', 0],
 
     },
 
