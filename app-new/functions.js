@@ -5,9 +5,9 @@ $(document).ready( () => {
       uno = '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
       dos = '<th>CAROLINA TRANSPORTATION &nbsp<span>70830515178290</span></th>',
       tres = '<th>DELTA EXPRESS &nbsp<span>70830515177576</span></th>',
-      cuatro = '<th>ALLIANCE CARGO &nbsp<span>???</span></th>',
-      cinco = '<th>AMBU FREIGHT &nbsp<span>???</span></th>',
-      seis = '<th>ECHO EXPRESS &nbsp<span>???</span></th>',
+      cuatro = '<th>ALLIANCE CARGO &nbsp<span></span></th>',
+      cinco = '<th>AMBU FREIGHT &nbsp<span></span></th>',
+      seis = '<th>ECHO EXPRESS &nbsp<span></span></th>',
       keys = Object.keys(monthlySpreadsheets);
 
 
