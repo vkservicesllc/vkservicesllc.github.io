@@ -78,16 +78,16 @@ $(document).ready( () => {
         let anchorHtml = '<a class="h" target="_blank" title="' + title +
                          '" href="https://docs.google.com/spreadsheets/d/' + cardArr[0];
 
-        row += '<em>' + anchorHtml + '/edit#gid=686342087">';
+        row += '<em>' + anchorHtml + '/edit#gid=686342087">'; // 1327593414
         row += (((shouldUseActive) ? active : true) && cardArr[1]) ? mon + '</a>' : '</a>' + mon;
         row += '</em>&nbsp;&nbsp;&nbsp;';
 
-        row += anchorHtml + '/edit#gid=1995296890">';
+        row += anchorHtml + '/edit#gid=1995296890">'; // 763947205
         row += (((shouldUseActive) ? active : true) && cardArr[2]) ? user1 + '</a>' : '</a>' + user1;
 
         row += '&nbsp;';
 
-        row += anchorHtml + '/edit#gid=2117669368">';
+        row += anchorHtml + '/edit#gid=2117669368">'; // 823013097
         row += (((shouldUseActive) ? active : true) && cardArr[3]) ? user2 + '</a>' : '</a>' + user2;
 
       }
