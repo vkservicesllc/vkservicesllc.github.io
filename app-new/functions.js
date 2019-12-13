@@ -8,6 +8,7 @@ $(document).ready( () => {
       cuatro = '<th>ALLIANCE CARGO &nbsp<span></span></th>',
       cinco = '<th>AMBU FREIGHT &nbsp<span></span></th>',
       seis = '<th>ECHO EXPRESS &nbsp<span></span></th>',
+      seite = '<th>SELECT LOGISTICS &nbsp<span></span></th>',
       keys = Object.keys(monthlySpreadsheets);
 
 
@@ -36,6 +37,7 @@ $(document).ready( () => {
   cuatro = extend(cuatro, 'AC', 'Aliance Cargo, Inc');
   cinco = extend(cinco, 'AF', 'Ambu Freight, Inc');
   seis = extend(seis, 'EE', 'Echo Express, Inc');
+  seite = extend(seite, 'SL', 'Select Express, Inc');
 
 
   $('#tH').html(ss[0].setTitle());
@@ -55,6 +57,7 @@ $(document).ready( () => {
   $('#cuatro').html(cuatro);
   $('#cinco').html(cinco);
   $('#seis').html(seis);
+  $('#seite').html(seite);
 
   $('#repD').html(createRepD());
 
