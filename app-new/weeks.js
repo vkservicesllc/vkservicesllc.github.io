@@ -2,8 +2,9 @@ const weeklySpreadsheets = [
 
   // new WeeklySpreadsheet(start, key),
 
-  new WeeklySpreadsheet('01/19/2020', '1oLhMfYvA9BZHhPw94Kh85V8lZbTWhP_iJRrXAGgvqPM'),
+  new WeeklySpreadsheet('01/26/2020', '1RSo9s7ohQZrOd4ImZ1knIRA6TkDsDdeNm06697iQPYY'),
 
+  new WeeklySpreadsheet('01/19/2020', '1oLhMfYvA9BZHhPw94Kh85V8lZbTWhP_iJRrXAGgvqPM'),
   new WeeklySpreadsheet('01/12/2020', '1MQUlvgGvTG5vR5dkLYECuWDzTfvhRub4YcazAdBk50c'),
   new WeeklySpreadsheet('01/05/2020', '1WR48NAf6lwO_IhjHULjn5sKDDm4H2gC0xZJjbHLwjx0'),
   new WeeklySpreadsheet('12/29/2019', '1xPd0RXX2E5BtMU8XyQ7WlAxn97vtTwkF_57UUaSsP6M'),
