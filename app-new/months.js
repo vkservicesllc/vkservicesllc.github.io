@@ -34,6 +34,36 @@ const monthlySpreadsheets = {
 
   */
 
+ '2020-Mar': { repTabId: '126185928',
+
+  cards: {
+
+    CL: ['1wLThMpHV4ZRgXj1m4U9dRO2pZn62wu1TT9Np618J2fA', 1, 1, 1],
+    CT: ['1sfcQvbEhJsx8yzSfbfybo7RhOvMHrv6EbaD5CE905s', 1, 1, 1],
+    DE: ['1pYnv9-fW6JB-8p7bk-CmqN83DvJXNkXYscmbE8GwSeA', 1, 1, 1],
+
+    AC: ['1hcooNaQmcmrgEowS5Cq-p51l4rNFbGXQ3zO5B54aqtk', 1, 1, 1],
+    AF: ['1grlo6EjWAO4yr0MjnNHc1h5UGfIP7rm9jlPgQK6fp1s', 1, 1, 1],
+    EE: ['1aDeyz3BD8HECB8C6YuPN_JmjJYD5tOeqWp9UAZiIRYE', 1, 1, 1],
+    SL: ['1XAhsS9UztM-gWv-S8FWb_0Nr5pghbBnIe8gdzs-nznw', 1, 1, 1],
+
+  },
+
+  money_codes: {
+
+    CL: ['1wrPilsz7cWWMtz37HyzgqiXaAxsbWF7L_WNR87dD48I', 1],
+    CT: ['1kjwhzV7e9MmTMklm4nWs0th9WmMYogSTWwdq6H663n8', 1],
+    DE: ['', 1],
+
+    AC: ['1djtGXL7SjXBBf4Z5xVVGYu7WhXUAqS-vCX9V3UN4rkE', 1],
+    AF: ['1bZ3OYIuH8TXTky9VhobVn-plVrQBzxYGY2GNixz1j4U', 1],
+    EE: ['1Fc7ygYXdDVX6sgAiJ8u8JXSYjuufitjOO3NSFeB31II', 1],
+    SL: ['10n4yNi0P4p89qSsptzNSoCM0qrl4tKGqFQF897Gv4ho', 1],
+
+  },
+
+  },
+
   '2020-Feb': { repTabId: '1004797387',
 
     cards: {
