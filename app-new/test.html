@@ -10,11 +10,11 @@
       $.ajax({
         url: 'https://raw.githubusercontent.com/CarolinaLogistic/linkboard/master/json/ss_payroll-weeks.json',
         success: function(json) {
-          const data = JSON.parse(json);
-          let content = '';
-          for (let date in data)
-            content += date + ' ' + data[date] + '<br>;
-          $('output').html(content);
+//           const data = JSON.parse(json);
+//           let content = '';
+//           for (let date in data)
+//             content += date + ' ' + data[date] + '<br>;
+          $('output').html(json);
         }
       });
     
