@@ -1,15 +1,3 @@
-// const weeklySpreadsheets = [];
-
-// $.ajax({
-//     url: 'https://raw.githubusercontent.com/CarolinaLogistic/linkboard/master/json/ss_payroll-weeks.json',
-//     success: function(json) {
-//         const data = JSON.parse(json);
-//         for (let date in data)
-//           weeklySpreadsheets.push(date, data[date]);
-//     }
-// });
-
-
 const weeklySpreadsheets = [
 
   // new WeeklySpreadsheet(start, key),

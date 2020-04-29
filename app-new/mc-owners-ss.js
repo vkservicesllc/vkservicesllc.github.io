@@ -14,6 +14,16 @@ const monthlySpreadsheets = {
 
   */
 
+  '2020-May': {
+
+    'CLs': ['1AMqDyVu_dpNMO7OLvAt8z1yM1sL0G_8QujzGUMWJUok', 1],
+    'DE':  ['1KHIp9MCbHJfWO5MRIkd1lN60mCa4YqLm1WqKjkfI_lo', 1],
+    'DL':  ['1OnF_YZ_tjSwpg-LgjW_q5AopASxRQ8sk8AHGKX8fRbs', 1],
+    'OT':  ['1W5QFQoFXguekhOp2u_bhu3vK4FkZ7dflORyPvC9fdvs', 1],
+    'PT':  ['1cGG8EuZ4Uv-SD2XpOL2UT4xUlLMSWCSpnknf4EzWY5o', 1],
+
+  },
+
  '2020-April': {
 
     'CLs': ['1MbjyXOTEl1dSIzylNrru7-5nIhcXP8oXaN7QpPUIN3A', 1],
