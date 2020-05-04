@@ -187,6 +187,9 @@ $( () => {
               href="https://drivershr.com/hrm/login.php">
               HRM</a></li>
             <li><a target="_blank" class="bl h"
+              href="https://val.drivershr.com/trip-report/login.php">
+              TRG</a></li>
+            <li><a target="_blank" class="bl h"
               href="https://docs.google.com/spreadsheets/d/19koCtNrSbUujxfcZfqA5ZCHCvkPCvgw7-lUaK0gBQNU/edit?ts=5a79d31c#gid=0">
               Global Board 1</a></li>
             <li><a target="_blank" class="bl h"
