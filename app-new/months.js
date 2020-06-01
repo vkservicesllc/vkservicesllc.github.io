@@ -38,18 +38,52 @@ const monthlySpreadsheets = {
 
   */
 
+  '2020-June': { repTabId: '1960228689',
+
+    cards: {
+
+      CL: ['1zmVl5xlJTPj5QCIhvxPnQFaELAQzE0BVT0LGShMJ5vU', 1, 1, 1],
+      CT: ['1ZyEcxv23Cv-gqHmTBwHu_IM8kGlHa2Wy81ylbQZ7zAc', 1, 1, 1],
+      DE: ['1W3cevfmIEED8cYDbx5YK-ZJMTiYi2VaPbZ2qCCRowlk', 1, 1, 1],
+
+      AC: ['1FR7H2bztFr2s2vU66kDtRVH2Ie0Y6CIVRTpMdmKQ5sQ', 1, 1, 1],
+      AF: ['1A1UzldPR04LkQu6VmVTinsFydUYVkAgFdq9QY0PH_9k', 1, 1, 1],
+      EE: ['192O5V5mUJtQJJQ6B7eu8t5HyoRV0cSydh8_1GyfOQcE', 1, 1, 1],
+      SL: ['10hN66Ah72u3jsZa3N6Oihdg47S3j0nAxJOlthdLigJw', 1, 1, 1],
+
+      ST: ['', 1, 1, 1],
+
+    },
+
+    money_codes: {
+
+      CL: ['1YnPdp-oKa9km-51A5uXTfPoMcmIzMo6dgi_UhWVEG7k', 1],
+      CT: ['1VUQsTNpL2kypJf49uT-cIYv84mm-IitObc4uGjQ39sU', 1],
+      DE: ['', 1],
+
+      AC: ['1SOM8dIZ3wVAMpD0jI5r_NpDPoVm1qn52h_jegq04WtE', 1],
+      AF: ['1GvjMYHMhaQGiHjCEjeuHwanqDE3L2qxzZDV1ljq0wo0', 1],
+      EE: ['17jI-XCua9J0n-JJsXNOfIKqK2QZRXrFKY-60Ix-7kF8', 1],
+      SL: ['10geVaPOXSlkmLTkHReAespf76TOZER1rja4tsWdTUC4', 1],
+
+      ST: ['', 1],
+
+    },
+
+  },
+
   '2020-May': { repTabId: '1979776183',
 
     cards: {
 
-      CL: ['1LcENOIe1_FTGrvH5GLJ7Xg3yEno1ZkC7M_67heIzWwY', 1, 1, 1],
-      CT: ['1xj1kr4cbZmjRGqDp0hM9StRfBURjTaU6pT-tACDkaCg', 1, 1, 1],
-      DE: ['1vIHigKJawXzOMs-jXmpq-GoheJX0oKnVglCaU94-ML0', 1, 1, 1],
+      CL: ['1LcENOIe1_FTGrvH5GLJ7Xg3yEno1ZkC7M_67heIzWwY', 0, 1, 1],
+      CT: ['1xj1kr4cbZmjRGqDp0hM9StRfBURjTaU6pT-tACDkaCg', 0, 0, 0],
+      DE: ['1vIHigKJawXzOMs-jXmpq-GoheJX0oKnVglCaU94-ML0', 0, 0, 0],
 
-      AC: ['1s9hMVqi7W7zbwiEpg2WqRWx_QUAKm4e50WbZX1AkFxQ', 1, 1, 1],
-      AF: ['1TSBNJbz_wNe3QFvTzbAG47b41aAHOr6Pv9aN-hB3jZU', 1, 1, 1],
-      EE: ['1SbbdwBctFeN8LAi3s9hTkejwNMuq_lTyTMu7IlqGf9E', 1, 1, 1],
-      SL: ['1owc2oiusYoJ-MD4MyzrW-jD20KW23NGDySpAANhWU74', 1, 1, 1],
+      AC: ['1s9hMVqi7W7zbwiEpg2WqRWx_QUAKm4e50WbZX1AkFxQ', 0, 1, 1],
+      AF: ['1TSBNJbz_wNe3QFvTzbAG47b41aAHOr6Pv9aN-hB3jZU', 0, 1, 1],
+      EE: ['1SbbdwBctFeN8LAi3s9hTkejwNMuq_lTyTMu7IlqGf9E', 0, 1, 1],
+      SL: ['1owc2oiusYoJ-MD4MyzrW-jD20KW23NGDySpAANhWU74', 0, 0, 0],
 
       ST: ['', 1, 1, 1],
 
