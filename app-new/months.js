@@ -82,7 +82,7 @@ const monthlySpreadsheets = {
 
       AC: ['1s9hMVqi7W7zbwiEpg2WqRWx_QUAKm4e50WbZX1AkFxQ', 0, 1, 1],
       AF: ['1TSBNJbz_wNe3QFvTzbAG47b41aAHOr6Pv9aN-hB3jZU', 0, 1, 1],
-      EE: ['1SbbdwBctFeN8LAi3s9hTkejwNMuq_lTyTMu7IlqGf9E', 0, 1, 1],
+      EE: ['1SbbdwBctFeN8LAi3s9hTkejwNMuq_lTyTMu7IlqGf9E', 0, 0, 0],
       SL: ['1owc2oiusYoJ-MD4MyzrW-jD20KW23NGDySpAANhWU74', 0, 0, 0],
 
       ST: ['', 1, 1, 1],
