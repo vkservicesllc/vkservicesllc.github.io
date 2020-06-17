@@ -18,9 +18,11 @@ const monthlySpreadsheets = {
 
     'CLs': ['1yn3CMpLHtKllxeo0wb3w1OybtxsAwdP13dauPFEW-nw', 1],
     'DE':  ['1sSp3C9OZ-BXHgXs8uUIHnY2vJ3vZaEuwQ89xrcfIzoE', 1],
+    'DES': ['1gzyaD-gCh1KSWCEDeITXKLF1oLAqqqBNcwUfaebSlCg', 1],
     'DL':  ['1j1CBf7R37a2eVM4czx7X_Uli19x4cgFzcNKHCrX4rco', 1],
     'OT':  ['1aa-kU6GlvfqTSVVQDLet8tnkeQu1tz72Do5uR3s5Z84', 1],
     'PT':  ['1DWLv_oX-O1FUdkbGBZW0oicZmIUnJw8ee-kDFjEZ1TM', 1],
+    'RPP': ['1yQMa-mvXmv_Y5d53bjvQ_PNuFCL7_AH_zspExFqMsms', 1],
 
   },
 
@@ -56,13 +58,13 @@ const monthlySpreadsheets = {
 
  '2020-February': {
 
-  'CLs': ['1AuNZk_nHUsexrjD3Gq8SCL8uDVTm70wNAYfDNuBniCE', 1],
-  'DE':  ['14-TG-OrBY4-4u9QqLCpixfnwd9NtJPxyA7GlyvFQkXw', 1],
-  'DL':  ['17SI6YuvjrwIZ7TBoYhjppsCucXGr6WMlUDbfCkdWeUw', 1],
-  'OT':  ['1B6D44aDmB88oWHYFcT1YZpBEQPHrLiD2SnrfjKxQTos', 1],
-  'PT':  ['1ZZyGhGHAinGIKM7qAcYAhAq7sY9VlN_y-SIg9BOijyI', 1],
+    'CLs': ['1AuNZk_nHUsexrjD3Gq8SCL8uDVTm70wNAYfDNuBniCE', 1],
+    'DE':  ['14-TG-OrBY4-4u9QqLCpixfnwd9NtJPxyA7GlyvFQkXw', 1],
+    'DL':  ['17SI6YuvjrwIZ7TBoYhjppsCucXGr6WMlUDbfCkdWeUw', 1],
+    'OT':  ['1B6D44aDmB88oWHYFcT1YZpBEQPHrLiD2SnrfjKxQTos', 1],
+    'PT':  ['1ZZyGhGHAinGIKM7qAcYAhAq7sY9VlN_y-SIg9BOijyI', 1],
 
-},
+  },
 
  '2020-January': {
 
@@ -143,12 +145,13 @@ const getCompanies = () => {
 
     'CLs': 'CAROLINA LOGISTICS, Inc &nbsp;<span>70830516181943</span>',
     'DE': 'DELTA EXPRESS, Inc &nbsp;<span>70830515177576</span>',
+    'DES': 'DELTA EXPRESS SERVICES, Inc &nbsp;<span></span>',
     'DL': 'DELTA LOGISTICS, Inc &nbsp;<span>70830517302592</span>',
     'OT': 'ONTRACK TRANSPORTATION, Inc &nbsp;<span>70830517305886</span>',
     'PT': 'PRECISE TRANSPORTATION, Inc &nbsp;<span>70830517302433</span>',
+    'RPP': 'RPP EXPRESS, Inc &nbsp;<span></span>',
 
-    'DES': 'DELTA EXPRESS SERVICES, Inc &nbsp;<span></span>',
-    'RT': 'RAINIER TRANSPORTATION, Inc &nbsp;<span>70830517307425</span>',
+    // 'RT': 'RAINIER TRANSPORTATION, Inc &nbsp;<span>70830517307425</span>',
 
     // 'AE': 'ALPHA EXPRESS, Inc &nbsp;<span></span>',
     // 'HH': 'HUGO HUNTER, Inc &nbsp;<span></span>',
