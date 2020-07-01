@@ -47,7 +47,7 @@ $(document).ready( () => {
           cinco = extend(cinco, 'AF', 'Ambu Freight, Inc');
           seis = extend(seis, 'EE', 'Echo Express, Inc');
           siete = extend(siete, 'SL', 'Select Express, Inc');
-          ocho = extend(ocho, 'ST', 'Sound Transportation, Inc');
+          ocho = extend(ocho, 'RT', 'Rainier Transportation, Inc');
         
         
           $('#tH').html(ss[0].setTitle());

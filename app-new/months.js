@@ -17,8 +17,6 @@ const monthlySpreadsheets = {
 
       RT: ['', 1, 1, 1],
 
-      ST: ['', 1, 1, 1],
-
     },
 
     money_codes: {
@@ -87,7 +85,7 @@ const monthlySpreadsheets = {
       EE: ['192O5V5mUJtQJJQ6B7eu8t5HyoRV0cSydh8_1GyfOQcE', 1, 1, 1],
       SL: ['10hN66Ah72u3jsZa3N6Oihdg47S3j0nAxJOlthdLigJw', 0, 0, 0],
 
-      ST: ['', 1, 1, 1],
+      RT: ['', 1, 1, 1],
 
     },
 
@@ -102,7 +100,7 @@ const monthlySpreadsheets = {
       EE: ['17jI-XCua9J0n-JJsXNOfIKqK2QZRXrFKY-60Ix-7kF8', 1],
       SL: ['10geVaPOXSlkmLTkHReAespf76TOZER1rja4tsWdTUC4', 1],
 
-      ST: ['', 1],
+      RT: ['', 1],
 
     },
 
