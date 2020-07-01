@@ -18,7 +18,7 @@ $(document).ready( () => {
               cinco = '<th>AMBU FREIGHT &nbsp<span></span></th>',
               seis = '<th>ECHO EXPRESS &nbsp<span></span></th>',
               siete = '<th>SELECT LOGISTICS &nbsp<span></span></th>',
-              ocho = '<th>SOUND TRANSPORTATION &nbsp<span></span></th>',
+              ocho = '<th>RAINIER TRANSPORTATION &nbsp<span></span></th>',
               keys = Object.keys(monthlySpreadsheets);
 
           for (var i = 2; i < 9; i++) {

@@ -15,6 +15,8 @@ const monthlySpreadsheets = {
       EE: ['', 1, 1, 1],
       SL: ['', 1, 1, 1],
 
+      RT: ['', 1, 1, 1],
+
       ST: ['', 1, 1, 1],
 
     },
@@ -30,7 +32,7 @@ const monthlySpreadsheets = {
       EE: ['', 1],
       SL: ['', 1],
 
-      ST: ['', 1],
+      RT: ['', 1],
 
     },
 
@@ -51,7 +53,7 @@ const monthlySpreadsheets = {
       EE: ['1WrX55J22wub8TZ_EFGkjDvY0xGhPaSndyU06Lk4iE_Q', 1, 1, 1],
       SL: ['13KWkKsfmjDwPXrp13dTKB37mu-aHPRAfwSdjIi-ZL6M', 1, 1, 1],
 
-      ST: ['', 1, 1, 1],
+      RT: ['1Ne7UYDZEYH0_7D95jIufk5kXhGrBVu6z5VB0JYUc1TE', 1, 1, 1],
 
     },
 
@@ -66,7 +68,7 @@ const monthlySpreadsheets = {
       EE: ['1aOp6cOTsC4GqS_dMEk6KjWIil6fryDoosCjQHlPPxkU', 1],
       SL: ['1ZwfiMjwfPlX9ppM8VYsrR79COBnul4IUnAK-wRb7yNM', 1],
 
-      ST: ['', 1],
+      RT: ['', 1],
 
     },
 
