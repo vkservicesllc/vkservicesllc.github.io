@@ -4,18 +4,33 @@ const monthlySpreadsheets = {
 
   '2020-mmmm': {
 
+    'CT':  ['', 1],
     'CLs': ['', 1],
     'DE':  ['', 1],
     'DL':  ['', 1],
     'OT':  ['', 1],
     'PT':  ['', 1],
+    'RPP': ['', 1],
 
   },
 
   */
 
+  '2020-July': {
+
+    'CT':  ['1sGbokIBipCdIu-_Uvc-XNDQdUJ6H1OhpWIA7WI5MjRg', 1],
+    'CLs': ['1z2XXOUaqmHn0aO5ypWrVYwnu9jThxwWdhrueAZDcXSI', 1],
+    'DE':  ['1moiWwwPUFr6VoC2PMVmFAMI5gKrcGK6uLKZNyBexIew', 1],
+    'DL':  ['1hK437gerzVv3d8Es-7D3Pn5iZaA8PK14gPS-qdLEbNE', 1],
+    'OT':  ['172dQwepHTeBcCLp3RT4lwCoGk9a_iwED6O9DC5SVxME', 1],
+    'PT':  ['10OlZwP0zmEL8ojXjAr_ZFei3nNz4yvBm5OsTw7KeO9w', 1],
+    'RPP': ['1ocF2HSOxIvc_bTFbFQ2l33dolPkSFaJI3Z8OCCP-ncI', 1],
+
+  },
+
   '2020-June': {
 
+    'CT':  ['', 1],
     'CLs': ['1yn3CMpLHtKllxeo0wb3w1OybtxsAwdP13dauPFEW-nw', 1],
     'DE':  ['1sSp3C9OZ-BXHgXs8uUIHnY2vJ3vZaEuwQ89xrcfIzoE', 1],
     'DES': ['1gzyaD-gCh1KSWCEDeITXKLF1oLAqqqBNcwUfaebSlCg', 1],
@@ -143,6 +158,7 @@ const getCompanies = () => {
 
   return {
 
+    'CT': 'CAROLINA TRANSPORTATION, Inc &nbsp;<span>70830515178290</span>',
     'CLs': 'CAROLINA LOGISTICS, Inc &nbsp;<span>70830516181943</span>',
     'DE': 'DELTA EXPRESS, Inc &nbsp;<span>70830515177576</span>',
     'DES': 'DELTA EXPRESS SERVICES, Inc &nbsp;<span></span>',
