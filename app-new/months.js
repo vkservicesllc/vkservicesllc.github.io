@@ -66,7 +66,7 @@ const monthlySpreadsheets = {
       EE: ['1aOp6cOTsC4GqS_dMEk6KjWIil6fryDoosCjQHlPPxkU', 1],
       SL: ['1ZwfiMjwfPlX9ppM8VYsrR79COBnul4IUnAK-wRb7yNM', 1],
 
-      RT: ['', 1],
+      RT: ['1M8Xe002pX3IER1A-FwOjgWFTgvtIjKWMY6k19AeF90E', 1],
 
     },
 
