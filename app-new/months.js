@@ -57,16 +57,16 @@ const monthlySpreadsheets = {
 
     money_codes: {
 
-      CL: ['', 1],
+      CL: ['1c0D7aMLgbjTBAjbVO4QmejzXLBj-n3dAhkXUZqAoMn8', 1],
       CT: ['', 1],
       DE: ['', 1],
 
-      AC: ['', 1],
-      AF: ['', 1],
-      EE: ['', 1],
-      SL: ['', 1],
+      AC: ['1zwOE6RDm_JCN4UQeS1LpHsCMUQXfMLtzC-3JXSGdD1g', 1],
+      AF: ['1pIcCtmScm2wa7QazcQ04fPnV7f4SF4YZT1M8J5kUJiw', 1],
+      EE: ['1c-igpEpD6IcKd82oMgC9g0cRzMWyqRu3rC72gzSf_As', 1],
+      SL: ['1ICQXMKSWADVCqOQ1BeddKQEPoxVGjGiKWEh2jeg_Im0', 1],
 
-      RT: ['', 1],
+      RT: ['1amSeNke0OIg-QgF8d8GfJViZKvniqCFOKA5lRZC_284', 1],
 
     },
 
