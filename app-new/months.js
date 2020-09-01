@@ -16,6 +16,7 @@ const monthlySpreadsheets = {
       SL: ['', 1, 1, 1],
 
       RT: ['', 1, 1, 1],
+      OT: ['', 1, 1, 1],
 
     },
 
@@ -31,6 +32,7 @@ const monthlySpreadsheets = {
       SL: ['', 1],
 
       RT: ['', 1],
+      OT: ['', 1],
 
     },
 
@@ -38,20 +40,57 @@ const monthlySpreadsheets = {
 
   */
 
+  '2020-Sep': { repTabId: '1107535317',
+
+    cards: {
+
+      CL: ['1tBDPnzKm0lUnyV02WmewdpzrPfxaY12KChcwSCRJ9yI', 1, 1, 1],
+      CT: ['1jGI0BTnPMvL6xMwMjnrfN2AaHJTHmxmIuz8ZsaCapLE', 1, 1, 1],
+      DE: ['1j8ce-5hxIUgAoLKwwfslek2TI93XUPr3gl5TZbN2jgU', 1, 1, 1],
+
+      AC: ['1hegD4_448dACSDckkxJ8uRjLpVdZMFYcFxvkBXaGEHs', 1, 1, 1],
+      AF: ['1fQ9ryR3bUixgP0BrPyJHKJGnXDg-OBvSrBV9CIMYwS8', 1, 1, 1],
+      EE: ['1Yd7M_AEkXgxUDYnWjNdrkLoyQNcvcRlPoe9OnZ3ooE8', 1, 1, 1],
+      SL: ['1XrCJ3rPgvI4wm2aD-SdSYSg9ABG9s_H-y6mk88AWfNw', 1, 1, 1],
+
+      RT: ['1UAzGeEpvwHMsYq4RGAxiVDM5ZPfjpP-QPIpdteo3EYY', 1, 1, 1],
+      OT: ['1CdxXrNRcVo7m8RY0PyH3Gm7POHOMNvK2T9oL4K_W8yM', 1, 1, 1],
+
+    },
+
+    money_codes: {
+
+      CL: ['1y23O41BMsVtMhk-ir8Eq72EtPqJHukxf6FYBP66P3Lg', 1],
+      CT: ['1rntF2DELM_jgNtH4tylsh9fTg3SVjXRTjO2XMfo0v1M', 1],
+      DE: ['', 1],
+
+      AC: ['1jgonzMbcgdGqDmnAXDPabpgJkQSNpJBNCUSCOdVqENA', 1],
+      AF: ['1YGWfWSatcp1JLOQe7kDrTkoiJuln30fqFlo5QPUj660', 1],
+      EE: ['1Qhmj0WMyfddJxTFZm9m7fbq-LDsAHBqxmMbL7ljb8cE', 1],
+      SL: ['1KHd4whNS65HrANEf0oyLkMfYdcAtf-Uf5rMcG0omkKc', 1],
+
+      RT: ['1BWam09iHIBmFZVzkhz8_EiyPHmW8Wj8riWMkbl-8o_E', 1],
+      OT: ['1KD_8hbCjMhX76AuwtDhqJU41oNicnccN1IuIvZuBWDg', 1],
+
+    },
+
+  },
+
   '2020-Aug': { repTabId: '589214331',
 
     cards: {
 
-      CL: ['14vtF1Gtr3ERghjuyI3Iy0aWAsdKE7ijtG890DH9oop8', 1, 1, 1],
-      CT: ['1AOOg1J00xlMNv6av-QTUUfUvtBSthvPYZPR8TPeWLkg', 1, 1, 1],
-      DE: ['1MPcS9W9Fek19sK2V10fK-15t6rGFQ4KuGSvdpdf0Rgk', 1, 1, 1],
+      CL: ['14vtF1Gtr3ERghjuyI3Iy0aWAsdKE7ijtG890DH9oop8', 0, 1, 1],
+      CT: ['1AOOg1J00xlMNv6av-QTUUfUvtBSthvPYZPR8TPeWLkg', 0, 0, 0],
+      DE: ['1MPcS9W9Fek19sK2V10fK-15t6rGFQ4KuGSvdpdf0Rgk', 0, 0, 0],
 
-      AC: ['1MwEhhP76O6KD2DTLrcQQkZDMqcnJhZ7nRrM8bBq30zs', 1, 1, 1],
-      AF: ['1NaZ6h-WxjVcm849lNRBvRQEMDll8MiPhVJ1fbf2FbFY', 1, 1, 1],
-      EE: ['1fL5cXQnMc-jlCgEZDWuf9e1HxB_7OAsgjfIxt7soa-0', 1, 1, 1],
-      SL: ['1fV_aISq4ltObyIDcCqHtkT-EO2niJivqBD7E-jDKlE0', 1, 1, 1],
+      AC: ['1MwEhhP76O6KD2DTLrcQQkZDMqcnJhZ7nRrM8bBq30zs', 0, 1, 1],
+      AF: ['1NaZ6h-WxjVcm849lNRBvRQEMDll8MiPhVJ1fbf2FbFY', 0, 1, 1],
+      EE: ['1fL5cXQnMc-jlCgEZDWuf9e1HxB_7OAsgjfIxt7soa-0', 0, 0, 0],
+      SL: ['1fV_aISq4ltObyIDcCqHtkT-EO2niJivqBD7E-jDKlE0', 0, 0, 0],
 
-      RT: ['1whlGksn-zb5jfe2vQEdgXPYZ-KDmnnq-LydvCNCFt6o', 1, 1, 1],
+      RT: ['1whlGksn-zb5jfe2vQEdgXPYZ-KDmnnq-LydvCNCFt6o', 0, 0, 0],
+      OT: ['1__5_jc6gZZFwqCD0NOrQkNoUIWNzx6O2N3Zdckk_MTM', 1, 1, 1],
 
     },
 
@@ -67,6 +106,7 @@ const monthlySpreadsheets = {
       SL: ['1ICQXMKSWADVCqOQ1BeddKQEPoxVGjGiKWEh2jeg_Im0', 1],
 
       RT: ['1amSeNke0OIg-QgF8d8GfJViZKvniqCFOKA5lRZC_284', 1],
+      OT: ['', 1],
 
     },
 
@@ -76,14 +116,18 @@ const monthlySpreadsheets = {
 
     cards: {
 
-      CL: ['1wtbczMp_i0K1oNLBKvX7kUkw6spPteFTbmYMilVVrEw', 0, 1, 1],
+      CL: ['1wtbczMp_i0K1oNLBKvX7kUkw6spPteFTbmYMilVVrEw', 0, 0, 0],
+      CL: ['1wtbczMp_i0K1oNLBKvX7kUkw6spPteFTbmYMilVVrEw', 0, 0, 0],
       CT: ['1fkV70DpyieweBM1bZkAB4TODnJqVkhSdPPo8XfExQ5s', 0, 0, 0],
       DE: ['1ciRWsLoA2M5MmWAi2j8giNuJkb7TRTkOCH23vczQ1cY', 0, 0, 0],
 
       AC: ['1b_oma1vXMYDWD2sVnOIwKoPqIvbbdVvRljv2k58PSr8', 0, 0, 0],
-      AF: ['1XqDE1UZiZq62teSqQ-sqfCQYOx9Y6dw45vU71gX4P6g', 0, 1, 1],
+      AF: ['1XqDE1UZiZq62teSqQ-sqfCQYOx9Y6dw45vU71gX4P6g', 0, 0, 0],
       EE: ['1WrX55J22wub8TZ_EFGkjDvY0xGhPaSndyU06Lk4iE_Q', 0, 0, 0],
-      SL: ['13KWkKsfmjDwPXrp13dTKB37mu-aHPRAfwSdjIi-ZL6M', 0, 1, 1],
+      SL: ['13KWkKsfmjDwPXrp13dTKB37mu-aHPRAfwSdjIi-ZL6M', 0, 0, 0],
+      AF: ['1XqDE1UZiZq62teSqQ-sqfCQYOx9Y6dw45vU71gX4P6g', 0, 0, 0],
+      EE: ['1WrX55J22wub8TZ_EFGkjDvY0xGhPaSndyU06Lk4iE_Q', 0, 0, 0],
+      SL: ['13KWkKsfmjDwPXrp13dTKB37mu-aHPRAfwSdjIi-ZL6M', 0, 0, 0],
 
       RT: ['1Ne7UYDZEYH0_7D95jIufk5kXhGrBVu6z5VB0JYUc1TE', 0, 0, 0],
 
