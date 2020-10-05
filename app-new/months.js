@@ -40,7 +40,7 @@ const monthlySpreadsheets = {
 
   */
 
-  '2020-Oct': { repTabId: '',
+  '2020-Oct': { repTabId: '1806834765',
 
     cards: {
 
@@ -80,9 +80,9 @@ const monthlySpreadsheets = {
 
     cards: {
 
-      CL: ['1tBDPnzKm0lUnyV02WmewdpzrPfxaY12KChcwSCRJ9yI', 1, 1, 1],
+      CL: ['1tBDPnzKm0lUnyV02WmewdpzrPfxaY12KChcwSCRJ9yI', 0, 1, 1],
       CT: ['1jGI0BTnPMvL6xMwMjnrfN2AaHJTHmxmIuz8ZsaCapLE', 1, 1, 1],
-      DE: ['1j8ce-5hxIUgAoLKwwfslek2TI93XUPr3gl5TZbN2jgU', 1, 1, 1],
+      DE: ['1j8ce-5hxIUgAoLKwwfslek2TI93XUPr3gl5TZbN2jgU', 0, 0, 0],
 
       AC: ['1hegD4_448dACSDckkxJ8uRjLpVdZMFYcFxvkBXaGEHs', 1, 1, 1],
       AF: ['1fQ9ryR3bUixgP0BrPyJHKJGnXDg-OBvSrBV9CIMYwS8', 1, 1, 1],
