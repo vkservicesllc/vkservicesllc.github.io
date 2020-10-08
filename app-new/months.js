@@ -81,16 +81,16 @@ const monthlySpreadsheets = {
     cards: {
 
       CL: ['1tBDPnzKm0lUnyV02WmewdpzrPfxaY12KChcwSCRJ9yI', 0, 1, 1],
-      CT: ['1jGI0BTnPMvL6xMwMjnrfN2AaHJTHmxmIuz8ZsaCapLE', 1, 1, 1],
+      CT: ['1jGI0BTnPMvL6xMwMjnrfN2AaHJTHmxmIuz8ZsaCapLE', 0, 0, 0],
       DE: ['1j8ce-5hxIUgAoLKwwfslek2TI93XUPr3gl5TZbN2jgU', 0, 0, 0],
 
-      AC: ['1hegD4_448dACSDckkxJ8uRjLpVdZMFYcFxvkBXaGEHs', 1, 1, 1],
-      AF: ['1fQ9ryR3bUixgP0BrPyJHKJGnXDg-OBvSrBV9CIMYwS8', 1, 1, 1],
-      EE: ['1Yd7M_AEkXgxUDYnWjNdrkLoyQNcvcRlPoe9OnZ3ooE8', 1, 1, 1],
-      SL: ['1XrCJ3rPgvI4wm2aD-SdSYSg9ABG9s_H-y6mk88AWfNw', 1, 1, 1],
+      AC: ['1hegD4_448dACSDckkxJ8uRjLpVdZMFYcFxvkBXaGEHs', 0, 0, 0],
+      AF: ['1fQ9ryR3bUixgP0BrPyJHKJGnXDg-OBvSrBV9CIMYwS8', 0, 0, 0],
+      EE: ['1Yd7M_AEkXgxUDYnWjNdrkLoyQNcvcRlPoe9OnZ3ooE8', 0, 0, 0],
+      SL: ['1XrCJ3rPgvI4wm2aD-SdSYSg9ABG9s_H-y6mk88AWfNw', 0, 0, 0],
 
-      RT: ['1UAzGeEpvwHMsYq4RGAxiVDM5ZPfjpP-QPIpdteo3EYY', 1, 1, 1],
-      OT: ['1CdxXrNRcVo7m8RY0PyH3Gm7POHOMNvK2T9oL4K_W8yM', 1, 1, 1],
+      RT: ['1UAzGeEpvwHMsYq4RGAxiVDM5ZPfjpP-QPIpdteo3EYY', 0, 0, 0],
+      OT: ['1CdxXrNRcVo7m8RY0PyH3Gm7POHOMNvK2T9oL4K_W8yM', 0, 0, 0],
 
     },
 
