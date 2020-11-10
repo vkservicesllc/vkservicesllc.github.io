@@ -68,9 +68,12 @@ $( () => {
   </table>`;
 
   const additional =
-  `<legend>Additional Tools (West Coast Only)</legend>
+  `<legend>Additional Tools (Local Only)</legend>
   <table class="tools">
     <tr>
+      <td><a class="h" target="_blank"
+        href="https://docs.google.com/spreadsheets/d/1gi4qgkyggoxXMbc2JTVW-Q38dyGjCyPWcxctblexrWo/edit?ts=5f92ea69#gid=0">
+        5 Day Local</a></td>
       <td><a class="h" target="_blank"
         href="https://docs.google.com/spreadsheets/d/1AoyXGtUIOiGq9siawF-WnBP4XgVgur-wWRgyilM0j2A/edit?ts=5a673d3b#gid=1558692306">
         Detention Board</a></td>
