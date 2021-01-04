@@ -80,17 +80,17 @@ const monthlySpreadsheets = {
 
     cards: {
 
-      CL: ['1tTcZJ8h-xAh2W4zbQW6NvfTQ7nPr6M4cYsKMzHzIiWs', 1, 1, 1],
-      CT: ['1n25W0fhNwrJj2TFV9pL3nKozpXCa_TrPXXIoVY_dlfI', 1, 1, 1],
-      DE: ['1hiwj6tR7GHEgk_wHjjTO4QqxXCEN1ej8xIxsHL2lYvI', 1, 1, 1],
+      CL: ['1tTcZJ8h-xAh2W4zbQW6NvfTQ7nPr6M4cYsKMzHzIiWs', 0, 1, 1],
+      CT: ['1n25W0fhNwrJj2TFV9pL3nKozpXCa_TrPXXIoVY_dlfI', 0, 0, 0],
+      DE: ['1hiwj6tR7GHEgk_wHjjTO4QqxXCEN1ej8xIxsHL2lYvI', 0, 0, 0],
 
-      AC: ['1Xfv0pobkLgg1NPaIFPBtiLsumXDW5d6crsx0ZQ7jNxg', 1, 1, 1],
-      AF: ['1W5dEStnBtX01kxrAHDBhW1qLPJA4QnQwXdmGH2BQqzI', 1, 1, 1],
-      EE: ['1GuNoRFXrra35wCwsFbYUfpC63G8gPnQiJ1zogY7Yhvw', 1, 1, 1],
-      SL: ['1DsN8aQHXChyOUjcBxm6f8LaKlTRLu1WZwV-Xw9Gb9HM', 1, 1, 1],
+      AC: ['1Xfv0pobkLgg1NPaIFPBtiLsumXDW5d6crsx0ZQ7jNxg', 0, 1, 1],
+      AF: ['1W5dEStnBtX01kxrAHDBhW1qLPJA4QnQwXdmGH2BQqzI', 0, 1, 1],
+      EE: ['1GuNoRFXrra35wCwsFbYUfpC63G8gPnQiJ1zogY7Yhvw', 0, 0, 0],
+      SL: ['1DsN8aQHXChyOUjcBxm6f8LaKlTRLu1WZwV-Xw9Gb9HM', 0, 0, 0],
 
-      RT: ['11EcpxRh_PExw5ifB2PSCT8HXNLWRRZUUajDNt-o91uk', 1, 1, 1],
-      OT: ['1-8mYaO12GQyoxKQAHCdyMMYBHDm77wXTQHCQrFegkQ8', 1, 1, 1],
+      RT: ['11EcpxRh_PExw5ifB2PSCT8HXNLWRRZUUajDNt-o91uk', 0, 0, 0],
+      OT: ['1-8mYaO12GQyoxKQAHCdyMMYBHDm77wXTQHCQrFegkQ8', 0, 0, 0],
 
     },
 
