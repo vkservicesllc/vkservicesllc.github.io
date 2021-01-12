@@ -84,8 +84,8 @@ const monthlySpreadsheets = {
       CT: ['1n25W0fhNwrJj2TFV9pL3nKozpXCa_TrPXXIoVY_dlfI', 0, 0, 0],
       DE: ['1hiwj6tR7GHEgk_wHjjTO4QqxXCEN1ej8xIxsHL2lYvI', 0, 0, 0],
 
-      AC: ['1Xfv0pobkLgg1NPaIFPBtiLsumXDW5d6crsx0ZQ7jNxg', 0, 1, 1],
-      AF: ['1W5dEStnBtX01kxrAHDBhW1qLPJA4QnQwXdmGH2BQqzI', 0, 1, 1],
+      AC: ['1Xfv0pobkLgg1NPaIFPBtiLsumXDW5d6crsx0ZQ7jNxg', 0, 0, 0],
+      AF: ['1W5dEStnBtX01kxrAHDBhW1qLPJA4QnQwXdmGH2BQqzI', 0, 0, 0],
       EE: ['1GuNoRFXrra35wCwsFbYUfpC63G8gPnQiJ1zogY7Yhvw', 0, 0, 0],
       SL: ['1DsN8aQHXChyOUjcBxm6f8LaKlTRLu1WZwV-Xw9Gb9HM', 0, 0, 0],
 
