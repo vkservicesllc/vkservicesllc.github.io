@@ -80,12 +80,12 @@ const monthlySpreadsheets = {
 
     cards: {
 
-      CL: ['1rWHcGtt8wz58jWoDZfw2cHXBm-uKkJu4rZZEXUdAT_8', 0, 1, 1],
+      CL: ['1rWHcGtt8wz58jWoDZfw2cHXBm-uKkJu4rZZEXUdAT_8', 0, 0, 0],
       CT: ['1rOY1xb1Be8j-FGRIturRAjbEn4UZF0x59hmp1mkFwlU', 0, 0, 0],
       DE: ['1mVS46vEardtdEz4z2Xk_m0Ui4iCIB11RAWFNME-wHoA', 0, 0, 0],
 
       AC: ['1e4GWLBNx5Zjgk7jfU8FmD4ILVmit44ZwYzyMfNdgyXE', 0, 0, 0],
-      AF: ['1dKDiNj9awenfDpZRKKeYaJCZ7PiZf5Fxb8Niz_4LJQY', 0, 1, 1],
+      AF: ['1dKDiNj9awenfDpZRKKeYaJCZ7PiZf5Fxb8Niz_4LJQY', 0, 0, 0],
       EE: ['1V_gKRUSE3fLKwc578th8VIo3ew1TC8xlr7T1A8g8LZE', 0, 0, 0],
       SL: ['1LXlrZ7g3XOeZxRfMuPqaWv3FPtpjt6prbVd7HQgJSik', 0, 0, 0],
 
