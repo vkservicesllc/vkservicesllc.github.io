@@ -40,6 +40,42 @@ const monthlySpreadsheets = {
 
   */
 
+  '2021-Apr': { repTabId: '50749161',
+
+    cards: {
+
+      CL: ['1oZeQ_ldLbUoOMMQ_pMRMFDiphNNCCbQMGmYRFNKmrTs', 1, 1, 1],
+      CT: ['1ns-nhxdCZV2dw1ikbXZDdRFY_hKsiA4m3Pb9NU8LEr4', 1, 1, 1],
+      DE: ['1hxuOtIsAKWKIe47y2LSC1VOulyAcMBxnuqyUcxc71Pg', 1, 1, 1],
+
+      AC: ['1foia7WOMyzdDVZRIPFKPzW2xsZpfc41U8cMXP6TS6cg', 1, 1, 1],
+      AF: ['1_l_OICEBR5UETjd8FmZAnftmR7Q2fusfH5u21vh-uec', 1, 1, 1],
+      EE: ['1QDqbZnQMybw0U2K-xKoV0VVvFP3CdzTinU3jQr714_s', 1, 1, 1],
+      SL: ['1N2Kfui1ZRYsz2y6hvCbEl-rXZ6l54hCwBe1amGzuUpI', 1, 1, 1],
+
+      RT: ['17VMZ4FyABUb15bYhQoj5vp7BHhd6PKqSYe-rTG1Rtf4', 1, 1, 1],
+      OT: ['15J4Lvx_D-xFW-Y9lFac3EtDopdYFWznzCmx26xkLCPk', 1, 1, 1],
+
+    },
+
+    money_codes: {
+
+      CL: ['1n60opeGClB_0YW6bsSKmSoOWyNLj0jcFWpXyqEUtNGM', 1],
+      CT: ['1j054GIyYK8j5XFwDbMyt89Kyff-kb3gC8NSNJ_wyvTM', 1],
+      DE: ['', 1],
+
+      AC: ['1gWAyE4ExBKX6fc3_bkQ_1pxgMF79vuNjeizzEhIPdfc', 1],
+      AF: ['1eTOQR2rpCkdzMg9hk7sDrg2iSsEIIAj7Hk3irGCUpGQ', 1],
+      EE: ['1a5ei8_vvwdSVp_NtEmNi8cMMjgs7xQITkTb_xl-PIwY', 1],
+      SL: ['1YwtIceGDPKv4jBNFTl1xP0gR-kFF7pJo8Knhl357fJU', 1],
+
+      RT: ['1N3hLXsWb3za1K06aLkiprgKSltE0THu7MkLDw0-QGR8', 1],
+      OT: ['1JXM8xggXdsJBCtIbH5MQJYfqileNjPJURuTLaqJD_hE', 1],
+
+    },
+
+  },
+
   '2021-Mar': { repTabId: '1060252268',
 
     cards: {
