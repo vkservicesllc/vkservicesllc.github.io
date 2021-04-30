@@ -1,11 +1,11 @@
 $(document).ready( () => {
 
-  let url = 'https://raw.githubusercontent.com/CarolinaLogistic/linkboard/master/json/ss_payroll-weeks.json';
+  let url = 'https://vkservicesllc.github.io/json/ss_payroll-weeks.json';
   const data = $.ajax({
       url,
       success: function(data) {
 
-          data = JSON.parse(data);
+          // data = JSON.parse(data);
           const ss = [];
           for (let i in data)
             ss.push(new WeeklySpreadsheet(i, data[i]));
