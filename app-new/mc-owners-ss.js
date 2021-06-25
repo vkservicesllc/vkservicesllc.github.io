@@ -17,6 +17,19 @@ const monthlySpreadsheets = {
 
   */
 
+  '2021-June': {
+
+    'CT':  ['1BjB0WMSrzlAUdF0I4rkbPpuNN7jm14CtG9E4-ifSKvI', 1],
+    'CLs': ['1GGRkXDyiEjImY1I2JpMdr3cwK0U7FOs03e6wVfCutCA', 1],
+    'DE':  ['1HT1DSPpx1zFXFtDNWYdipd9-el0aexVm5VIVErhQ4mg', 1],
+    'DES': ['1NCSaEqT9OXxhPH8chNKuuC_JTdUGTQpNfboDvOmScIo', 1],
+    'DL':  ['1U_rV_3GXbWnn13pgGtFzVKXlifEkmLD3ETKX0hSr4_A', 1],
+    'OT':  ['1vgg3Xfwi1T5FBkbk16Nx_oiIc4jlQ9lyXyUrrxkZYxE', 1],
+    'PT':  ['1ZkqW85KCYHxA3wg5SkgFdGVBN82b_yE6xzUo7BvIhJA', 1],
+    'RPP': ['1l_oNl50vFKJdC6xtjyhtBcn5C28-98VCQmAw_kPF_Ak', 1],
+
+  },
+
   '2021-May': {
 
     'CT':  ['1CrT38NZl6GosjeYNVHayUlscO0_rdsG2vTjpXCehZ6U', 1],
