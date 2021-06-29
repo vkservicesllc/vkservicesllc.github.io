@@ -11,15 +11,15 @@ $(document).ready( () => {
             ss.push(new WeeklySpreadsheet(i, data[i]));
 
           var list = '',
-              uno = '<th>CAROLINA LOGISTIC &nbsp<span>70830515178332</span></th>',
-              dos = '<th>CAROLINA TRANSPORTATION &nbsp<span>70830515178290</span></th>',
-              tres = '<th>DELTA EXPRESS &nbsp<span>70830515177576</span></th>',
-              cuatro = '<th>ALLIANCE CARGO &nbsp<span></span></th>',
-              cinco = '<th>AMBU FREIGHT &nbsp<span></span></th>',
-              seis = '<th>ECHO EXPRESS &nbsp<span></span></th>',
-              siete = '<th>SELECT LOGISTICS &nbsp<span></span></th>',
-              ocho = '<th>RAINIER TRANSPORTATION &nbsp<span></span></th>',
-              nueve = '<th>ONTRACK TRANSPORTATION &nbsp<span></span></th>',
+              uno = '<th>CAROLINA LOGISTIC, Inc</th>',
+              dos = '<th style="padding-right: 120px;">CAROLINA TRANSPORTATION, Inc</th>',
+              tres = '<th>DELTA EXPRESS, Inc</th>',
+              cuatro = '<th>ALLIANCE CARGO, Inc</th>',
+              cinco = '<th>AMBU FREIGHT, Inc</th>',
+              seis = '<th>ECHO EXPRESS, Inc</th>',
+              siete = '<th>SELECT LOGISTICS, Inc</th>',
+              ocho = '<th>RAINIER TRANSPORTATION, Inc</th>',
+              nueve = '<th>ONTRACK TRANSPORTATION, Inc</th>',
               keys = Object.keys(monthlySpreadsheets);
 
           for (var i = 2; i < 9; i++) {
