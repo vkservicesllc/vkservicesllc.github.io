@@ -12,10 +12,25 @@ const monthlySpreadsheets = {
     'OT':  ['', 1],
     'PT':  ['', 1],
     'RPP': ['', 1],
+    'Superior': ['', 1],
 
   },
 
   */
+
+  '2021-July': {
+
+    'CT':  ['-', 0],
+    'CLs': ['-', 0],
+    'DE':  ['-', 0],
+    'DES': ['-', 0],
+    'DL':  ['-', 0],
+    'OT':  ['-', 0],
+    'PT':  ['-', 0],
+    'RPP': ['-', 0],
+    'Superior': ['-', 0],
+
+  },
 
   '2021-June': {
 
@@ -27,6 +42,7 @@ const monthlySpreadsheets = {
     'OT':  ['1vgg3Xfwi1T5FBkbk16Nx_oiIc4jlQ9lyXyUrrxkZYxE', 1],
     'PT':  ['1ZkqW85KCYHxA3wg5SkgFdGVBN82b_yE6xzUo7BvIhJA', 1],
     'RPP': ['1l_oNl50vFKJdC6xtjyhtBcn5C28-98VCQmAw_kPF_Ak', 1],
+    'Superior': ['-', 0],
 
   },
 
@@ -311,6 +327,7 @@ const getCompanies = () => {
     'OT': 'ONTRACK TRANSPORTATION, Inc &nbsp;<span>70830517305886</span>',
     'PT': 'PRECISE TRANSPORTATION, Inc &nbsp;<span>70830517302433</span>',
     'RPP': 'RPP EXPRESS, Inc &nbsp;<span></span>',
+    'Superior': 'SUPERIOR TRANSPORTATION, Inc &nbsp;<span></span>',
 
     // 'RT': 'RAINIER TRANSPORTATION, Inc &nbsp;<span>70830517307425</span>',
 
