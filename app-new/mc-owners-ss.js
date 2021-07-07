@@ -20,15 +20,15 @@ const monthlySpreadsheets = {
 
   '2021-July': {
 
-    'CT':  ['-', 0],
-    'CLs': ['-', 0],
-    'DE':  ['-', 0],
-    'DES': ['-', 0],
-    'DL':  ['-', 0],
-    'OT':  ['-', 0],
-    'PT':  ['-', 0],
-    'RPP': ['-', 0],
-    'Superior': ['-', 0],
+    'CT':  ['1ogJUJbyXwpEpZO1EH4Jr7s7CffnUhPXZxNXkZKOR14A', 0],
+    'CLs': ['1s9lxENGzAIG-1SRU30LNCLtmh3KUuQq0NTJlt1A7yrI', 0],
+    'DE':  ['1p1-kvaNnTxDUdErgbHJjmc9bWoHOMFtqD6H4-fBbujg', 0],
+    'DES': ['1jEUCdnVPxtEs6IzuvfdVpXQHw8jtxF8CFdHr-ZneQTg', 0],
+    'DL':  ['1ZWyS7RihrjTN0KrIId68ZmRTi-BF1zVQ_O1rDe7hJJ8', 0],
+    'OT':  ['1PtoSIGdvJnPSGMAnP_juHAKeIrWZcFC9f_QLntw5yiE', 0],
+    'PT':  ['1W9rUE04z0se9inYlV0gPn6MlWjNnIjNIdgqIEz_AAZ0', 0],
+    'RPP': ['1M4JgFCCvtmwjPj2ZhBIHL2Uu5_uKE_kyxkW0lxLYWZE', 0],
+    'Sup': ['1A-b_Vux67LpQS6UEZmaqe6wgEt9iFbrsPIvOUiSbEFI', 0],
 
   },
 
@@ -42,7 +42,7 @@ const monthlySpreadsheets = {
     'OT':  ['1vgg3Xfwi1T5FBkbk16Nx_oiIc4jlQ9lyXyUrrxkZYxE', 1],
     'PT':  ['1ZkqW85KCYHxA3wg5SkgFdGVBN82b_yE6xzUo7BvIhJA', 1],
     'RPP': ['1l_oNl50vFKJdC6xtjyhtBcn5C28-98VCQmAw_kPF_Ak', 1],
-    'Superior': ['-', 0],
+    'Sup': ['1B2oSdcpsRlh4lNdDVLbukNiaFPKEnR7GzijxYEz4bw4', 0],
 
   },
 
@@ -327,7 +327,7 @@ const getCompanies = () => {
     'OT': 'ONTRACK TRANSPORTATION, Inc &nbsp;<span>70830517305886</span>',
     'PT': 'PRECISE TRANSPORTATION, Inc &nbsp;<span>70830517302433</span>',
     'RPP': 'RPP EXPRESS, Inc &nbsp;<span></span>',
-    'Superior': 'SUPERIOR TRANSPORTATION, Inc &nbsp;<span></span>',
+    'Sup': 'SUPERIOR TRANSPORTATION, Inc &nbsp;<span></span>',
 
     // 'RT': 'RAINIER TRANSPORTATION, Inc &nbsp;<span>70830517307425</span>',
 
