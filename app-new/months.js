@@ -42,6 +42,44 @@ const monthlySpreadsheets = {
 
   */
 
+  // '2021-Aug': { repTabId: '-',
+
+  //   cards: {
+
+  //     CL: ['1tIQtn8Yl682u9C79FaboOmb6jiNKosTv5a7mcjyqzuw', 1, 1, 1],
+  //     CT: ['1suq1rRoP6qogBX1FGwLLV_jLFYPQE6Q3GlEmZdjl1Ds', 1, 1, 1],
+  //     DE: ['1d64Z2kAo0zKSQv2LKvgqTAOKIHWUFVHjxNV8zV85QQ8', 1, 1, 1],
+
+  //     AC: ['1byyC480f7xYCu0dJC4DQc11lMm_8Zra0Mrzk7C-GwkY', 1, 1, 1],
+  //     AF: ['1WoDsKzbJYKA5yFLFZ5SwMBDKtGwUTMhjbHBdbMxYfNk', 1, 1, 1],
+  //     EE: ['1P9PtALRmUtplbrOLv0urnmLXVTxwXMQ1n-KcvpeV5_M', 1, 1, 1],
+  //     SL: ['', 1, 1, 1],
+  //     LL: ['', 1, 1, 1],
+
+  //     RT: ['', 1, 1, 1],
+  //     OT: ['', 1, 1, 1],
+
+  //   },
+
+  //   money_codes: {
+
+  //     CL: ['', 1],
+  //     CT: ['', 1],
+  //     DE: ['', 1],
+
+  //     AC: ['', 1],
+  //     AF: ['', 1],
+  //     EE: ['', 1],
+  //     SL: ['', 1],
+  //     LL: ['', 1],
+
+  //     RT: ['', 1],
+  //     OT: ['', 1],
+
+  //   },
+
+  // },
+
   '2021-Jul': { repTabId: '2004227711',
 
     cards: {
@@ -92,7 +130,7 @@ const monthlySpreadsheets = {
       AF: ['1DBAh_ugX04Yb7ZjyTcKx9s3IUGoy_8HaQOKvGK1w8JE', 0, 0, 0],
       EE: ['1_8DsMTrA_gjACRveKhowupIY8iVMjmr1YS5FHaqnuNQ', 0, 0, 0],
       SL: ['1bF7XiPG0rWAKWrwP9xKBfE5DYchQBv18hJOoExxjh-k', 0, 0, 0],
-      LL: ['', 1, 1, 1],
+      LL: ['-', 1, 1, 1],
 
       RT: ['1vqOly_gBJ8MljZYvZVOVhymYw4-IPUDhzRrb7WQPqMY', 0, 0, 0],
       OT: ['1ryt6QRtvy0HaKQjXVMtGrclOLRvb0WHD6AP8XEzFhbE', 0, 0, 0],
@@ -109,7 +147,7 @@ const monthlySpreadsheets = {
       AF: ['1YpxFO-NYv3O3bqQJi8KzeH-iK_fY_IKlTaeAhlIkHI4', 1],
       EE: ['1bJ7S_P7QhV7oR3Fp1EOClk6uvEJ-wExCYkeA1P3Xhp8', 1],
       SL: ['1hTZMxe6vPNpk9AYY2BZOOhoysiEPt3x6aPV0kfDJWso', 1],
-      LL: ['', 1],
+      LL: ['-', 1],
 
       RT: ['1nSQY3yyTVHsNXcpfJ1AafytoGZ5IFTr8YMDgIo4KODY', 1],
       OT: ['1vgg3Xfwi1T5FBkbk16Nx_oiIc4jlQ9lyXyUrrxkZYxE', 1],
