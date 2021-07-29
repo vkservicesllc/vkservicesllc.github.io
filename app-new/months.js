@@ -14,6 +14,7 @@ const monthlySpreadsheets = {
       AF: ['', 1, 1, 1],
       EE: ['', 1, 1, 1],
       SL: ['', 1, 1, 1],
+      LL: ['', 1, 1, 1],
 
       RT: ['', 1, 1, 1],
       OT: ['', 1, 1, 1],
@@ -30,6 +31,7 @@ const monthlySpreadsheets = {
       AF: ['', 1],
       EE: ['', 1],
       SL: ['', 1],
+      LL: ['', 1],
 
       RT: ['', 1],
       OT: ['', 1],
@@ -52,6 +54,7 @@ const monthlySpreadsheets = {
       AF: ['1cOBaPaQhcWuDsjCvcMSioMMBGRVrOtlrX8kGqkd2z7o', 1, 1, 1],
       EE: ['1ORc-GnDbNKAC56sP4ZY8a4IEfte6GFyl5ZvkoTdufN0', 1, 1, 1],
       SL: ['14ongzhULhPRT4qD-PoyjqGYyY1cvVwEZ3DnG0YPMaz8', 1, 1, 1],
+      LL: ['1qnbOvKYrKxg-gbbcd1dkjomq8F_o0hE4T7rtZbX7xqg', 1, 1, 1],
 
       RT: ['14kUKjEqUqVLRfdRITOMKOfpwhZRu57GY42muJbVCoi0', 1, 1, 1],
       OT: ['13OL29TE2C6bk0vFlDzuMCDNNpJ4w2vz_L0_XbyjU0I4', 1, 1, 1],
@@ -68,6 +71,7 @@ const monthlySpreadsheets = {
       AF: ['1_4REz0CXXC3wQYUlXH1xUT5nPiJtexLpMYzPcCbKGHI', 1],
       EE: ['1W3T7AfEuOyd99hr6CpQ96ZqOTMURYNWHhuWP0tf6SOo', 1],
       SL: ['11vV46nvxGq9M4H40GdBnAxEvCfhWy5tO2rZCk3Lj9MU', 1],
+      LL: ['', 1],
 
       RT: ['1EScSO1uZ1XHyAqYa43ssa7GL5qgJVhOUdry-D4ei0Y4', 1],
       OT: ['1PtoSIGdvJnPSGMAnP_juHAKeIrWZcFC9f_QLntw5yiE', 1],
@@ -88,6 +92,7 @@ const monthlySpreadsheets = {
       AF: ['1DBAh_ugX04Yb7ZjyTcKx9s3IUGoy_8HaQOKvGK1w8JE', 0, 0, 0],
       EE: ['1_8DsMTrA_gjACRveKhowupIY8iVMjmr1YS5FHaqnuNQ', 0, 0, 0],
       SL: ['1bF7XiPG0rWAKWrwP9xKBfE5DYchQBv18hJOoExxjh-k', 0, 0, 0],
+      LL: ['', 1, 1, 1],
 
       RT: ['1vqOly_gBJ8MljZYvZVOVhymYw4-IPUDhzRrb7WQPqMY', 0, 0, 0],
       OT: ['1ryt6QRtvy0HaKQjXVMtGrclOLRvb0WHD6AP8XEzFhbE', 0, 0, 0],
@@ -104,6 +109,7 @@ const monthlySpreadsheets = {
       AF: ['1YpxFO-NYv3O3bqQJi8KzeH-iK_fY_IKlTaeAhlIkHI4', 1],
       EE: ['1bJ7S_P7QhV7oR3Fp1EOClk6uvEJ-wExCYkeA1P3Xhp8', 1],
       SL: ['1hTZMxe6vPNpk9AYY2BZOOhoysiEPt3x6aPV0kfDJWso', 1],
+      LL: ['', 1],
 
       RT: ['1nSQY3yyTVHsNXcpfJ1AafytoGZ5IFTr8YMDgIo4KODY', 1],
       OT: ['1vgg3Xfwi1T5FBkbk16Nx_oiIc4jlQ9lyXyUrrxkZYxE', 1],
