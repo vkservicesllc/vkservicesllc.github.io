@@ -50,8 +50,8 @@ $(document).ready( () => {
           seis = extend(seis, 'EE', 'Echo Express, Inc');
           siete = extend(siete, 'SL', 'Select Express, Inc');
           ocho = extend(ocho, 'LL', 'Link Logistics, Inc');
-          nueve = extend(ocho, 'RT', 'Rainier Transportation, Inc');
-          diez = extend(nueve, 'OT', 'Ontrack Transportation, Inc');
+          nueve = extend(nueve, 'RT', 'Rainier Transportation, Inc');
+          diez = extend(diez, 'OT', 'Ontrack Transportation, Inc');
         
         
           $('#tH').html(ss[0].setTitle());
