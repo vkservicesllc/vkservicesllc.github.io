@@ -130,7 +130,7 @@ const monthlySpreadsheets = {
       AF: ['1DBAh_ugX04Yb7ZjyTcKx9s3IUGoy_8HaQOKvGK1w8JE', 0, 0, 0],
       EE: ['1_8DsMTrA_gjACRveKhowupIY8iVMjmr1YS5FHaqnuNQ', 0, 0, 0],
       SL: ['1bF7XiPG0rWAKWrwP9xKBfE5DYchQBv18hJOoExxjh-k', 0, 0, 0],
-      LL: ['-', 1, 1, 1],
+      LL: ['-', 0, 0, 0],
 
       RT: ['1vqOly_gBJ8MljZYvZVOVhymYw4-IPUDhzRrb7WQPqMY', 0, 0, 0],
       OT: ['1ryt6QRtvy0HaKQjXVMtGrclOLRvb0WHD6AP8XEzFhbE', 0, 0, 0],
@@ -147,7 +147,7 @@ const monthlySpreadsheets = {
       AF: ['1YpxFO-NYv3O3bqQJi8KzeH-iK_fY_IKlTaeAhlIkHI4', 1],
       EE: ['1bJ7S_P7QhV7oR3Fp1EOClk6uvEJ-wExCYkeA1P3Xhp8', 1],
       SL: ['1hTZMxe6vPNpk9AYY2BZOOhoysiEPt3x6aPV0kfDJWso', 1],
-      LL: ['-', 1],
+      LL: ['-', 0],
 
       RT: ['1nSQY3yyTVHsNXcpfJ1AafytoGZ5IFTr8YMDgIo4KODY', 1],
       OT: ['1vgg3Xfwi1T5FBkbk16Nx_oiIc4jlQ9lyXyUrrxkZYxE', 1],
