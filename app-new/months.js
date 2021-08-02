@@ -42,43 +42,43 @@ const monthlySpreadsheets = {
 
   */
 
-  // '2021-Aug': { repTabId: '-',
+  '2021-Aug': { repTabId: '1464969645',
 
-  //   cards: {
+    cards: {
 
-  //     CL: ['1tIQtn8Yl682u9C79FaboOmb6jiNKosTv5a7mcjyqzuw', 1, 1, 1],
-  //     CT: ['1suq1rRoP6qogBX1FGwLLV_jLFYPQE6Q3GlEmZdjl1Ds', 1, 1, 1],
-  //     DE: ['1d64Z2kAo0zKSQv2LKvgqTAOKIHWUFVHjxNV8zV85QQ8', 1, 1, 1],
+      CL: ['1tIQtn8Yl682u9C79FaboOmb6jiNKosTv5a7mcjyqzuw', 1, 1, 1],
+      CT: ['1suq1rRoP6qogBX1FGwLLV_jLFYPQE6Q3GlEmZdjl1Ds', 1, 1, 1],
+      DE: ['1d64Z2kAo0zKSQv2LKvgqTAOKIHWUFVHjxNV8zV85QQ8', 1, 1, 1],
 
-  //     AC: ['1byyC480f7xYCu0dJC4DQc11lMm_8Zra0Mrzk7C-GwkY', 1, 1, 1],
-  //     AF: ['1WoDsKzbJYKA5yFLFZ5SwMBDKtGwUTMhjbHBdbMxYfNk', 1, 1, 1],
-  //     EE: ['1P9PtALRmUtplbrOLv0urnmLXVTxwXMQ1n-KcvpeV5_M', 1, 1, 1],
-  //     SL: ['', 1, 1, 1],
-  //     LL: ['', 1, 1, 1],
+      AC: ['1byyC480f7xYCu0dJC4DQc11lMm_8Zra0Mrzk7C-GwkY', 1, 1, 1],
+      AF: ['1WoDsKzbJYKA5yFLFZ5SwMBDKtGwUTMhjbHBdbMxYfNk', 1, 1, 1],
+      EE: ['1P9PtALRmUtplbrOLv0urnmLXVTxwXMQ1n-KcvpeV5_M', 1, 1, 1],
+      SL: ['1JDLa6mOMyzNcEYLgAL9NCNpCd94ERnEBXbnP8sZIgoc', 1, 1, 1],
+      LL: ['1HJ_mjrwdSCsKal12yMmysoLCNqz6n_OR1Ud7i2U671g', 1, 1, 1],
 
-  //     RT: ['', 1, 1, 1],
-  //     OT: ['', 1, 1, 1],
+      RT: ['1DccPDHeqCtAe5Tzc93utJ61aoFU5Y8TlZuwte67YfsY', 1, 1, 1],
+      OT: ['18Q6A-i3ixHPOl_yBSKDV74cQK6hd6Ckmm1jxk_UDliA', 1, 1, 1],
 
-  //   },
+    },
 
-  //   money_codes: {
+    money_codes: {
 
-  //     CL: ['', 1],
-  //     CT: ['', 1],
-  //     DE: ['', 1],
+      CL: ['1sPRPPZM7p3M77KEF29gaSrKD6NM0JPrQkVUKS9JroIY', 1],
+      CT: ['1pUfTVy2WACyHYXYrCQzbEdKEUD8DPklenKIASCJcEdg', 1],
+      DE: ['', 1],
 
-  //     AC: ['', 1],
-  //     AF: ['', 1],
-  //     EE: ['', 1],
-  //     SL: ['', 1],
-  //     LL: ['', 1],
+      AC: ['1XsifzHnIuTMnu2RW_PjwxpEIDFo2N9mOqymEB1BOm-w', 1],
+      AF: ['1XUw1WqurokcosS2kDbGt34XUiMRky-KPC1QASsZgxeY', 1],
+      EE: ['1NuRD9cjVG_YXKu7EvQ-bm53CemMgKShnWAx7CzPhntw', 1],
+      SL: ['1GPnhSp_DYPqtDmsMWWiRHXd55RCSlBWDZ3tOWEGavW8', 1],
+      LL: ['1-1UsB4x05O8qk5TBEydNNK5CZhtgoGQ7ZJ1qBFQIdkE', 1],
 
-  //     RT: ['', 1],
-  //     OT: ['', 1],
+      RT: ['1EVOXzc1gnCAYOCRK3MkN8_JfTnML4jTZy3RK27SxdVI', 1],
+      OT: ['1BjcyNtjij6hGccZi_mo2Z2eTIk_VD3cp-7-CVyR05Gg', 1],
 
-  //   },
+    },
 
-  // },
+  },
 
   '2021-Jul': { repTabId: '2004227711',
 
