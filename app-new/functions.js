@@ -21,6 +21,7 @@ $(document).ready( () => {
               ocho = '<th>LINK LOGISTICS, Inc</th>',
               nueve = '<th>RAINIER TRANSPORTATION, Inc</th>',
               diez = '<th>ONTRACK TRANSPORTATION, Inc</th>',
+              once = '<th>HIGHWAY EXPRESS, Inc</th>',
               keys = Object.keys(monthlySpreadsheets);
 
           for (var i = 2; i < 9; i++) {
@@ -52,6 +53,7 @@ $(document).ready( () => {
           ocho = extend(ocho, 'LL', 'Link Logistics, Inc');
           nueve = extend(nueve, 'RT', 'Rainier Transportation, Inc');
           diez = extend(diez, 'OT', 'Ontrack Transportation, Inc');
+          once = extend(once, 'HE', 'Highway Express, Inc');
         
         
           $('#tH').html(ss[0].setTitle());
@@ -74,6 +76,7 @@ $(document).ready( () => {
           $('#ocho').html(ocho);
           $('#nueve').html(nueve);
           $('#diez').html(diez);
+          $('#once').html(once);
         
           $('#repD').html(createRepD());
         
