@@ -100,7 +100,7 @@ const monthlySpreadsheets = {
 
       RT: ['17-Agra7lU_-y6dMnCiNIM9JGR52D0VDSh40ECYYwKeM', 0, 0, 0],
       OT: ['13h603Ao4McYTRaoUfQBhFr7o7Y0DWpFx2_R_fs5yLdE', 0, 0, 0],
-      HE: ['10-1ioJjtDdGffpp5K3dh6jBzJpH79QBEaLNUWPWFF84', 0, 1, 1],
+      HE: ['10-1ioJjtDdGffpp5K3dh6jBzJpH79QBEaLNUWPWFF84', 0, 0, 0],
 
     },
 
